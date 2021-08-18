@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Completed
   - Parede
+  - Ball
+  - Paddle
+  - Sul
   layers:
   - Default
   - TransparentFX
@@ -13,12 +16,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Positivo
+  - Negativo
   - Chao
-  - 
-  - 
-  - 
+  - Ferro
+  - Ball
+  - Cobre
   - 
   - 
   - 
