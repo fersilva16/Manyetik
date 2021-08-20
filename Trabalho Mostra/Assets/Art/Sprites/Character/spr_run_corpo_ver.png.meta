@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 65d0360661457ec4eb8f6ff5aa8c5944
+guid: 1a2538cdfccc20b4d95826e39cecab54
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2935294935548018225
-    second: spr_run_corpo_azul (1)_0
+      213: 5504047944800091955
+    second: spr_run_corpo_ver_0
   - first:
-      213: 5027030181422178336
-    second: spr_run_corpo_azul (1)_1
+      213: 6948149933461383151
+    second: spr_run_corpo_ver_1
   - first:
-      213: 16141684255625137
-    second: spr_run_corpo_azul (1)_2
+      213: -7813858645359213186
+    second: spr_run_corpo_ver_2
   - first:
-      213: -6864334115260885191
-    second: spr_run_corpo_azul (1)_3
+      213: -5485464247118440743
+    second: spr_run_corpo_ver_3
   - first:
-      213: 816657595973323937
-    second: spr_run_corpo_azul (1)_4
+      213: -2400912760451764769
+    second: spr_run_corpo_ver_4
   - first:
-      213: 7247496718869532766
-    second: spr_run_corpo_azul (1)_5
+      213: -7111633222711014235
+    second: spr_run_corpo_ver_5
   - first:
-      213: -184987732573518235
-    second: spr_run_corpo_azul (1)_6
+      213: -3329615019720243374
+    second: spr_run_corpo_ver_6
   - first:
-      213: 4397449848613132602
-    second: spr_run_corpo_azul (1)_7
+      213: 1742810235621553239
+    second: spr_run_corpo_ver_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_0
+      name: spr_run_corpo_ver_0
       rect:
         serializedVersion: 2
         x: 0
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc148a7deccb347d0800000000000000
-      internalID: -2935294935548018225
+      spriteID: 33f3780b17e426c40800000000000000
+      internalID: 5504047944800091955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_1
+      name: spr_run_corpo_ver_1
       rect:
         serializedVersion: 2
         x: 206
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02026dec05993c540800000000000000
-      internalID: 5027030181422178336
+      spriteID: fe7ae163d89cc6060800000000000000
+      internalID: 6948149933461383151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_2
+      name: spr_run_corpo_ver_2
       rect:
         serializedVersion: 2
         x: 412
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf022cb6c8593000800000000000000
-      internalID: 16141684255625137
+      spriteID: e75cf3e26f89f8390800000000000000
+      internalID: -7813858645359213186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_3
+      name: spr_run_corpo_ver_3
       rect:
         serializedVersion: 2
         x: 0
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9379740bd7cfcb0a0800000000000000
-      internalID: -6864334115260885191
+      spriteID: 9d6566a9457bfd3b0800000000000000
+      internalID: -5485464247118440743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_4
+      name: spr_run_corpo_ver_4
       rect:
         serializedVersion: 2
         x: 206
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac4d17b1c9555b00800000000000000
-      internalID: 816657595973323937
+      spriteID: fdde190a09e3eaed0800000000000000
+      internalID: -2400912760451764769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_5
+      name: spr_run_corpo_ver_5
       rect:
         serializedVersion: 2
         x: 412
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e50170fedd7449460800000000000000
-      internalID: 7247496718869532766
+      spriteID: 5ac817353476e4d90800000000000000
+      internalID: -7111633222711014235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_6
+      name: spr_run_corpo_ver_6
       rect:
         serializedVersion: 2
         x: 0
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 566862823aace6df0800000000000000
-      internalID: -184987732573518235
+      spriteID: 25705c6d7c4dac1d0800000000000000
+      internalID: -3329615019720243374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_azul (1)_7
+      name: spr_run_corpo_ver_7
       rect:
         serializedVersion: 2
         x: 206
@@ -300,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a395e20b651e60d30800000000000000
-      internalID: 4397449848613132602
+      spriteID: 754332deca4bf2810800000000000000
+      internalID: 1742810235621553239
       vertices: []
       indices: 
       edges: []
