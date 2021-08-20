@@ -392,8 +392,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 741029565}
-        m_TargetAssemblyTypeName: ChangeScenes, Assembly-CSharp
-        m_MethodName: mudarCena
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -453,7 +453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c535026ed1425b54dabec87920461bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nomeDaCena: Lvl1
+  sceneName: Level1
+  nextLevel: 0
 --- !u!1 &1084283725
 GameObject:
   m_ObjectHideFlags: 0
