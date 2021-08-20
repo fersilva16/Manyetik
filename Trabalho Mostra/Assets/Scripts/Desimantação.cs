@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Desimantação : MonoBehaviour
 {
-    [SerializeField] GameObject ferro;
-    [SerializeField] GameObject ima;
+  [SerializeField] GameObject ferro;
+  [SerializeField] GameObject ima;
 
-    public void OnTriggerEnter2D(Collider2D col)
+  void OnTriggerEnter2D(Collider2D col)
+  {
+    if (col.gameObject.CompareTag("Player"))
     {
-        if(col.gameObject.tag == "Player")
-        {
-            ferro.SetActive(true);
-            ima.SetActive(false);
-        }
+      ferro.SetActive(true);
+      ima.SetActive(false);
     }
+  }
 }
