@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
   public Sprite invertedBody;
   public Component north;
   public Component south;
+  public Animator anim;
 
   private new Rigidbody2D rigidbody2D;
   private new SpriteRenderer renderer;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
   {
     rigidbody2D = GetComponent<Rigidbody2D>();
     renderer = GetComponent<SpriteRenderer>();
+    anim = GetComponent<Animator>();
 
     northCollider = north.GetComponent<CircleCollider2D>();
     southCollider = south.GetComponent<CircleCollider2D>();
@@ -35,6 +37,24 @@ public class PlayerController : MonoBehaviour
     var force = new Vector2(Input.GetAxis("Horizontal"), 0);
 
     rigidbody2D.position += speed * force * Time.deltaTime;
+
+    if(Input.GetAxis("Horizontal") > 0f)
+    {
+      anim.SetBool("Walk", true);
+      transform.eulerAngles = new Vector3(0f, 0f, 0f);
+    }
+
+     if(Input.GetAxis("Horizontal") < 0f)
+    {
+      anim.SetBool("Walk", true);
+      transform.eulerAngles = new Vector3(0f, 180f, 0f);
+    }
+
+     if(Input.GetAxis("Horizontal") == 0f)
+    {
+      anim.SetBool("Walk", false);
+    }
+    
   }
 
   private void Jump()
