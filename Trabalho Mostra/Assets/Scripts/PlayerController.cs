@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
 
   private Animator animator;
   private new Rigidbody2D rigidbody2D;
-  private new SpriteRenderer renderer;
 
   private int positiveLayer;
   private int negativeLayer;
@@ -19,7 +18,6 @@ public class PlayerController : MonoBehaviour
   void Start()
   {
     rigidbody2D = GetComponent<Rigidbody2D>();
-    renderer = GetComponent<SpriteRenderer>();
     animator = GetComponent<Animator>();
 
     positiveLayer = LayerMask.NameToLayer("Positive");
