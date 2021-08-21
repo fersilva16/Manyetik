@@ -8,21 +8,22 @@ public class PlayerController : MonoBehaviour
   public Sprite invertedBody;
   public Component north;
   public Component south;
-  public Animator anim;
 
+  private Animator animator;
   private new Rigidbody2D rigidbody2D;
   private new SpriteRenderer renderer;
-  private CircleCollider2D northCollider;
-  private CircleCollider2D southCollider;
-                                             
+
+  private int positiveLayer;
+  private int negativeLayer;
+  
   void Start()
   {
     rigidbody2D = GetComponent<Rigidbody2D>();
     renderer = GetComponent<SpriteRenderer>();
-    anim = GetComponent<Animator>();
+    animator = GetComponent<Animator>();
 
-    northCollider = north.GetComponent<CircleCollider2D>();
-    southCollider = south.GetComponent<CircleCollider2D>();
+    positiveLayer = LayerMask.NameToLayer("Positive");
+    negativeLayer = LayerMask.NameToLayer("Negative");
   }
 
   void Update()
@@ -40,19 +41,19 @@ public class PlayerController : MonoBehaviour
 
     if(Input.GetAxis("Horizontal") > 0f)
     {
-      anim.SetBool("Walk", true);
+      animator.SetBool("Walk", true);
       transform.eulerAngles = new Vector3(0f, 0f, 0f);
     }
 
      if(Input.GetAxis("Horizontal") < 0f)
     {
-      anim.SetBool("Walk", true);
+      animator.SetBool("Walk", true);
       transform.eulerAngles = new Vector3(0f, 180f, 0f);
     }
 
      if(Input.GetAxis("Horizontal") == 0f)
     {
-      anim.SetBool("Walk", false);
+      animator.SetBool("Walk", false);
     }
     
   }
@@ -70,13 +71,13 @@ public class PlayerController : MonoBehaviour
     if (Input.GetButtonDown("InvertPoles"))
     {
       renderer.sprite = renderer.sprite.name == body.name ? invertedBody : body;
-      north.gameObject.layer = GetPoleLayer(north.gameObject.layer);
-      south.gameObject.layer = GetPoleLayer(south.gameObject.layer);
+      SetPoleLayer(north.gameObject);
+      SetPoleLayer(south.gameObject);
     }
   }
 
-  private int GetPoleLayer(int currentLayer)
+  private void SetPoleLayer(GameObject gameObject)
   {
-    return currentLayer == 6 ? 7 : 6;
+    gameObject.layer = gameObject.layer == positiveLayer ? negativeLayer : positiveLayer;
   }
 }
