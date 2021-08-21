@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 5d496a32f5457f64b9dcc0f382e5cd2c
+guid: 96fdf88bc16fa5e4d9d647c60485f601
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1666998603132120414
-    second: spr_run_cinza_0
+      213: 3714383140580865877
+    second: magnet_inverted_0
   - first:
-      213: -8893751177168890303
-    second: spr_run_cinza_1
+      213: 2171105908704031635
+    second: magnet_inverted_1
   - first:
-      213: -4857856051053160544
-    second: spr_run_cinza_2
+      213: 7662711859793938946
+    second: magnet_inverted_2
   - first:
-      213: -1660174086822497783
-    second: spr_run_cinza_3
+      213: -4500339954984067014
+    second: magnet_inverted_3
   - first:
-      213: -4831938687231339241
-    second: spr_run_cinza_4
+      213: -1168784672211869776
+    second: magnet_inverted_4
   - first:
-      213: 8294551924292423575
-    second: spr_run_cinza_5
+      213: -8211345113932176190
+    second: magnet_inverted_5
   - first:
-      213: 2247634483490086429
-    second: spr_run_cinza_6
+      213: 8372910559658424203
+    second: magnet_inverted_6
   - first:
-      213: 2319039742617630996
-    second: spr_run_cinza_7
+      213: -4128936079650720630
+    second: magnet_inverted_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,7 +91,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -103,7 +103,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -112,22 +112,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_run_cinza_0
+      name: magnet_inverted_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d23ccb56e522710800000000000000
-      internalID: 1666998603132120414
+      spriteID: 557b50669c32c8330800000000000000
+      internalID: 3714383140580865877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_cinza_1
+      name: magnet_inverted_1
       rect:
         serializedVersion: 2
-        x: 206
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146d22cec6c039480800000000000000
-      internalID: -8893751177168890303
+      spriteID: 3933e0a2251512e10800000000000000
+      internalID: 2171105908704031635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_cinza_2
+      name: magnet_inverted_2
       rect:
         serializedVersion: 2
-        x: 412
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,83 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a79efad8ad659cb0800000000000000
-      internalID: -4857856051053160544
+      spriteID: 20ac03376db675a60800000000000000
+      internalID: 7662711859793938946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_cinza_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 902f2a9c670e5f8e0800000000000000
-      internalID: -1660174086822497783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_cinza_4
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 715db1b5d5181fcb0800000000000000
-      internalID: -4831938687231339241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_cinza_5
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79f8b7a570b2c1370800000000000000
-      internalID: 8294551924292423575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_cinza_6
+      name: magnet_inverted_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1e585d77a3313f10800000000000000
-      internalID: 2247634483490086429
+      spriteID: a306dae97a49b81c0800000000000000
+      internalID: -4500339954984067014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_cinza_7
+      name: magnet_inverted_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +225,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 419bcbeeb52ee2020800000000000000
-      internalID: 2319039742617630996
+      spriteID: 0bfd3e97884a7cfe0800000000000000
+      internalID: -1168784672211869776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_inverted_5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4eeebdf117b0e80800000000000000
+      internalID: -8211345113932176190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_inverted_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87be8cdacd823470800000000000000
+      internalID: 8372910559658424203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_inverted_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84ff18f28213b6c0800000000000000
+      internalID: -4128936079650720630
       vertices: []
       indices: 
       edges: []

@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 1a2538cdfccc20b4d95826e39cecab54
+guid: cce507ef5850e734fba09f11c2c94c3a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5504047944800091955
-    second: spr_run_corpo_ver_0
+      213: 4877825377717948546
+    second: magnet_0
   - first:
-      213: 6948149933461383151
-    second: spr_run_corpo_ver_1
+      213: 5011368590914060170
+    second: magnet_1
   - first:
-      213: -7813858645359213186
-    second: spr_run_corpo_ver_2
+      213: 1231247277861561731
+    second: magnet_2
   - first:
-      213: -5485464247118440743
-    second: spr_run_corpo_ver_3
+      213: -6986281223901936329
+    second: magnet_3
   - first:
-      213: -2400912760451764769
-    second: spr_run_corpo_ver_4
+      213: 16056061815516461
+    second: magnet_4
   - first:
-      213: -7111633222711014235
-    second: spr_run_corpo_ver_5
+      213: -3609181284260646106
+    second: magnet_5
   - first:
-      213: -3329615019720243374
-    second: spr_run_corpo_ver_6
+      213: -8627030875290984834
+    second: magnet_6
   - first:
-      213: 1742810235621553239
-    second: spr_run_corpo_ver_7
+      213: -7472259461007114773
+    second: magnet_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,7 +91,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -103,7 +103,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -112,22 +112,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_run_corpo_ver_0
+      name: magnet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f3780b17e426c40800000000000000
-      internalID: 5504047944800091955
+      spriteID: 2809343565481b340800000000000000
+      internalID: 4877825377717948546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_ver_1
+      name: magnet_1
       rect:
         serializedVersion: 2
-        x: 206
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7ae163d89cc6060800000000000000
-      internalID: 6948149933461383151
+      spriteID: a8f7bfb9e25fb8540800000000000000
+      internalID: 5011368590914060170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_ver_2
+      name: magnet_2
       rect:
         serializedVersion: 2
-        x: 412
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,83 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e75cf3e26f89f8390800000000000000
-      internalID: -7813858645359213186
+      spriteID: 385ea9330e4461110800000000000000
+      internalID: 1231247277861561731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_ver_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d6566a9457bfd3b0800000000000000
-      internalID: -5485464247118440743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_corpo_ver_4
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdde190a09e3eaed0800000000000000
-      internalID: -2400912760451764769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_corpo_ver_5
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ac817353476e4d90800000000000000
-      internalID: -7111633222711014235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_corpo_ver_6
+      name: magnet_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25705c6d7c4dac1d0800000000000000
-      internalID: -3329615019720243374
+      spriteID: 7350854ed3ebb0f90800000000000000
+      internalID: -6986281223901936329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_corpo_ver_7
+      name: magnet_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +225,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 754332deca4bf2810800000000000000
-      internalID: 1742810235621553239
+      spriteID: d2d610537ea093000800000000000000
+      internalID: 16056061815516461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623f7a58ebc99edc0800000000000000
+      internalID: -3609181284260646106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e14fb7021a64880800000000000000
+      internalID: -8627030875290984834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magnet_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed7e152c933d4890800000000000000
+      internalID: -7472259461007114773
       vertices: []
       indices: 
       edges: []

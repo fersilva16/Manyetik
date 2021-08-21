@@ -4,32 +4,59 @@ public class PlayerController : MonoBehaviour
 {
   public float speed;
   public float jumpForce;
+  public Sprite body;
+  public Sprite invertedBody;
+  public Component north;
+  public Component south;
 
-  private Rigidbody2D rigidBody;
-
+  private new Rigidbody2D rigidbody2D;
+  private new SpriteRenderer renderer;
+  private CircleCollider2D northCollider;
+  private CircleCollider2D southCollider;
+                                             
   void Start()
   {
-    rigidBody = GetComponent<Rigidbody2D>();
+    rigidbody2D = GetComponent<Rigidbody2D>();
+    renderer = GetComponent<SpriteRenderer>();
+
+    northCollider = north.GetComponent<CircleCollider2D>();
+    southCollider = south.GetComponent<CircleCollider2D>();
   }
 
   void Update()
   {
     Move();
     Jump();
+    InvertPoles();
   }
 
-  public void Move()
+  private void Move()
   {
     var force = new Vector2(Input.GetAxis("Horizontal"), 0);
 
-    rigidBody.position += speed * force * Time.deltaTime;
+    rigidbody2D.position += speed * force * Time.deltaTime;
   }
 
-  public void Jump()
+  private void Jump()
   {
-    if (Input.GetButton("Jump") && rigidBody.velocity.y == 0)
+    if (Input.GetButton("Jump") && rigidbody2D.velocity.y == 0)
     {
-      rigidBody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+      rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
     }
+  }
+
+  private void InvertPoles()
+  {
+    if (Input.GetButtonDown("InvertPoles"))
+    {
+      renderer.sprite = renderer.sprite.name == body.name ? invertedBody : body;
+      north.gameObject.layer = GetPoleLayer(north.gameObject.layer);
+      south.gameObject.layer = GetPoleLayer(south.gameObject.layer);
+    }
+  }
+
+  private int GetPoleLayer(int currentLayer)
+  {
+    return currentLayer == 6 ? 7 : 6;
   }
 }

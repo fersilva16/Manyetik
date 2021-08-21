@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 7a4bf39b1dee1d1498aed53bd145fa09
+guid: 59e9ac0324dff6244aa673c88fffa03c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5082055630828295939
-    second: spr_run_perna_azul_0
+      213: 4750651203034271755
+    second: iron_0
   - first:
-      213: 3007563775439091872
-    second: spr_run_perna_azul_1
+      213: 1216698196264918829
+    second: iron_1
   - first:
-      213: -6935158080979320875
-    second: spr_run_perna_azul_2
+      213: -8675770273868967379
+    second: iron_2
   - first:
-      213: -6140548737865952934
-    second: spr_run_perna_azul_3
+      213: -6306482627759850813
+    second: iron_3
   - first:
-      213: -8957900893599964979
-    second: spr_run_perna_azul_4
+      213: 8226248545731137778
+    second: iron_4
   - first:
-      213: -9077531090764990203
-    second: spr_run_perna_azul_5
+      213: 2114946747282504503
+    second: iron_5
   - first:
-      213: 1983891502907022041
-    second: spr_run_perna_azul_6
+      213: 2134840068954662044
+    second: iron_6
   - first:
-      213: -7666354843343172427
-    second: spr_run_perna_azul_7
+      213: -3941285087793611580
+    second: iron_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +56,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,7 +91,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -103,7 +103,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -112,22 +112,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -139,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_run_perna_azul_0
+      name: iron_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3075b4c9ba6178640800000000000000
-      internalID: 5082055630828295939
+      spriteID: b00d3a06914bde140800000000000000
+      internalID: 4750651203034271755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_perna_azul_1
+      name: iron_1
       rect:
         serializedVersion: 2
-        x: 206
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a8316aa1530db920800000000000000
-      internalID: 3007563775439091872
+      spriteID: d2f9a3b209492e010800000000000000
+      internalID: 1216698196264918829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_perna_azul_2
+      name: iron_2
       rect:
         serializedVersion: 2
-        x: 412
-        y: 412.6667
-        width: 206.33333
-        height: 206.33333
+        x: 2048
+        y: 2048
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,83 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5df3c0a287e51cf90800000000000000
-      internalID: -6935158080979320875
+      spriteID: d229521f6e8799780800000000000000
+      internalID: -8675770273868967379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_perna_azul_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a51d689f47368caa0800000000000000
-      internalID: -6140548737865952934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_perna_azul_4
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc0e1d729942fa380800000000000000
-      internalID: -8957900893599964979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_perna_azul_5
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 206.66667
-        width: 206.33333
-        height: 206.33333
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50973695191260280800000000000000
-      internalID: -9077531090764990203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: spr_run_perna_azul_6
+      name: iron_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da50bf8fc2388b10800000000000000
-      internalID: 1983891502907022041
+      spriteID: 3cab336967fda78a0800000000000000
+      internalID: -6306482627759850813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_run_perna_azul_7
+      name: iron_4
       rect:
         serializedVersion: 2
-        x: 206
-        y: 0.66667175
-        width: 206.33333
-        height: 206.33333
+        x: 1024
+        y: 1024
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +225,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc4f6853e2ab9590800000000000000
-      internalID: -7666354843343172427
+      spriteID: 2f0d062c771892270800000000000000
+      internalID: 8226248545731137778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b34a67cdcc95d10800000000000000
+      internalID: 2114946747282504503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94205a5bb970ad10800000000000000
+      internalID: 2134840068954662044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iron_7
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc748f281ebd49c0800000000000000
+      internalID: -3941285087793611580
       vertices: []
       indices: 
       edges: []
