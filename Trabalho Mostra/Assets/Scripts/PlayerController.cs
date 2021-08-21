@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
   {
     if (Input.GetButtonDown("InvertPoles"))
     {
-      renderer.sprite = renderer.sprite.name == body.name ? invertedBody : body;
+      animator.SetBool("Inverted", !animator.GetBool("Inverted"));
       SetPoleLayer(north.gameObject);
       SetPoleLayer(south.gameObject);
     }
