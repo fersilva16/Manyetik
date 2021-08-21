@@ -37,23 +37,8 @@ public class PlayerController : MonoBehaviour
 
     rigidbody2D.position += speed * force * Time.deltaTime;
 
-    if(Input.GetAxis("Horizontal") > 0f)
-    {
-      animator.SetBool("Walk", true);
-      transform.eulerAngles = new Vector3(0f, 0f, 0f);
-    }
-
-     if(Input.GetAxis("Horizontal") < 0f)
-    {
-      animator.SetBool("Walk", true);
-      transform.eulerAngles = new Vector3(0f, 180f, 0f);
-    }
-
-     if(Input.GetAxis("Horizontal") == 0f)
-    {
-      animator.SetBool("Walk", false);
-    }
-    
+    animator.SetBool("Walk", Input.GetAxis("Horizontal") != 0);
+    transform.eulerAngles = new Vector2(0, Input.GetAxis("Horizontal") < 0 ? 180 : 0);
   }
 
   private void Jump()
