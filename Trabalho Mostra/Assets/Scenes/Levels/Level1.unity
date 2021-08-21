@@ -1744,7 +1744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
-  nextLevel: 1
+  nextScene: 1
 --- !u!4 &838065504
 Transform:
   m_ObjectHideFlags: 0
@@ -2610,7 +2610,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 7
-  isJumping: 0
 --- !u!212 &2132347998
 SpriteRenderer:
   m_ObjectHideFlags: 0

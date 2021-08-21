@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
   public string sceneName;
-  public bool nextLevel;
+  public bool nextScene;
 
   private void OnCollisionEnter2D(Collision2D collider)
   {
@@ -13,16 +13,7 @@ public class SceneLoader : MonoBehaviour
 
   public void LoadScene()
   {
-    if (!nextLevel)
-    {
-      SceneManager.LoadScene(sceneName);
-
-      return;
-    }
-
-    var currentName = SceneManager.GetActiveScene().name;
-    var currentLevel = float.Parse(currentName.Substring(currentName.Length - 1));
-
-    SceneManager.LoadScene("Level" + (currentLevel + 1));
+    if (!nextScene) SceneManager.LoadScene(sceneName);
+    else SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
 }
