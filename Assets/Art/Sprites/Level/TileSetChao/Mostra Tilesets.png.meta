@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: db557acf38722b84e83c685e7c1a3706
+guid: 3f6cc0ceed1c5f24d97f54c45dc56c1f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1195458779362535816
-    second: unknown_0
+      213: -4378992929425368461
+    second: Mostra Tilesets_0
   - first:
-      213: -8320757548278642637
-    second: unknown_1
+      213: 2792770643243854524
+    second: Mostra Tilesets_1
   - first:
-      213: -6772224219630684528
-    second: unknown_2
+      213: -4115283706494091154
+    second: Mostra Tilesets_2
   - first:
-      213: -1624457943145997941
-    second: unknown_3
+      213: -3849177409145130483
+    second: Mostra Tilesets_3
   - first:
-      213: 3403815374409998926
-    second: unknown_4
+      213: 7533491644154788417
+    second: Mostra Tilesets_4
   - first:
-      213: 7510165594874259007
-    second: unknown_5
+      213: 4790296531232327179
+    second: Mostra Tilesets_5
   - first:
-      213: 7225022957171959001
-    second: unknown_6
+      213: -6610242045035875981
+    second: Mostra Tilesets_6
   - first:
-      213: 2250420894525969951
-    second: unknown_7
+      213: 7087363028336991910
+    second: Mostra Tilesets_7
   - first:
-      213: 4562625420153205747
-    second: unknown_8
+      213: -6015903571324980051
+    second: Mostra Tilesets_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -73,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: unknown_0
+      name: Mostra Tilesets_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 255.33334
-        width: 128.66667
-        height: 127.666664
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 889a68f0d6f179010800000000000000
-      internalID: 1195458779362535816
+      spriteID: 37a57afa121ba33c0800000000000000
+      internalID: -4378992929425368461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unknown_1
+      name: Mostra Tilesets_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 255.33334
-        width: 128.66667
-        height: 127.666664
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33883b8581bb68c80800000000000000
-      internalID: -8320757548278642637
+      spriteID: cba60b17a1ae1c620800000000000000
+      internalID: 2792770643243854524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unknown_2
+      name: Mostra Tilesets_2
       rect:
         serializedVersion: 2
-        x: 256
-        y: 255.33334
-        width: 128.66667
-        height: 127.666664
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,83 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 096bd99f3f93402a0800000000000000
-      internalID: -6772224219630684528
+      spriteID: e60877cc54393e6c0800000000000000
+      internalID: -4115283706494091154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unknown_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128.33334
-        width: 128.66667
-        height: 127.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8998328b14c479e0800000000000000
-      internalID: -1624457943145997941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: unknown_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128.33334
-        width: 128.66667
-        height: 127.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e42a8b08c08cc3f20800000000000000
-      internalID: 3403815374409998926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: unknown_5
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 128.33334
-        width: 128.66667
-        height: 127.666664
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3627d661d7793860800000000000000
-      internalID: 7510165594874259007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: unknown_6
+      name: Mostra Tilesets_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1.3333359
-        width: 128.66667
-        height: 127.666664
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d4e6488910744460800000000000000
-      internalID: 7225022957171959001
+      spriteID: d02327a4a89f49ac0800000000000000
+      internalID: -3849177409145130483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unknown_7
+      name: Mostra Tilesets_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 1.3333359
-        width: 128.66667
-        height: 127.666664
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f16565d51e91b3f10800000000000000
-      internalID: 2250420894525969951
+      spriteID: 14a38387cb65c8860800000000000000
+      internalID: 7533491644154788417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: unknown_8
+      name: Mostra Tilesets_5
       rect:
         serializedVersion: 2
-        x: 256
-        y: 1.3333359
-        width: 128.66667
-        height: 127.666664
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,8 +261,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f3366355a3b15f30800000000000000
-      internalID: 4562625420153205747
+      spriteID: b0683e8a05d8a7240800000000000000
+      internalID: 4790296531232327179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mostra Tilesets_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371f842f1e3b344a0800000000000000
+      internalID: -6610242045035875981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mostra Tilesets_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae5342bf1f5b5260800000000000000
+      internalID: 7087363028336991910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mostra Tilesets_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4bb245397338ca0800000000000000
+      internalID: -6015903571324980051
       vertices: []
       indices: 
       edges: []
