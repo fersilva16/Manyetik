@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
   private int positiveLayer;
   private int negativeLayer;
   
-  void Start()
+  public void Start()
   {
     rigidbody2D = GetComponent<Rigidbody2D>();
     animator = GetComponent<Animator>();
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     negativeLayer = LayerMask.NameToLayer("Negative");
   }
 
-  void Update()
+  public void Update()
   {
     Move();
     Jump();

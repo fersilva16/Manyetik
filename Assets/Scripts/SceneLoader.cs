@@ -6,7 +6,7 @@ public class SceneLoader : MonoBehaviour
   public string sceneName;
   public bool nextScene;
 
-  private void OnCollisionEnter2D(Collision2D collider)
+  public void OnCollisionEnter2D(Collision2D collider)
   {
     if (collider.gameObject.CompareTag("Player")) LoadScene();
   }
