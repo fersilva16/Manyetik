@@ -2310,5 +2310,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
+      propertyPath: negativeLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
+      propertyPath: positiveLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}

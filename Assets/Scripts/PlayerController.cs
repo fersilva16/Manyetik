@@ -4,63 +4,59 @@ public class PlayerController : MonoBehaviour
 {
   public float speed;
   public float jumpForce;
-  public Sprite body;
-  public Sprite invertedBody;
   public Component north;
   public Component south;
+  public LayerMask groundLayer;
+  [Layer] public int positiveLayer;
+  [Layer] public int negativeLayer;
 
-  private Animator animator;
+  private new BoxCollider2D collider;
   private new Rigidbody2D rigidbody2D;
 
-  private int positiveLayer;
-  private int negativeLayer;
-  
+  private float horizontal;
+  private bool jump;
+  private bool invert;
+  private bool grounded;
+
+  private float groundDistance;
+
   public void Start()
   {
     rigidbody2D = GetComponent<Rigidbody2D>();
-    animator = GetComponent<Animator>();
+    collider = GetComponent<BoxCollider2D>();
 
-    positiveLayer = LayerMask.NameToLayer("Positive");
-    negativeLayer = LayerMask.NameToLayer("Negative");
+    groundDistance = collider.size.y / 2 + .1f;
   }
 
   public void Update()
   {
-    Move();
-    Jump();
-    InvertPoles();
+    horizontal = Input.GetAxis("Horizontal");
+    jump = jump || Input.GetButtonDown("Jump");
+    invert = invert || Input.GetButtonDown("Invert");
   }
 
-  private void Move()
+  public void FixedUpdate()
   {
-    var force = new Vector2(Input.GetAxis("Horizontal"), 0);
+    grounded = Physics2D.Raycast(transform.position, Vector2.down, groundDistance, groundLayer).collider != null;
 
-    rigidbody2D.position += speed * force * Time.deltaTime;
+    var accelaration = new Vector2(horizontal, 0);
 
-    animator.SetBool("Walk", Input.GetAxis("Horizontal") != 0);
-    transform.eulerAngles = new Vector2(0, Input.GetAxis("Horizontal") < 0 ? 180 : 0);
-  }
+    rigidbody2D.position += accelaration * speed * Time.fixedDeltaTime;
 
-  private void Jump()
-  {
-    if (Input.GetButton("Jump") && rigidbody2D.velocity.y == 0)
+    if (grounded && jump) rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+    if (invert)
     {
-      rigidbody2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+      SwitchPoleLayer(north);
+      SwitchPoleLayer(south);
     }
+
+    jump = false;
+    invert = false;
   }
 
-  private void InvertPoles()
+  private void SwitchPoleLayer(Component pole)
   {
-    if (Input.GetButtonDown("InvertPoles"))
-    {
-      animator.SetBool("Inverted", !animator.GetBool("Inverted"));
-      SetPoleLayer(north.gameObject);
-      SetPoleLayer(south.gameObject);
-    }
-  }
-
-  private void SetPoleLayer(GameObject gameObject)
-  {
-    gameObject.layer = gameObject.layer == positiveLayer ? negativeLayer : positiveLayer;
+    pole.gameObject.layer = pole.gameObject.layer == positiveLayer ? negativeLayer : positiveLayer;
   }
 }

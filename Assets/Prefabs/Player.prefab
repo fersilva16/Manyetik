@@ -215,8 +215,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 7
-  body: {fileID: 4877825377717948546, guid: cce507ef5850e734fba09f11c2c94c3a, type: 3}
-  invertedBody: {fileID: 3714383140580865877, guid: 96fdf88bc16fa5e4d9d647c60485f601, type: 3}
   north: {fileID: 5786904332118834371}
   south: {fileID: 5786904331215248615}
 --- !u!1 &5786904332118834370
