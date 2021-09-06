@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
   [Layer] public int positiveLayer;
   [Layer] public int negativeLayer;
 
+  private PlayerAnimator animator;
   private new BoxCollider2D collider;
   private new Rigidbody2D rigidbody2D;
 
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
   public void Start()
   {
+    animator = GetComponent<PlayerAnimator>();
     collider = GetComponent<BoxCollider2D>();
     rigidbody2D = GetComponent<Rigidbody2D>();
 
@@ -37,6 +39,8 @@ public class PlayerController : MonoBehaviour
     horizontal = Input.GetAxis("Horizontal");
     jump = jump || Input.GetButtonDown("Jump");
     invert = invert || Input.GetButtonDown("Invert");
+
+    animator.Horizontal = horizontal;
   }
 
   public void FixedUpdate()
@@ -47,10 +51,16 @@ public class PlayerController : MonoBehaviour
 
     rigidbody2D.position += accelaration * speed * Time.fixedDeltaTime;
 
-    if (grounded && jump) rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    if (grounded) {
+      if (jump) rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+
+      // animator.Jumping = jump;
+    }
 
     if (invert)
     {
+      animator.Inverted = !animator.Inverted;
+
       SwitchPoleLayer(north);
       SwitchPoleLayer(south);
     }
