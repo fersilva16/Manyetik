@@ -4,8 +4,12 @@ public class PlayerController : MonoBehaviour
 {
   public float speed;
   public float jumpForce;
+
+  [Space]
   public Component north;
   public Component south;
+
+  [Space]
   public LayerMask groundLayer;
   [Layer] public int positiveLayer;
   [Layer] public int negativeLayer;
