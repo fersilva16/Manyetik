@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-  public string sceneName;
+  [Scene] public string scene;
   public bool nextScene;
 
   public void OnCollisionEnter2D(Collision2D collider)
@@ -13,7 +13,7 @@ public class SceneLoader : MonoBehaviour
 
   public void LoadScene()
   {
-    if (!nextScene) SceneManager.LoadScene(sceneName);
+    if (!nextScene) SceneManager.LoadScene(scene);
     else SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
   }
 }
