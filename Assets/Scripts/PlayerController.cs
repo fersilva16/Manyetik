@@ -22,8 +22,8 @@ public class PlayerController : MonoBehaviour
 
   public void Start()
   {
-    rigidbody2D = GetComponent<Rigidbody2D>();
     collider = GetComponent<BoxCollider2D>();
+    rigidbody2D = GetComponent<Rigidbody2D>();
 
     groundDistance = collider.size.y / 2 + .1f;
   }
