@@ -6,15 +6,16 @@ public class PlayerSounds : MonoBehaviour
 {
   public AudioSource audioSource;
 
-  public AudioClip[] footsteps;
+  public AudioClip[] soundsPlayer;
 
   public void Start()
   {
     audioSource = GetComponent<AudioSource>();
   }
+  
   public void Footstep()
   {
-    audioSource.clip = footsteps[Random.Range(0,footsteps.Length)];
+    audioSource.clip = soundsPlayer[Random.Range(0,soundsPlayer.Length)];
     audioSource.PlayOneShot(audioSource.clip);
   }
 }
