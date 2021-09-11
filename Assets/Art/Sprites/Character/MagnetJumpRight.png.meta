@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: f89a7877114c04846b651b9f13fa2eb3
+guid: 9ea050af3b02295439765e8cc736be23
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7725649032702624505
-    second: spr_jump_0
+      213: 1999567505140004011
+    second: MagnetJumpRight_0
   - first:
-      213: -9211971099894796609
-    second: spr_jump_1
+      213: 1902531817643299629
+    second: MagnetJumpRight_1
   - first:
-      213: -961268590991431413
-    second: spr_jump_2
+      213: -3849654659638918157
+    second: MagnetJumpRight_2
   - first:
-      213: 7836010748244800297
-    second: spr_jump_3
+      213: -1267539184665194137
+    second: MagnetJumpRight_3
   - first:
-      213: -5688330345546402900
-    second: spr_jump_4
+      213: 8031185597375710881
+    second: MagnetJumpRight_4
   - first:
-      213: -1755678225328868676
-    second: spr_jump_5
+      213: -4179265366025416294
+    second: MagnetJumpRight_5
   - first:
-      213: -6104771251920634791
-    second: spr_jump_6
+      213: 4255841290122415801
+    second: MagnetJumpRight_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump_0
+      name: MagnetJumpRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f2849decd4073b60800000000000000
-      internalID: 7725649032702624505
+      spriteID: ba4b8404d04efbb10800000000000000
+      internalID: 1999567505140004011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_1
+      name: MagnetJumpRight_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe2b9d7711882080800000000000000
-      internalID: -9211971099894796609
+      spriteID: d23d18cab96276a10800000000000000
+      internalID: 1902531817643299629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_2
+      name: MagnetJumpRight_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b09273c3f43e8a2f0800000000000000
-      internalID: -961268590991431413
+      spriteID: 3f38b40cb77439ac0800000000000000
+      internalID: -3849654659638918157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_3
+      name: MagnetJumpRight_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9233641324a1fbc60800000000000000
-      internalID: 7836010748244800297
+      spriteID: 7619427c3dbc86ee0800000000000000
+      internalID: -1267539184665194137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_4
+      name: MagnetJumpRight_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca3b1a450bdfe01b0800000000000000
-      internalID: -5688330345546402900
+      spriteID: 1a600d0ffb0847f60800000000000000
+      internalID: 8031185597375710881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_5
+      name: MagnetJumpRight_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2726fb4f392a7e0800000000000000
-      internalID: -1755678225328868676
+      spriteID: a9156f3da444006c0800000000000000
+      internalID: -4179265366025416294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_6
+      name: MagnetJumpRight_6
       rect:
         serializedVersion: 2
         x: 0
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95cf04e04ee774ba0800000000000000
-      internalID: -6104771251920634791
+      spriteID: 9becf2eda19cf0b30800000000000000
+      internalID: 4255841290122415801
       vertices: []
       indices: 
       edges: []

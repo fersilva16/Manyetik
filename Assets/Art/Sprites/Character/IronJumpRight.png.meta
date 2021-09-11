@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: b76ad19a852d4154d81bcdfde0f849ca
+guid: 5b716e0e6e9730244b9928b1a7dc0cb5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1522842666791991758
-    second: spr_jump_grey_0
+      213: 2343337419991853995
+    second: IronJumpRight_0
   - first:
-      213: -2710039657886336324
-    second: spr_jump_grey_1
+      213: 8306014750751204319
+    second: IronJumpRight_1
   - first:
-      213: -2803032602685740598
-    second: spr_jump_grey_2
+      213: 5671216397984482655
+    second: IronJumpRight_2
   - first:
-      213: 2401239608678425751
-    second: spr_jump_grey_3
+      213: 2481235424489725229
+    second: IronJumpRight_3
   - first:
-      213: 423542764700456529
-    second: spr_jump_grey_4
+      213: -1453682725151550871
+    second: IronJumpRight_4
   - first:
-      213: 4261496144592331173
-    second: spr_jump_grey_5
+      213: 2071949280186243304
+    second: IronJumpRight_5
   - first:
-      213: 2133450180971623576
-    second: spr_jump_grey_6
+      213: 2363478278452032943
+    second: IronJumpRight_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump_grey_0
+      name: IronJumpRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec9f1fa4659322510800000000000000
-      internalID: 1522842666791991758
+      spriteID: babae7bc7f4358020800000000000000
+      internalID: 2343337419991853995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_1
+      name: IronJumpRight_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbab6702a41046ad0800000000000000
-      internalID: -2710039657886336324
+      spriteID: fd32ead9864e44370800000000000000
+      internalID: 8306014750751204319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_2
+      name: IronJumpRight_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac9e31fe2b0a919d0800000000000000
-      internalID: -2803032602685740598
+      spriteID: f554c3e344534be40800000000000000
+      internalID: 5671216397984482655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_3
+      name: IronJumpRight_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79420e7a3bae25120800000000000000
-      internalID: 2401239608678425751
+      spriteID: d2d53d0f87e1f6220800000000000000
+      internalID: 2481235424489725229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_4
+      name: IronJumpRight_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156582586e9b0e500800000000000000
-      internalID: 423542764700456529
+      spriteID: 962583f634b73dbe0800000000000000
+      internalID: -1453682725151550871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_5
+      name: IronJumpRight_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a16f164a20e32b30800000000000000
-      internalID: 4261496144592331173
+      spriteID: 8e8902684ea01cc10800000000000000
+      internalID: 2071949280186243304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_grey_6
+      name: IronJumpRight_6
       rect:
         serializedVersion: 2
         x: 0
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8947ec6d2a98b9d10800000000000000
-      internalID: 2133450180971623576
+      spriteID: fa53c75d8f2ccc020800000000000000
+      internalID: 2363478278452032943
       vertices: []
       indices: 
       edges: []

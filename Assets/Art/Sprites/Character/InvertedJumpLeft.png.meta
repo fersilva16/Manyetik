@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 7354e494f4e90644b80592840ce7e7bc
+guid: 67afd394b3bd1cd4a9d618729179550f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9185920843421360647
-    second: spr_jump2_left_0
+      213: 1264904319050022330
+    second: InvertedJumpLeft_0
   - first:
-      213: 1571910332681077012
-    second: spr_jump2_left_1
+      213: 6796096945411294212
+    second: InvertedJumpLeft_1
   - first:
-      213: 2320121398703737121
-    second: spr_jump2_left_2
+      213: -6602581439497332588
+    second: InvertedJumpLeft_2
   - first:
-      213: -5009470540311579370
-    second: spr_jump2_left_3
+      213: 4768013044578435590
+    second: InvertedJumpLeft_3
   - first:
-      213: -5280212454046228758
-    second: spr_jump2_left_4
+      213: -7392408937513418596
+    second: InvertedJumpLeft_4
   - first:
-      213: 3278588629068970936
-    second: spr_jump2_left_5
+      213: -3150526668151145516
+    second: InvertedJumpLeft_5
   - first:
-      213: -7664399820120862801
-    second: spr_jump2_left_6
+      213: -9197460352428396967
+    second: InvertedJumpLeft_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump2_left_0
+      name: InvertedJumpLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 702acf68652fa7f70800000000000000
-      internalID: 9185920843421360647
+      spriteID: abd75d3c6c7dd8110800000000000000
+      internalID: 1264904319050022330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_1
+      name: InvertedJumpLeft_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 411c8368e1c80d510800000000000000
-      internalID: 1571910332681077012
+      spriteID: 4048b522a26905e50800000000000000
+      internalID: 6796096945411294212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_2
+      name: InvertedJumpLeft_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129c48d9e1ab23020800000000000000
-      internalID: 2320121398703737121
+      spriteID: 4989c2aa92bee54a0800000000000000
+      internalID: -6602581439497332588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_3
+      name: InvertedJumpLeft_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 615b1fbb519ca7ab0800000000000000
-      internalID: -5009470540311579370
+      spriteID: 602c68e1a926b2240800000000000000
+      internalID: 4768013044578435590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_4
+      name: InvertedJumpLeft_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee1bf1bfbae8b6b0800000000000000
-      internalID: -5280212454046228758
+      spriteID: c90071dec33e86990800000000000000
+      internalID: -7392408937513418596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_5
+      name: InvertedJumpLeft_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb7a48ccf2ef7d20800000000000000
-      internalID: 3278588629068970936
+      spriteID: 4dbb47100b41744d0800000000000000
+      internalID: -3150526668151145516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_left_6
+      name: InvertedJumpLeft_6
       rect:
         serializedVersion: 2
         x: 0
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fafc029a8f492a590800000000000000
-      internalID: -7664399820120862801
+      spriteID: 95e24c92a8e0c5080800000000000000
+      internalID: -9197460352428396967
       vertices: []
       indices: 
       edges: []
