@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,9 +19,7 @@ public class PlayerController : MonoBehaviour
   private new BoxCollider2D collider;
   private new Rigidbody2D rigidbody2D;
 
-  private float horizontal;
-  private bool jump;
-  private bool invert;
+  private float direction;
   private bool grounded;
 
   private float groundDistance;
@@ -36,37 +35,45 @@ public class PlayerController : MonoBehaviour
 
   public void Update()
   {
-    horizontal = Input.GetAxis("Horizontal");
-    jump = jump || Input.GetButtonDown("Jump");
-    invert = invert || Input.GetButtonDown("Invert");
+    CheckGrounded();
 
-    animator.Horizontal = horizontal;
+    Move();
   }
 
-  public void FixedUpdate()
+  public void OnMovementInput(InputAction.CallbackContext context)
   {
-    grounded = Physics2D.Raycast(transform.position, Vector2.down, groundDistance, groundLayer).collider != null;
+    direction = context.ReadValue<float>();
 
-    var accelaration = new Vector2(horizontal, 0);
+    animator.Horizontal = direction;
+  }
 
-    rigidbody2D.position += accelaration * speed * Time.fixedDeltaTime;
+  public void OnJumpInput(InputAction.CallbackContext context)
+  {
+    if (!context.performed || !grounded) return;
 
-    if (grounded) {
-      if (jump) rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+  }
 
-      // animator.Jumping = jump;
-    }
+  public void OnInvertInput(InputAction.CallbackContext context)
+  {
+    if (!context.performed) return;
 
-    if (invert)
-    {
-      animator.Inverted = !animator.Inverted;
+    animator.Inverted = !animator.Inverted;
 
-      SwitchPoleLayer(north);
-      SwitchPoleLayer(south);
-    }
+    SwitchPoleLayer(north);
+    SwitchPoleLayer(south);
+  }
 
-    jump = false;
-    invert = false;
+  private void CheckGrounded()
+  {
+    var raycast = Physics2D.Raycast(transform.position, Vector2.down, groundDistance, groundLayer);
+
+    grounded = raycast.collider != null;
+  }
+
+  private void Move()
+  {
+    rigidbody2D.position += direction * speed * Time.deltaTime * Vector2.right;
   }
 
   private void SwitchPoleLayer(Component pole)
