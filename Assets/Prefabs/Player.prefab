@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpForce: 7
+  jumpForce: 8
   north: {fileID: 5786904332118834371}
   south: {fileID: 5786904331215248615}
   groundLayer:

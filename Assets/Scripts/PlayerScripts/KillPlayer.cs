@@ -6,7 +6,7 @@ public class KillPlayer : MonoBehaviour
 {
   public void OnCollisionEnter2D(Collision2D col)
   {
-    if(col.gameObject.CompareTag("Fire"))
+    if(col.gameObject.layer == 10)
     {
       Destroy(gameObject);
       RespawnPlayer.instance.Respawn();
