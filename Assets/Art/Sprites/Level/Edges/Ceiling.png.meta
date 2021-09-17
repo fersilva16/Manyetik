@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 29ec513b93844894cab5f7b3107feff7
+guid: 2d4e1c82b7beeba4d962ae762f283721
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3086227157074463575
-    second: magnet_left_0
+      213: -641405548389218093
+    second: Ceiling_0
   - first:
-      213: 415092476092435609
-    second: magnet_left_1
+      213: -931208688389645043
+    second: Ceiling_1
   - first:
-      213: -693907249094027087
-    second: magnet_left_2
+      213: -6823004828362728393
+    second: Ceiling_2
   - first:
-      213: 1783790506370021542
-    second: magnet_left_3
+      213: -6209139068123054601
+    second: Ceiling_3
   - first:
-      213: -6365586415374376663
-    second: magnet_left_4
+      213: 513011000037657861
+    second: Ceiling_4
   - first:
-      213: 5864748208000945874
-    second: magnet_left_5
+      213: 1193578835568474344
+    second: Ceiling_5
   - first:
-      213: 6037705249627260771
-    second: magnet_left_6
+      213: -1736358444734272526
+    second: Ceiling_6
   - first:
-      213: 231995494633025716
-    second: magnet_left_7
+      213: 5403858072931957270
+    second: Ceiling_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 380
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -139,13 +139,55 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magnet_left_0
+      name: Ceiling_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8cb435d054917f0800000000000000
+      internalID: -641405548389218093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d17c4b1aea313f0800000000000000
+      internalID: -931208688389645043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 2048
-        width: 1024
-        height: 1024
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75b46917f3b74da20800000000000000
-      internalID: 3086227157074463575
+      spriteID: 73c1aa82241df41a0800000000000000
+      internalID: -6823004828362728393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_left_1
+      name: Ceiling_3
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 1024
-        height: 1024
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99c4d626864b2c500800000000000000
-      internalID: 415092476092435609
+      spriteID: 7fd768b3ae4b4d9a0800000000000000
+      internalID: -6209139068123054601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_left_2
+      name: Ceiling_4
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 2048
-        width: 1024
-        height: 1024
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,83 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b89eae880fbe56f0800000000000000
-      internalID: -693907249094027087
+      spriteID: 50dcc1759c49e1700800000000000000
+      internalID: 513011000037657861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_left_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a836edb30c41c810800000000000000
-      internalID: 1783790506370021542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magnet_left_4
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 921ee8ca1e4e8a7a0800000000000000
-      internalID: -6365586415374376663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magnet_left_5
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2de41032c65c36150800000000000000
-      internalID: 5864748208000945874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: magnet_left_6
+      name: Ceiling_5
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3674b867fec3ac350800000000000000
-      internalID: 6037705249627260771
+      spriteID: 8e8bb7980a1709010800000000000000
+      internalID: 1193578835568474344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_left_7
+      name: Ceiling_6
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 32
         y: 0
-        width: 1024
-        height: 1024
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +279,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0b7175ca6383300800000000000000
-      internalID: 231995494633025716
+      spriteID: 2fb2dd2b13737e7e0800000000000000
+      internalID: -1736358444734272526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ceiling_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a7cb5594c5efa40800000000000000
+      internalID: 5403858072931957270
       vertices: []
       indices: 
       edges: []
