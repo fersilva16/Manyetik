@@ -78,7 +78,7 @@
                 {
                     "name": "negative",
                     "id": "9f652df3-1465-4fa5-aa27-0082e39589cc",
-                    "path": "<Gamepad>/leftStick/left",
+                    "path": "<XInputController>/leftStick/left",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -89,7 +89,7 @@
                 {
                     "name": "positive",
                     "id": "6aa8c11a-f854-4727-8a2f-d034597b83e2",
-                    "path": "<Gamepad>/leftStick/left",
+                    "path": "<XInputController>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -111,7 +111,7 @@
                 {
                     "name": "",
                     "id": "8dd93ba4-6a1c-4352-a90d-79d93f8aeb7e",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<XInputController>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -133,7 +133,7 @@
                 {
                     "name": "",
                     "id": "377b8f47-2c1f-4dd2-b337-2e080ef5f3ba",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<XInputController>/buttonEast",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

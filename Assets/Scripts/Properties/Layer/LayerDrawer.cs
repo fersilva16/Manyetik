@@ -1,6 +1,8 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
+
 [CustomPropertyDrawer(typeof(LayerAttribute))]
 public class LayerDrawer : PropertyDrawer
 {
@@ -16,3 +18,5 @@ public class LayerDrawer : PropertyDrawer
 		property.intValue = EditorGUI.LayerField(position, label, property.intValue);
 	}
 }
+
+#endif
