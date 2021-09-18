@@ -10,6 +10,7 @@ TagManager:
   - Paddle
   - Sul
   - Fire
+  - CM
   layers:
   - Default
   - TransparentFX
