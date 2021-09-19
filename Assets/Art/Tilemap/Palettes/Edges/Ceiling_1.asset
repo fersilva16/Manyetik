@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Ceiling_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -931208688389645043, guid: 2d4e1c82b7beeba4d962ae762f283721, type: 3}
+  m_Sprite: {fileID: -931208688389645043, guid: 507568c00d127884e9406613de1c03c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

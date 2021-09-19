@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
 {
@@ -11,25 +12,19 @@ public class Sign : MonoBehaviour
   public string dialog;
   public bool playerInRange;
 
-  void Start()
+  public void OnTextInput(InputAction.CallbackContext context)
   {
-        
-  }
+    if (!context.performed || !playerInRange) return;
 
-  void Update()
-  {
-    if(Input.GetKeyDown(KeyCode.W) && playerInRange)
+    if(textBox.activeInHierarchy)
     {
-        if(textBox.activeInHierarchy)
-        {
-            textBox.SetActive(false);
-        }
-        else
-        {
-            textBox.SetActive(true);
-            text.text = dialog;
-        }
+      textBox.SetActive(false);
     }
+    else
+    {
+      textBox.SetActive(true);
+      text.text = dialog;
+    }    
   }
 
   private void OnTriggerEnter2D(Collider2D col)
@@ -43,5 +38,6 @@ public class Sign : MonoBehaviour
   private void OnTriggerExit2D(Collider2D col)
   {
     playerInRange = false;
+    textBox.SetActive(false);
   }
 }

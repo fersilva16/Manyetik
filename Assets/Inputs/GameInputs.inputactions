@@ -142,6 +142,44 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Ui",
+            "id": "5bce38e0-dbfc-42e1-ac5e-2ef92777142a",
+            "actions": [
+                {
+                    "name": "Open Text",
+                    "type": "Button",
+                    "id": "099ab30e-1554-43a8-a4b5-f17253e8ecc1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9dc74385-f29c-4415-9d9f-f119a64dd831",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Text",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4afd69f6-208b-458c-8185-8a401bbeb7a7",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Text",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
