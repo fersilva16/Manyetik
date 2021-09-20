@@ -227,6 +227,8 @@ MonoBehaviour:
     m_Bits: 64
   positiveLayer: 7
   negativeLayer: 8
+  fireLayer: 10
+  magnetiteLayer: 9
 --- !u!114 &5958297688827865114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,6 +440,34 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: e1770eb4-93c3-4e2b-98d8-ab2e0bc236e8
     m_ActionName: Player/Invert[/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d2c897f9-7b76-4cfa-a9b1-72b26c98823a
+    m_ActionName: Player/Interact[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5205f9b1-5219-42dc-8b7e-cbe14c9cfc27
+    m_ActionName: Player/Menu[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c2ace4af-6b69-4bc6-a3c0-a0520da163e7
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/leftArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cf3ee9a5-3b28-4061-ad72-748481ce1b9c
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b77a094b-b826-4848-a62a-f4e6fbeb6a8b
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a58bc0d5-8dff-4538-b0d5-2a7f39b75418
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c24469a7-1e93-4ec2-adff-47554016f33c
+    m_ActionName: UI/Click[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

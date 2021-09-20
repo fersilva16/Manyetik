@@ -15,6 +15,10 @@ public class PlayerController : MonoBehaviour
   [Layer] public int positiveLayer;
   [Layer] public int negativeLayer;
 
+  [Space]
+  [Layer] public int fireLayer;
+  [Layer] public int magnetiteLayer;
+
   private PlayerAnimator animator;
   private new BoxCollider2D collider;
   private new Rigidbody2D rigidbody2D;
@@ -38,6 +42,16 @@ public class PlayerController : MonoBehaviour
     CheckGrounded();
 
     Move();
+  }
+
+  public void OnTriggerEnter2D(Collider2D collision)
+  {
+    if (collision.gameObject.layer == fireLayer) ChangeMagnetized(false);
+  }
+
+  public void OnCollisionEnter2D(Collision2D collision)
+  {
+    if (collision.gameObject.layer == magnetiteLayer) ChangeMagnetized(true);
   }
 
   public void OnMovementInput(InputAction.CallbackContext context)
@@ -74,6 +88,13 @@ public class PlayerController : MonoBehaviour
   private void Move()
   {
     rigidbody2D.position += direction * speed * Time.deltaTime * Vector2.right;
+  }
+
+  private void ChangeMagnetized(bool value)
+  {
+    animator.Magnetized = value;
+    north.gameObject.SetActive(value);
+    south.gameObject.SetActive(value);
   }
 
   private void SwitchPoleLayer(Component pole)
