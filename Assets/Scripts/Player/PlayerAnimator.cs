@@ -22,14 +22,14 @@ public class PlayerAnimator : MonoBehaviour
     }
   }
 
-  public void Start()
+  private void Start()
   {
     animator = GetComponent<Animator>();
 
     Magnetized = true;
   }
 
-  public void Update()
+  private void Update()
   {
     var animation = new StringBuilder();
 
@@ -46,8 +46,8 @@ public class PlayerAnimator : MonoBehaviour
 
     UpdateAnimation(animation.ToString());
   }
-  
-  public void UpdateAnimation(string animation)
+
+  private void UpdateAnimation(string animation)
   {
     if (currentAnimation != animation)
     {

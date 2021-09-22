@@ -3,21 +3,36 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-  public float speed;
-  public float jumpForce;
+  [SerializeField]
+  private float speed;
 
-  [Space]
-  public Component north;
-  public Component south;
+  [SerializeField]
+  private float jumpForce;
 
-  [Space]
-  public LayerMask groundLayer;
-  [Layer] public int positiveLayer;
-  [Layer] public int negativeLayer;
+  [SerializeField]
+  private Component north;
 
-  [Space]
-  [Layer] public int fireLayer;
-  [Layer] public int magnetiteLayer;
+  [SerializeField]
+  private Component south;
+
+  [SerializeField]
+  private LayerMask groundLayer;
+
+  [SerializeField]
+  [Layer]
+  private int positiveLayer;
+
+  [SerializeField]
+  [Layer]
+  private int negativeLayer;
+
+  [SerializeField]
+  [Layer]
+  private int fireLayer;
+
+  [SerializeField]
+  [Layer]
+  private int magnetiteLayer;
 
   private PlayerAnimator animator;
   private new BoxCollider2D collider;
@@ -28,7 +43,7 @@ public class PlayerController : MonoBehaviour
 
   private float groundDistance;
 
-  public void Start()
+  private void Start()
   {
     animator = GetComponent<PlayerAnimator>();
     collider = GetComponent<BoxCollider2D>();
@@ -37,19 +52,19 @@ public class PlayerController : MonoBehaviour
     groundDistance = collider.size.y / 2 + .1f;
   }
 
-  public void Update()
+  private void Update()
   {
     CheckGrounded();
 
     Move();
   }
 
-  public void OnTriggerEnter2D(Collider2D collision)
+  private void OnTriggerEnter2D(Collider2D collision)
   {
     if (collision.gameObject.layer == fireLayer) ChangeMagnetized(false);
   }
 
-  public void OnCollisionEnter2D(Collision2D collision)
+  private void OnCollisionEnter2D(Collision2D collision)
   {
     if (collision.gameObject.layer == magnetiteLayer) ChangeMagnetized(true);
   }

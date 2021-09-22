@@ -1,41 +1,39 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
 {
-  public GameObject textBox;
-  public TMP_Text text;
-  public string dialog;
-  public bool playerInRange;
+  [SerializeField]
+  private GameObject textBox;
 
-  public void OnTextInput(InputAction.CallbackContext context)
+  [SerializeField]
+  private TMP_Text text;
+
+  [SerializeField]
+  private string dialog;
+
+  [SerializeField]
+  private bool playerInRange;
+
+  public void OnInteractInput(InputAction.CallbackContext context)
   {
     if (!context.performed || !playerInRange) return;
 
-    if(textBox.activeInHierarchy)
-    {
-      textBox.SetActive(false);
-    }
+    if(textBox.activeInHierarchy) textBox.SetActive(false);
     else
     {
       textBox.SetActive(true);
       text.text = dialog;
-    }    
-  }
-
-  private void OnTriggerEnter2D(Collider2D col)
-  {
-    if(col.CompareTag("Player"))
-    {
-      playerInRange = true;
     }
   }
 
-  private void OnTriggerExit2D(Collider2D col)
+  private void OnTriggerEnter2D(Collider2D collider)
+  {
+    if (collider.CompareTag("Player")) playerInRange = true;
+  }
+
+  private void OnTriggerExit2D(Collider2D collider)
   {
     playerInRange = false;
     textBox.SetActive(false);

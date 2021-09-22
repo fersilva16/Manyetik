@@ -1,24 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraTransition : MonoBehaviour
 {
-  public GameObject virtualCam;
+  [SerializeField]
+  private GameObject virtualCam;
 
-  public void OnTriggerEnter2D(Collider2D col)
+  private void OnTriggerEnter2D(Collider2D collider)
   {
-    if(col.CompareTag ("Player") && !col.isTrigger)
-    {
-        virtualCam.SetActive (true);
-    }
+    if (collider.CompareTag("Player")) virtualCam.SetActive(true);
   }
 
-  public void OnTriggerExit2D(Collider2D col)
+  public void OnTriggerExit2D(Collider2D collider)
   {
-    if(col.CompareTag ("Player") && !col.isTrigger)
-    {
-        virtualCam.SetActive (false);
-    }
+    if (collider.CompareTag("Player")) virtualCam.SetActive(false);
   }
 }

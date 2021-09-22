@@ -6,7 +6,6 @@ using UnityEngine;
 [CustomPropertyDrawer(typeof(SceneAttribute))]
 public class SceneDrawer : PropertyDrawer
 {
-	
 	public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
   {
 		if (property.propertyType != SerializedPropertyType.String)
@@ -35,7 +34,6 @@ public class SceneDrawer : PropertyDrawer
 
 		if (scene != null) property.stringValue = scene.name;
 	}
-	
 }
 
 #endif

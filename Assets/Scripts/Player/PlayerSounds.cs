@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSounds : MonoBehaviour
 {
-  public AudioSource audioSource;
+  [SerializeField]
+  private AudioSource audioSource;
 
-  public AudioClip[] soundsPlayer;
+  [SerializeField]
+  private AudioClip[] soundsPlayer;
 
-  public void Start()
+  private void Start()
   {
     audioSource = GetComponent<AudioSource>();
   }
-  
+
   public void Footstep()
   {
     audioSource.clip = soundsPlayer[Random.Range(0,soundsPlayer.Length)];
