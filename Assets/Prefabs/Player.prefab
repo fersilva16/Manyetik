@@ -218,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  jumpForce: 10
+  jumpForce: 9
   north: {fileID: 5786904332118834371}
   south: {fileID: 5786904331215248615}
   groundLayer:
@@ -249,9 +249,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5786904331577196753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fee11491fff10840b7a2da86a08190d, type: 3}
+  m_Script: {fileID: 11500000, guid: ff74aa1b99a8b5240bd094def2deadce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  killableLayer: 11
 --- !u!82 &5429177782764830426
 AudioSource:
   m_ObjectHideFlags: 0
@@ -265,7 +266,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.5
-  m_Pitch: 1
+  m_Pitch: 1.2
   Loop: 0
   Mute: 0
   Spatialize: 0
