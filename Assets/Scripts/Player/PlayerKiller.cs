@@ -1,25 +1,16 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerKiller : MonoBehaviour
 {
   [SerializeField]
   [Layer]
-  private int killableLayer;
-
-  private void Start()
-  {
-    if (CheckpointManager.instance)
-    {
-      transform.position = CheckpointManager.instance.lastCheckpointPosition;
-    }
-  }
+  private int lavaLayer;
 
   private void OnTriggerEnter2D(Collider2D collider)
   {
-    if (collider.gameObject.layer == killableLayer)
+    if (collider.gameObject.layer == lavaLayer && CheckpointManager.instance)
     {
-      SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      transform.position = CheckpointManager.instance.lastCheckpointPosition;
     }
   }
 }

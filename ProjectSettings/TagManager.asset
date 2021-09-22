@@ -4,14 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Completed
-  - Parede
-  - Ball
-  - Paddle
   - Sul
   - Fire
   - CM
   - Iron
+  - Checkpoint
+  - Lava
   layers:
   - Default
   - TransparentFX
@@ -24,27 +22,27 @@ TagManager:
   - Negative
   - Magnetite
   - Fire
-  - Killable
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Lava
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0
