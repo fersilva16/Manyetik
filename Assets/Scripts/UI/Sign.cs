@@ -18,9 +18,9 @@ public class Sign : MonoBehaviour
 
   public void OnInteractInput(InputAction.CallbackContext context)
   {
-    if (!context.performed || !playerInRange) return;
+    if (!playerInRange) return;
 
-    if(textBox.activeInHierarchy) textBox.SetActive(false);
+    if (textBox.activeInHierarchy) textBox.SetActive(false);
     else
     {
       textBox.SetActive(true);

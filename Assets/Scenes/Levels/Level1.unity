@@ -422,6 +422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138852726}
   - component: {fileID: 138852725}
+  - component: {fileID: 138852727}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: CM
@@ -460,6 +461,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &138852727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138852724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f653f1a131f6e4ca00d91fafc41573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Movement:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 834452114}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnMovementInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Jump:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 834452114}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnJumpInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Invert:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 834452114}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnInvertInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Interact:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 704725123}
+        m_TargetAssemblyTypeName: Sign, Assembly-CSharp
+        m_MethodName: OnInteractInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  Menu:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &155952086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1851,7 +1927,6 @@ GameObject:
   - component: {fileID: 704725125}
   - component: {fileID: 704725127}
   - component: {fileID: 704725123}
-  - component: {fileID: 704725124}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
@@ -1875,88 +1950,6 @@ MonoBehaviour:
   text: {fileID: 1237468822}
   dialog: Lava Mata
   playerInRange: 0
---- !u!114 &704725124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704725122}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 237db7de4edfc3a479624afaf7009a97, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d4cb7d78-f453-4d5d-a0d5-97c45416d9c0
-    m_ActionName: Player/Movement[/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: cdc5dbc8-77c2-4997-b795-1592eb182dc4
-    m_ActionName: Player/Jump[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: e1770eb4-93c3-4e2b-98d8-ab2e0bc236e8
-    m_ActionName: Player/Invert[/Keyboard/ctrl]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: c2ace4af-6b69-4bc6-a3c0-a0520da163e7
-    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/leftArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 704725123}
-        m_TargetAssemblyTypeName: Sign, Assembly-CSharp
-        m_MethodName: OnTextInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: d2c897f9-7b76-4cfa-a9b1-72b26c98823a
-    m_ActionName: Player/Interact[/Keyboard/w]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 5205f9b1-5219-42dc-8b7e-cbe14c9cfc27
-    m_ActionName: Player/Menu[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: cf3ee9a5-3b28-4061-ad72-748481ce1b9c
-    m_ActionName: UI/Submit[/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: b77a094b-b826-4848-a62a-f4e6fbeb6a8b
-    m_ActionName: UI/Cancel[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a58bc0d5-8dff-4538-b0d5-2a7f39b75418
-    m_ActionName: UI/Point[/Mouse/position]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: c24469a7-1e93-4ec2-adff-47554016f33c
-    m_ActionName: UI/Click[/Mouse/leftButton]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!212 &704725125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2371,6 +2364,17 @@ AreaEffector2D:
   m_ForceTarget: 0
   m_Drag: 0
   m_AngularDrag: 0
+--- !u!114 &834452114 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
+  m_PrefabInstance: {fileID: 5786904331169148774}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb372c9c6c93eb4469b4d732b66e27fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &863299317
 GameObject:
   m_ObjectHideFlags: 0
@@ -8437,30 +8441,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: m_Pitch
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: m_Volume
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5786904331215248614, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 5786904331577196753, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
       propertyPath: m_Name
       value: Player
@@ -8509,39 +8489,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footstep
-      value: 
-      objectReference: {fileID: 5786904331169148784}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: audioSource
-      value: 
-      objectReference: {fileID: 5786904331169148784}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footsteps.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footsteps.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: 94c7126180773814f9379b5b834cb2da, type: 3}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footsteps.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 0ce77838a69e28f47a0e9e0a4f741812, type: 3}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footsteps.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: b88d2e87208d18445a68d2f9da5b5f17, type: 3}
-    - target: {fileID: 7581398230773662252, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-      propertyPath: footsteps.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: 7744fba35da97f349a55df82b450e188, type: 3}
-    m_RemovedComponents:
-    - {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
---- !u!82 &5786904331169148784 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 5429177782764830426, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
-  m_PrefabInstance: {fileID: 5786904331169148774}
-  m_PrefabAsset: {fileID: 0}

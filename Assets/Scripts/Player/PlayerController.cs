@@ -78,15 +78,13 @@ public class PlayerController : MonoBehaviour
 
   public void OnJumpInput(InputAction.CallbackContext context)
   {
-    if (!context.performed || !grounded) return;
+    if (!grounded) return;
 
     rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
   }
 
   public void OnInvertInput(InputAction.CallbackContext context)
   {
-    if (!context.performed) return;
-
     animator.Inverted = !animator.Inverted;
 
     SwitchPoleLayer(north);
