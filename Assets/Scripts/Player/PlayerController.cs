@@ -6,6 +6,10 @@ public class PlayerController : MonoBehaviour
   [SerializeField]
   private float speed;
 
+  [Range(0, .3f)]
+  [SerializeField]
+  private float movementSmoothing;
+
   [SerializeField]
   private float jumpForce;
 
@@ -40,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
   private float direction;
   private bool grounded;
+  private Vector2 velocity;
 
   private float groundDistance;
 
@@ -72,8 +77,6 @@ public class PlayerController : MonoBehaviour
   public void OnMovementInput(InputAction.CallbackContext context)
   {
     direction = context.ReadValue<float>();
-
-    animator.Horizontal = direction;
   }
 
   public void OnJumpInput(InputAction.CallbackContext context)
@@ -100,7 +103,9 @@ public class PlayerController : MonoBehaviour
 
   private void Move()
   {
-    rigidbody2D.position += direction * speed * Time.deltaTime * Vector2.right;
+    var targetVelocity = new Vector2(direction * speed, rigidbody2D.velocity.y);
+
+    rigidbody2D.velocity = Vector2.SmoothDamp(rigidbody2D.velocity, targetVelocity, ref velocity, movementSmoothing);
   }
 
   private void ChangeMagnetized(bool value)
