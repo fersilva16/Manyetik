@@ -1,33 +1,15 @@
+using System.Collections;
 using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
-  public static CheckpointManager instance { get; private set; }
+  public bool checkpointReached;
 
-  public Vector2 lastCheckpointPosition { get; private set; }
-
-  private void Awake()
+  private void OnTriggerEnter2D(Collider2D other)
   {
-    if (instance != null) Destroy(gameObject);
-    else
+    if(other.tag == "Player")
     {
-      instance = this;
-      DontDestroyOnLoad(instance);
+      checkpointReached = true;
     }
-  }
-
-  private void OnEnable()
-  {
-    Checkpoint.OnTrigger += SaveCheckpoint;
-  }
-
-  private void OnDisable()
-  {
-    Checkpoint.OnTrigger -= SaveCheckpoint;
-  }
-
-  private void SaveCheckpoint(Vector3 position)
-  {
-    lastCheckpointPosition = position;
   }
 }

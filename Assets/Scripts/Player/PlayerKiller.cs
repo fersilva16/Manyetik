@@ -2,15 +2,23 @@ using UnityEngine;
 
 public class PlayerKiller : MonoBehaviour
 {
-  [SerializeField]
-  [Layer]
-  private int lavaLayer;
+  public Vector3 respawnPoint;
 
-  private void OnTriggerEnter2D(Collider2D collider)
+  private void Start()
   {
-    if (collider.gameObject.layer == lavaLayer && CheckpointManager.instance)
+    respawnPoint = transform.position;
+  }
+
+  private void OnTriggerEnter2D(Collider2D other)
+  {
+    if(other.tag == "Lava")
     {
-      transform.position = CheckpointManager.instance.lastCheckpointPosition;
+      transform.position = respawnPoint;
+    }
+
+    if(other.tag == "Checkpoint")
+    {
+      respawnPoint = other.transform.position;
     }
   }
 }
