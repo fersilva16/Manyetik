@@ -106,6 +106,8 @@ public class PlayerController : MonoBehaviour
     var targetVelocity = new Vector2(direction * speed, rigidbody2D.velocity.y);
 
     rigidbody2D.velocity = Vector2.SmoothDamp(rigidbody2D.velocity, targetVelocity, ref velocity, movementSmoothing);
+
+    animator.Horizontal = direction;
   }
 
   private void ChangeMagnetized(bool value)
