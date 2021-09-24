@@ -48,7 +48,7 @@ MonoBehaviour:
   Movement:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnMovementInput
         m_Mode: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
   Jump:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnJumpInput
         m_Mode: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
   Invert:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5786904331577196766, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: OnInvertInput
         m_Mode: 0
@@ -93,7 +93,7 @@ MonoBehaviour:
   Interact:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7480656100330655258, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
         m_TargetAssemblyTypeName: Sign, Assembly-CSharp
         m_MethodName: OnInteractInput
         m_Mode: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7163034252058077639, guid: 7d8a547611fee594cbb5abfe2d91b333, type: 3}
         m_TargetAssemblyTypeName: NextLevel, Assembly-CSharp
         m_MethodName: OnNextLevelInput
         m_Mode: 0
@@ -232,3 +232,5 @@ MonoBehaviour:
   musics:
   - {fileID: 8300000, guid: f6e9ef816e642f045896f2f7b7856bf1, type: 3}
   - {fileID: 8300000, guid: 3a04cb554d5fae44e9f341ec99cc4d00, type: 3}
+  - {fileID: 8300000, guid: 2b64bfff5146dd04393201d623d5d5a4, type: 3}
+  - {fileID: 8300000, guid: e1772a50cdf02e64d9d158439d9af0b3, type: 3}
