@@ -230,7 +230,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 4440141276047065034}
   musics:
-  - {fileID: 8300000, guid: f6e9ef816e642f045896f2f7b7856bf1, type: 3}
-  - {fileID: 8300000, guid: 3a04cb554d5fae44e9f341ec99cc4d00, type: 3}
-  - {fileID: 8300000, guid: 2b64bfff5146dd04393201d623d5d5a4, type: 3}
-  - {fileID: 8300000, guid: e1772a50cdf02e64d9d158439d9af0b3, type: 3}
+  - {fileID: 8300000, guid: 3c859b53b01a9f0479e6e6f1c6949df9, type: 3}
