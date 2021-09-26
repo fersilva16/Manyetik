@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
@@ -11,7 +12,7 @@ public class Sign : MonoBehaviour
   private TMP_Text text;
 
   [SerializeField]
-  private string dialog;
+  private string[] dialogues;
 
   [SerializeField]
   private bool playerInRange;
@@ -24,8 +25,13 @@ public class Sign : MonoBehaviour
     else
     {
       textBox.SetActive(true);
-      text.text = dialog;
+      text.text = dialogues[0];
     }
+  }
+
+  public void NextDialogue()
+  {
+    text.text = dialogues[1];
   }
 
   private void OnTriggerEnter2D(Collider2D collider)

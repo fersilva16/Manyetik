@@ -124,5 +124,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
   text: {fileID: 0}
-  dialog: Lava Mata
+  lettersPerSecond: 45
   playerInRange: 0
