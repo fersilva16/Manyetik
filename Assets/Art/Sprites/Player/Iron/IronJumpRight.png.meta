@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 5b716e0e6e9730244b9928b1a7dc0cb5
+guid: 221ee0a9fd04a844c939ea8fc8cc540f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2343337419991853995
-    second: IronJumpRight_0
+      213: -4863151633207965300
+    second: spr_jump5_fix_0
   - first:
-      213: 8306014750751204319
-    second: IronJumpRight_1
+      213: -4976771453422500909
+    second: spr_jump5_fix_1
   - first:
-      213: 5671216397984482655
-    second: IronJumpRight_2
+      213: -8850163297757698466
+    second: spr_jump5_fix_2
   - first:
-      213: 2481235424489725229
-    second: IronJumpRight_3
+      213: 1007333509576994565
+    second: spr_jump5_fix_3
   - first:
-      213: -1453682725151550871
-    second: IronJumpRight_4
+      213: -6485627916412437413
+    second: spr_jump5_fix_4
   - first:
-      213: 2071949280186243304
-    second: IronJumpRight_5
+      213: 5649863266774760150
+    second: spr_jump5_fix_5
   - first:
-      213: 2363478278452032943
-    second: IronJumpRight_6
+      213: -205884230124372531
+    second: spr_jump5_fix_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IronJumpRight_0
+      name: spr_jump5_fix_0
       rect:
         serializedVersion: 2
         x: 0
@@ -150,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: babae7bc7f4358020800000000000000
-      internalID: 2343337419991853995
+      spriteID: c8947cd0b5d928cb0800000000000000
+      internalID: -4863151633207965300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_1
+      name: spr_jump5_fix_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -171,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd32ead9864e44370800000000000000
-      internalID: 8306014750751204319
+      spriteID: 3d3827e2bb4feeab0800000000000000
+      internalID: -4976771453422500909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_2
+      name: spr_jump5_fix_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -192,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f554c3e344534be40800000000000000
-      internalID: 5671216397984482655
+      spriteID: e56e3f0fe57ed2580800000000000000
+      internalID: -8850163297757698466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_3
+      name: spr_jump5_fix_3
       rect:
         serializedVersion: 2
         x: 0
@@ -213,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d53d0f87e1f6220800000000000000
-      internalID: 2481235424489725229
+      spriteID: 50f2fa86d74cafd00800000000000000
+      internalID: 1007333509576994565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_4
+      name: spr_jump5_fix_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -234,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 962583f634b73dbe0800000000000000
-      internalID: -1453682725151550871
+      spriteID: b5c31e8b5cb6ef5a0800000000000000
+      internalID: -6485627916412437413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_5
+      name: spr_jump5_fix_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -255,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8902684ea01cc10800000000000000
-      internalID: 2071949280186243304
+      spriteID: 6da33a5f4b8586e40800000000000000
+      internalID: 5649863266774760150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_6
+      name: spr_jump5_fix_6
       rect:
         serializedVersion: 2
         x: 0
@@ -276,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa53c75d8f2ccc020800000000000000
-      internalID: 2363478278452032943
+      spriteID: dcdf49e226d842df0800000000000000
+      internalID: -205884230124372531
       vertices: []
       indices: 
       edges: []

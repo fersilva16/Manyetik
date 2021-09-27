@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 67afd394b3bd1cd4a9d618729179550f
+guid: 70a3166a6d49269459e26f193e5d04c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1264904319050022330
-    second: InvertedJumpLeft_0
+      213: -8890641348306671835
+    second: Lava_0
   - first:
-      213: 6796096945411294212
-    second: InvertedJumpLeft_1
+      213: -5019001754007818968
+    second: Lava_1
   - first:
-      213: -6602581439497332588
-    second: InvertedJumpLeft_2
+      213: -5565025032182250017
+    second: Lava_2
   - first:
-      213: 4768013044578435590
-    second: InvertedJumpLeft_3
-  - first:
-      213: -7392408937513418596
-    second: InvertedJumpLeft_4
-  - first:
-      213: -3150526668151145516
-    second: InvertedJumpLeft_5
-  - first:
-      213: -9197460352428396967
-    second: InvertedJumpLeft_6
+      213: -1197930168363157543
+    second: Lava_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +58,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 380
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,148 +127,125 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: InvertedJumpLeft_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: abd75d3c6c7dd8110800000000000000
-      internalID: 1264904319050022330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_1
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4048b522a26905e50800000000000000
-      internalID: 6796096945411294212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_2
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4989c2aa92bee54a0800000000000000
-      internalID: -6602581439497332588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 602c68e1a926b2240800000000000000
-      internalID: 4768013044578435590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_4
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c90071dec33e86990800000000000000
-      internalID: -7392408937513418596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_5
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4dbb47100b41744d0800000000000000
-      internalID: -3150526668151145516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: InvertedJumpLeft_6
+      name: Lava_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: -15}
+        - {x: 0, y: -15}
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
       tessellationDetail: 0
       bones: []
-      spriteID: 95e24c92a8e0c5080800000000000000
-      internalID: -9197460352428396967
+      spriteID: 527e7c06cc81e9480800000000000000
+      internalID: -8890641348306671835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: -15}
+        - {x: 0, y: -15}
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d2d4d1f7ce85ab0800000000000000
+      internalID: -5019001754007818968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: -15}
+        - {x: 0, y: -15}
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5ce9ec73f05c2b0800000000000000
+      internalID: -5565025032182250017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lava_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -16}
+        - {x: 1, y: -16}
+        - {x: 1, y: -15}
+        - {x: 0, y: -15}
+      - - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+        - {x: 0, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d77df8dbd8106fe0800000000000000
+      internalID: -1197930168363157543
       vertices: []
       indices: 
       edges: []
