@@ -64,14 +64,14 @@ public class PlayerController : MonoBehaviour
     Move();
   }
 
-  private void OnTriggerEnter2D(Collider2D collision)
+  private void OnTriggerEnter2D(Collider2D other)
   {
-    if (collision.gameObject.layer == fireLayer) ChangeMagnetized(false);
+    if (other.gameObject.layer == fireLayer) ChangeMagnetized(false);
   }
 
-  private void OnCollisionEnter2D(Collision2D collision)
+  private void OnCollisionEnter2D(Collision2D other)
   {
-    if (collision.gameObject.layer == magnetiteLayer) ChangeMagnetized(true);
+    if (other.gameObject.layer == magnetiteLayer) ChangeMagnetized(true);
   }
 
   public void OnMovementInput(InputAction.CallbackContext context)

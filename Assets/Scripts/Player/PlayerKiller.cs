@@ -11,14 +11,8 @@ public class PlayerKiller : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D other)
   {
-    if(other.tag == "Lava")
-    {
-      transform.position = respawnPoint;
-    }
+    if (other.CompareTag("Lava")) transform.position = respawnPoint;
 
-    if(other.tag == "Checkpoint")
-    {
-      respawnPoint = other.transform.position;
-    }
+    if (other.CompareTag("Checkpoint")) respawnPoint = other.transform.position;
   }
 }

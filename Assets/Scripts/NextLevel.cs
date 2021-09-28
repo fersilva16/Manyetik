@@ -18,13 +18,13 @@ public class NextLevel : MonoBehaviour
     SceneManager.LoadScene(scene);
   }
 
-  private void OnTriggerEnter2D(Collider2D collider)
+  private void OnTriggerEnter2D(Collider2D other)
   {
-    if (collider.CompareTag("Player")) playerInRange = true;
+    if (other.CompareTag("Player")) playerInRange = true;
   }
 
-  private void OnTriggerExit2D(Collider2D collider)
+  private void OnTriggerExit2D(Collider2D other)
   {
-    playerInRange = false;
+    if (other.CompareTag("Player")) playerInRange = false;
   }
 }

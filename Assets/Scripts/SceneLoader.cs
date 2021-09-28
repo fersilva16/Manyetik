@@ -17,9 +17,9 @@ public class SceneLoader : MonoBehaviour
   [SerializeField]
   private bool nextScene;
 
-  private void OnCollisionEnter2D(Collision2D collider)
+  private void OnCollisionEnter2D(Collision2D other)
   {
-    if (collider.gameObject.CompareTag("Player")) LoadNextScene();
+    if (other.gameObject.CompareTag("Player")) LoadNextScene();
   }
 
   public void LoadNextScene()
