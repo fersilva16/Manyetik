@@ -90,8 +90,8 @@ public class PlayerController : MonoBehaviour
   {
     animator.Inverted = !animator.Inverted;
 
-    SwitchPoleLayer(north);
-    SwitchPoleLayer(south);
+    // SwitchPoleLayer(north);
+    // SwitchPoleLayer(south);
   }
 
   private void CheckGrounded()
