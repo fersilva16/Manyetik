@@ -1,32 +1,34 @@
 using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine;
 
 public class VolumeController : MonoBehaviour
 {
   [SerializeField]
-  private Slider volumeSilder;
+  private Slider slider;
 
-  private void Start()
+  [SerializeField]
+  private AudioMixer mixer;
+
+  [SerializeField]
+  private string volumeParameter = "MasterVolume";
+
+  [SerializeField]
+  private float multiplier = 30f;
+
+  private void Awake()
   {
-    if (!PlayerPrefs.HasKey("soundVolume")) PlayerPrefs.SetFloat("soundVolume", 1);
-
-    Load();
+    slider.onValueChanged.AddListener(HandleSliderValueChanged);
+    slider.value = PlayerPrefs.GetFloat(volumeParameter, slider.value);
   }
 
-  public void ChangeVolume()
+  public void OnDisable()
   {
-    AudioListener.volume = volumeSilder.value;
-
-    Save();
+    PlayerPrefs.SetFloat(volumeParameter, slider.value);
   }
 
-  private void Load()
+  private void HandleSliderValueChanged(float value)
   {
-    volumeSilder.value = PlayerPrefs.GetFloat("soundVolume");
-  }
-
-  private void Save()
-  {
-    PlayerPrefs.SetFloat("soundVolume", volumeSilder.value);
+    mixer.SetFloat(volumeParameter, Mathf.Log10(value) * multiplier);
   }
 }

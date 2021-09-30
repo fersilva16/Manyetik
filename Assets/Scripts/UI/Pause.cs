@@ -7,30 +7,30 @@ public class Pause : MonoBehaviour
   public static bool GameisPaused = false;
 
   [SerializeField]
-  private GameObject pausePanel;
+  private GameObject pauseMenu;
 
   public void OnGamePaused(InputAction.CallbackContext context)
   {
     if (GameisPaused)
     {
-        Resume();
+      Resume();
     }
     else
     {
-        Paused();
+      Paused();
     }
   }
 
   public void Resume()
   {
-    pausePanel.SetActive(false);
+    pauseMenu.SetActive(false);
     Time.timeScale = 1f;
     GameisPaused = false;
   }
 
   public void Paused()
   {
-    pausePanel.SetActive(true);
+    pauseMenu.SetActive(true);
     Time.timeScale = 0f;
     GameisPaused = true;
   }
