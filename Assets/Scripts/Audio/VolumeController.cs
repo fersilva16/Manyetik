@@ -16,10 +16,9 @@ public class VolumeController : MonoBehaviour
   [SerializeField]
   private float multiplier = 30f;
 
-  private void Awake()
+  public void Awake()
   {
     slider.onValueChanged.AddListener(HandleSliderValueChanged);
-    slider.value = PlayerPrefs.GetFloat(volumeParameter, slider.value);
   }
 
   public void OnDisable()
@@ -30,5 +29,10 @@ public class VolumeController : MonoBehaviour
   private void HandleSliderValueChanged(float value)
   {
     mixer.SetFloat(volumeParameter, Mathf.Log10(value) * multiplier);
+  }
+
+  private void Start()
+  {
+    slider.value = PlayerPrefs.GetFloat(volumeParameter, slider.value);
   }
 }

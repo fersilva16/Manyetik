@@ -7,13 +7,16 @@ public class VolumeMenu : MonoBehaviour
   [SerializeField]
   private GameObject volumeMenu;
 
+  [SerializeField]
+  private Animator animationVM;
+
   public void SoundMenu()
   {
-    volumeMenu.SetActive(true);
+    animationVM.SetTrigger("Open");
   }
 
   public void Back()
   {
-    volumeMenu.SetActive(false);
+    animationVM.SetTrigger("Close");
   }
 }
