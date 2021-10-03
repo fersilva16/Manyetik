@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff74aa1b99a8b5240bd094def2deadce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lavaLayer: 11
+  respawnPoint: {x: 0, y: 0, z: 0}
 --- !u!82 &5429177782764830426
 AudioSource:
   m_ObjectHideFlags: 0

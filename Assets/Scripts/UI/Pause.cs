@@ -9,6 +9,9 @@ public class Pause : MonoBehaviour
   [SerializeField]
   private GameObject pauseMenu;
 
+  [SerializeField]
+  private Animator animationPM;
+
   public void OnGamePaused(InputAction.CallbackContext context)
   {
     if (GameisPaused)
@@ -23,14 +26,14 @@ public class Pause : MonoBehaviour
 
   public void Resume()
   {
-    pauseMenu.SetActive(false);
+    animationPM.SetTrigger("Close");
     Time.timeScale = 1f;
     GameisPaused = false;
   }
 
   public void Paused()
   {
-    pauseMenu.SetActive(true);
+    animationPM.SetTrigger("Open");
     Time.timeScale = 0f;
     GameisPaused = true;
   }
