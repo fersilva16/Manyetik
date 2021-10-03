@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
@@ -9,29 +11,44 @@ public class Sign : MonoBehaviour
   private GameObject textBox;
 
   [SerializeField]
-  private TMP_Text text;
+  private TMP_Text textMP;
 
   [SerializeField]
-  private string[] dialogues;
+  private string dialogueText;
+
+  private string currentText = "";
+
+  [SerializeField]
+  private float delay = 0.1f;
 
   [SerializeField]
   private bool playerInRange;
 
   public void OnInteractInput(InputAction.CallbackContext context)
   {
-    if (!playerInRange) return;
+    if (!playerInRange)
+    {
+      textBox.SetActive(false);
+      StopCoroutine(TypewritterEffect());
+    }
 
     if (textBox.activeInHierarchy) textBox.SetActive(false);
     else
     {
       textBox.SetActive(true);
-      text.text = dialogues[0];
+      textMP.text = dialogueText;
+      StartCoroutine(TypewritterEffect());
     }
   }
 
-  public void NextDialogue()
+  IEnumerator TypewritterEffect()
   {
-    text.text = dialogues[1];
+    for(int i = 0; i < dialogueText.Length; i++)
+    {
+      currentText = dialogueText.Substring(0,i);
+      textMP.text = currentText;
+      yield return new WaitForSeconds(delay);
+    }
   }
 
   private void OnTriggerEnter2D(Collider2D other)
@@ -45,6 +62,7 @@ public class Sign : MonoBehaviour
     {
       playerInRange = false;
       textBox.SetActive(false);
+      StopCoroutine(TypewritterEffect());
     }
   }
 }

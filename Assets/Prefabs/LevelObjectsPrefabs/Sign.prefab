@@ -123,6 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textBox: {fileID: 0}
-  text: {fileID: 0}
-  lettersPerSecond: 45
+  textMP: {fileID: 0}
+  dialogueText: 
+  delay: 0.05
   playerInRange: 0
