@@ -50,25 +50,29 @@ public class MagnetManager : MonoBehaviour
     var colliderOffset = new Vector2(0, colliderSize.y / 2);
     var colliderMask = negativeMask;
 
-    var forceAngle = 90;
+    var forceAngle = tile.GetPoleType() == PoleType.Positive ? -90 : 90;
 
     switch (tile.GetDirection())
     {
       case MagnetDirection.South:
         colliderMask = positiveMask;
-        forceAngle = -90;
+        forceAngle = tile.GetPoleType() == PoleType.Positive ? 90 : -90;
         pole.transform.Rotate(0, 0, 180);
         break;
-      // case MagnetDirection.West:
-      //   colliderOffset = -colliderSize / 2;
-      //   collider2D.direction = CapsuleDirection2D.Vertical;
-      //   pole.transform.Rotate(0, 0, -90);
-      //   break;
-      // case MagnetDirection.East:
-      //   colliderOffset = colliderSize / 2;
-      //   collider2D.direction = CapsuleDirection2D.Vertical;
-      //   pole.transform.Rotate(0, 0, 90);
-      //   break;
+      case MagnetDirection.West:
+        colliderSize.x *= 1.2f;
+        colliderSize.y *= 2;
+        colliderMask = positiveMask;
+        forceAngle = tile.GetPoleType() == PoleType.Positive ? 90 : -90;
+        pole.transform.Rotate(0, 0, 90);
+        break;
+      case MagnetDirection.East:
+        colliderSize.x *= 1.2f;
+        colliderSize.y *= 2;
+        colliderMask = positiveMask;
+        forceAngle = tile.GetPoleType() == PoleType.Positive ? 90 : -90;
+        pole.transform.Rotate(0, 0, -90);
+        break;
     }
 
     collider2D.isTrigger = true;
@@ -80,8 +84,6 @@ public class MagnetManager : MonoBehaviour
     effector2D.colliderMask = colliderMask;
     effector2D.forceAngle = forceAngle;
     effector2D.forceMagnitude = force;
-
-    if (tile.GetPoleType() == PoleType.Positive) effector2D.forceAngle *= -1;
 
     pole.transform.SetParent(transform);
     pole.transform.localPosition = (Vector2Int) bounds.min + ((Vector2)size / 2);
