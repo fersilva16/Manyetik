@@ -590,8 +590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f879da4338cee4ab06592bcd7889a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkpointReached: 0
-  animationCheckpoint: {fileID: 255467851}
 --- !u!61 &255467853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -658,7 +656,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8887101710879925722, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
+  m_Sprite: {fileID: 5555020963851802720, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12656,11 +12654,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5786904331577196762, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6
+      value: -1.31
       objectReference: {fileID: 0}
     - target: {fileID: 5786904331577196762, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -1.86
       objectReference: {fileID: 0}
     - target: {fileID: 5786904331577196762, guid: 13ebc74ad9483c241b58e6a4b7c5e66b, type: 3}
       propertyPath: m_LocalPosition.z

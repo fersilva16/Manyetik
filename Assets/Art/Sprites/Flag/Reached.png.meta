@@ -1,43 +1,31 @@
 fileFormatVersion: 2
-guid: 7b2444183ea46574caf5a19d851bbedb
+guid: 16b6b6a6e16634f4d9b8a0103d70642a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8887101710879925722
-    second: "Transi\xE7\xE3oBandeira_0"
+      213: 5555020963851802720
+    second: BandeiraVerde_0
   - first:
-      213: 5083254941838853159
-    second: "Transi\xE7\xE3oBandeira_1"
+      213: -3573884413500380615
+    second: BandeiraVerde_1
   - first:
-      213: 5358747926136327523
-    second: "Transi\xE7\xE3oBandeira_2"
+      213: 7506761672211962878
+    second: BandeiraVerde_2
   - first:
-      213: -7126857830151382032
-    second: "Transi\xE7\xE3oBandeira_3"
+      213: 4000071471292588610
+    second: BandeiraVerde_3
   - first:
-      213: -2524187458928023169
-    second: "Transi\xE7\xE3oBandeira_4"
+      213: -3192863891003973776
+    second: BandeiraVerde_4
   - first:
-      213: -5840612677094500578
-    second: "Transi\xE7\xE3oBandeira_5"
+      213: 8406400955156002293
+    second: BandeiraVerde_5
   - first:
-      213: -7373659898283806753
-    second: "Transi\xE7\xE3oBandeira_6"
+      213: -2074868562889591370
+    second: BandeiraVerde_6
   - first:
-      213: 5366671440977266291
-    second: "Transi\xE7\xE3oBandeira_7"
-  - first:
-      213: 894816385851251979
-    second: "Transi\xE7\xE3oBandeira_8"
-  - first:
-      213: 8497650747539194165
-    second: "Transi\xE7\xE3oBandeira_9"
-  - first:
-      213: -3905630278110717751
-    second: "Transi\xE7\xE3oBandeira_10"
-  - first:
-      213: -4949552762067492555
-    second: "Transi\xE7\xE3oBandeira_11"
+      213: 7248687711322918993
+    second: BandeiraVerde_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,35 +111,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_0"
+      name: BandeiraVerde_0
       rect:
         serializedVersion: 2
         x: 0
@@ -165,14 +129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62a5c30741caaa480800000000000000
-      internalID: -8887101710879925722
+      spriteID: 0681c368226671d40800000000000000
+      internalID: 5555020963851802720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_1"
+      name: BandeiraVerde_1
       rect:
         serializedVersion: 2
         x: 32
@@ -186,14 +150,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 724cd07ff695b8640800000000000000
-      internalID: 5083254941838853159
+      spriteID: 93a2109af03076ec0800000000000000
+      internalID: -3573884413500380615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_2"
+      name: BandeiraVerde_2
       rect:
         serializedVersion: 2
         x: 64
@@ -207,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36d8732d8d81e5a40800000000000000
-      internalID: 5358747926136327523
+      spriteID: efb16b5e7ff5d2860800000000000000
+      internalID: 7506761672211962878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_3"
+      name: BandeiraVerde_3
       rect:
         serializedVersion: 2
         x: 96
@@ -228,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fb9d1d2090581d90800000000000000
-      internalID: -7126857830151382032
+      spriteID: 242a1925fcb138730800000000000000
+      internalID: 4000071471292588610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_4"
+      name: BandeiraVerde_4
       rect:
         serializedVersion: 2
         x: 128
@@ -249,14 +213,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f79691c31e848fcd0800000000000000
-      internalID: -2524187458928023169
+      spriteID: 07f5988253ba0b3d0800000000000000
+      internalID: -3192863891003973776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_5"
+      name: BandeiraVerde_5
       rect:
         serializedVersion: 2
         x: 160
@@ -270,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17932f07b9f1fea0800000000000000
-      internalID: -5840612677094500578
+      spriteID: 5f5f393312989a470800000000000000
+      internalID: 8406400955156002293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_6"
+      name: BandeiraVerde_6
       rect:
         serializedVersion: 2
         x: 192
@@ -291,14 +255,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdf204cc36f7ba990800000000000000
-      internalID: -7373659898283806753
+      spriteID: 6b5375109069433e0800000000000000
+      internalID: -2074868562889591370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_7"
+      name: BandeiraVerde_7
       rect:
         serializedVersion: 2
         x: 224
@@ -312,92 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3760fa1ed3f3a7a40800000000000000
-      internalID: 5366671440977266291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_8"
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0ddcd113c60b6c00800000000000000
-      internalID: 894816385851251979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_9"
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53108681558bde570800000000000000
-      internalID: 8497650747539194165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_10"
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c8533974f96cc9c0800000000000000
-      internalID: -3905630278110717751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "Transi\xE7\xE3oBandeira_11"
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 531e9eb9cf7af4bb0800000000000000
-      internalID: -4949552762067492555
+      spriteID: 15054297113889460800000000000000
+      internalID: 7248687711322918993
       vertices: []
       indices: 
       edges: []

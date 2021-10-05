@@ -1,25 +1,64 @@
 fileFormatVersion: 2
-guid: b7ce81dcdba6fd443914048e82fd6f69
+guid: 7b2444183ea46574caf5a19d851bbedb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5713481699529555663
-    second: BanseiraVerde_0
+      213: -8887101710879925722
+    second: "Transi\xE7\xE3oBandeira_0"
   - first:
-      213: 4360715458651240849
-    second: BanseiraVerde_1
+      213: 5083254941838853159
+    second: "Transi\xE7\xE3oBandeira_1"
   - first:
-      213: -7089628585024623752
-    second: BanseiraVerde_2
+      213: 5358747926136327523
+    second: "Transi\xE7\xE3oBandeira_2"
   - first:
-      213: -7331039026138822011
-    second: BanseiraVerde_3
+      213: -7126857830151382032
+    second: "Transi\xE7\xE3oBandeira_3"
   - first:
-      213: 5407951940423061458
-    second: BanseiraVerde_4
+      213: -2524187458928023169
+    second: "Transi\xE7\xE3oBandeira_4"
   - first:
-      213: -1131425343636555448
-    second: BanseiraVerde_5
+      213: -5840612677094500578
+    second: "Transi\xE7\xE3oBandeira_5"
+  - first:
+      213: -7373659898283806753
+    second: "Transi\xE7\xE3oBandeira_6"
+  - first:
+      213: 5366671440977266291
+    second: "Transi\xE7\xE3oBandeira_7"
+  - first:
+      213: 894816385851251979
+    second: "Transi\xE7\xE3oBandeira_8"
+  - first:
+      213: 8497650747539194165
+    second: "Transi\xE7\xE3oBandeira_9"
+  - first:
+      213: -3905630278110717751
+    second: "Transi\xE7\xE3oBandeira_10"
+  - first:
+      213: -4949552762067492555
+    second: "Transi\xE7\xE3oBandeira_11"
+  - first:
+      213: -308361656066796550
+    second: Transition_0
+  - first:
+      213: -7424878231080687243
+    second: Transition_1
+  - first:
+      213: -7418211097746893002
+    second: Transition_2
+  - first:
+      213: -5120422719492145513
+    second: Transition_3
+  - first:
+      213: 6212022559610932868
+    second: Transition_4
+  - first:
+      213: -8219102590544873945
+    second: Transition_5
+  - first:
+      213: -591642128365420483
+    second: Transition_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +172,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BanseiraVerde_0
+      name: Transition_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fce772b955d5a4f40800000000000000
-      internalID: 5713481699529555663
+      spriteID: af399c325ba78bbf0800000000000000
+      internalID: -308361656066796550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanseiraVerde_1
+      name: Transition_1
       rect:
         serializedVersion: 2
         x: 32
@@ -168,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19936770b9f548c30800000000000000
-      internalID: 4360715458651240849
+      spriteID: 579a7e7669885f890800000000000000
+      internalID: -7424878231080687243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanseiraVerde_2
+      name: Transition_2
       rect:
         serializedVersion: 2
         x: 64
@@ -189,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87be6284d549c9d90800000000000000
-      internalID: -7089628585024623752
+      spriteID: 6379fe95f483d0990800000000000000
+      internalID: -7418211097746893002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanseiraVerde_3
+      name: Transition_3
       rect:
         serializedVersion: 2
         x: 96
@@ -210,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58a4874e8dae24a90800000000000000
-      internalID: -7331039026138822011
+      spriteID: 79eb4d07aaa90f8b0800000000000000
+      internalID: -5120422719492145513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanseiraVerde_4
+      name: Transition_4
       rect:
         serializedVersion: 2
         x: 128
@@ -231,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df0d4323a7ec0b40800000000000000
-      internalID: 5407951940423061458
+      spriteID: 48e8252fa99853650800000000000000
+      internalID: 6212022559610932868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BanseiraVerde_5
+      name: Transition_5
       rect:
         serializedVersion: 2
         x: 160
@@ -252,8 +291,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8493baef4ae5c40f0800000000000000
-      internalID: -1131425343636555448
+      spriteID: 72674169db1efed80800000000000000
+      internalID: -8219102590544873945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Transition_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d308f907e901ac7f0800000000000000
+      internalID: -591642128365420483
       vertices: []
       indices: 
       edges: []
