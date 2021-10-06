@@ -48,6 +48,20 @@ public class PlayerController : MonoBehaviour
 
   private float groundDistance;
 
+  private void OnEnable()
+  {
+    InputManager.Movement += OnMovementInput;
+    InputManager.Jump += OnJumpInput;
+    InputManager.Invert += OnInvertInput;
+  }
+
+  private void OnDisable()
+  {
+    InputManager.Movement -= OnMovementInput;
+    InputManager.Jump -= OnJumpInput;
+    InputManager.Invert -= OnInvertInput;
+  }
+
   private void Start()
   {
     animator = GetComponent<PlayerAnimator>();

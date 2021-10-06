@@ -26,6 +26,9 @@ public class MagnetManager : MonoBehaviour
 
   private List<GameObject> gameObjects = new List<GameObject>();
 
+  private void OnEnable() => InputManager.Invert += OnInvertInput;
+  private void OnDisable() => InputManager.Invert -= OnInvertInput;
+
   private void Awake()
   {
     transform.position = tilemap.localBounds.min;
@@ -91,7 +94,7 @@ public class MagnetManager : MonoBehaviour
     gameObjects.Add(pole);
   }
 
-  public void OnInvertInput(InputAction.CallbackContext _)
+  private void OnInvertInput(InputAction.CallbackContext _)
   {
     foreach (var gameObject in gameObjects)
     {

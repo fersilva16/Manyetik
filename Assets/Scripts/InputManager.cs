@@ -1,26 +1,16 @@
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
-  [Header("Events")]
-  [SerializeField]
-  private UnityEvent<InputAction.CallbackContext> Movement;
+  public static event Action<InputAction.CallbackContext> Movement;
+  public static event Action<InputAction.CallbackContext> Jump;
+  public static event Action<InputAction.CallbackContext> Invert;
+  public static event Action<InputAction.CallbackContext> Interact;
+  public static event Action<InputAction.CallbackContext> Menu;
 
-  [SerializeField]
-  private UnityEvent<InputAction.CallbackContext> Jump;
-
-  [SerializeField]
-  private UnityEvent<InputAction.CallbackContext> Invert;
-
-  [SerializeField]
-  private UnityEvent<InputAction.CallbackContext> Interact;
-
-  [SerializeField]
-  private UnityEvent<InputAction.CallbackContext> Menu;
-
-  public GameInputs inputs;
+  private GameInputs inputs;
 
   private void OnEnable()
   {
@@ -31,21 +21,27 @@ public class InputManager : MonoBehaviour
       inputs.Player.Enable();
     }
 
-    inputs.Player.Movement.started += Movement.Invoke;
-    inputs.Player.Movement.canceled += Movement.Invoke;
-    inputs.Player.Jump.performed += Jump.Invoke;
-    inputs.Player.Invert.performed += Invert.Invoke;
-    inputs.Player.Interact.performed += Interact.Invoke;
-    inputs.Player.Menu.performed += Menu.Invoke;
+    inputs.Player.Movement.started += OnMovement;
+    inputs.Player.Movement.canceled += OnMovement;
+    inputs.Player.Jump.performed += OnJump;
+    inputs.Player.Invert.performed += OnInvert;
+    inputs.Player.Interact.performed += OnInteract;
+    inputs.Player.Menu.performed += OnMenu;
   }
 
   private void OnDisable()
   {
-    inputs.Player.Movement.started -= Movement.Invoke;
-    inputs.Player.Movement.canceled -= Movement.Invoke;
-    inputs.Player.Jump.performed -= Jump.Invoke;
-    inputs.Player.Invert.performed -= Invert.Invoke;
-    inputs.Player.Interact.performed -= Interact.Invoke;
-    inputs.Player.Menu.performed -= Menu.Invoke;
+    inputs.Player.Movement.started -= OnMovement;
+    inputs.Player.Movement.canceled -= OnMovement;
+    inputs.Player.Jump.performed -= OnJump;
+    inputs.Player.Invert.performed -= OnInvert;
+    inputs.Player.Interact.performed -= OnInteract;
+    inputs.Player.Menu.performed -= OnMenu;
   }
+
+  private void OnMovement(InputAction.CallbackContext context) => Movement?.Invoke(context);
+  private void OnJump(InputAction.CallbackContext context) => Jump?.Invoke(context);
+  private void OnInvert(InputAction.CallbackContext context) => Invert?.Invoke(context);
+  private void OnInteract(InputAction.CallbackContext context) => Interact?.Invoke(context);
+  private void OnMenu(InputAction.CallbackContext context) => Menu?.Invoke(context);
 }

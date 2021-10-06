@@ -24,7 +24,10 @@ public class Sign : MonoBehaviour
   [SerializeField]
   private bool playerInRange;
 
-  public void OnInteractInput(InputAction.CallbackContext context)
+  private void OnEnable() => InputManager.Interact += OnInteractInput;
+  private void OnDisable() => InputManager.Interact -= OnInteractInput;
+
+  private void OnInteractInput(InputAction.CallbackContext context)
   {
     if (!playerInRange)
     {

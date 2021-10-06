@@ -11,12 +11,8 @@ public class NextLevel : MonoBehaviour
   [SerializeField]
   private bool playerInRange;
 
-  public void OnNextLevelInput(InputAction.CallbackContext context)
-  {
-    if (!playerInRange) return;
-
-    SceneManager.LoadScene(scene);
-  }
+  private void OnEnable() => InputManager.Interact += OnInteractInput;
+  private void OnDisable() => InputManager.Interact -= OnInteractInput;
 
   private void OnTriggerEnter2D(Collider2D other)
   {
@@ -26,5 +22,12 @@ public class NextLevel : MonoBehaviour
   private void OnTriggerExit2D(Collider2D other)
   {
     if (other.CompareTag("Player")) playerInRange = false;
+  }
+
+  private void OnInteractInput(InputAction.CallbackContext context)
+  {
+    if (!playerInRange) return;
+
+    SceneManager.LoadScene(scene);
   }
 }
