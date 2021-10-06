@@ -6,12 +6,14 @@ public class PlayerKiller : MonoBehaviour
 
   private void OnEnable()
   {
-    CheckpointController.Reached += OnCheckpointReached;
+    Checkpoint.Reached += OnCheckpointReached;
+    Lava.Collided += OnLavaCollided;
   }
 
   private void OnDisable()
   {
-    CheckpointController.Reached -= OnCheckpointReached;
+    Checkpoint.Reached -= OnCheckpointReached;
+    Lava.Collided -= OnLavaCollided;
   }
 
   private void Start()
@@ -19,13 +21,13 @@ public class PlayerKiller : MonoBehaviour
     respawnPoint = transform.position;
   }
 
-  private void OnTriggerEnter2D(Collider2D other)
-  {
-    if (other.CompareTag("Lava")) transform.position = respawnPoint;
-  }
-
   private void OnCheckpointReached(Vector3 position)
   {
     respawnPoint = position;
+  }
+
+  private void OnLavaCollided()
+  {
+    transform.position = respawnPoint;
   }
 }

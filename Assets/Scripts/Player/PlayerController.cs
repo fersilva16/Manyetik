@@ -30,14 +30,6 @@ public class PlayerController : MonoBehaviour
   [Layer]
   private int negativeLayer;
 
-  [SerializeField]
-  [Layer]
-  private int fireLayer;
-
-  [SerializeField]
-  [Layer]
-  private int magnetiteLayer;
-
   private PlayerAnimator animator;
   private new BoxCollider2D collider;
   private new Rigidbody2D rigidbody2D;
@@ -53,6 +45,9 @@ public class PlayerController : MonoBehaviour
     InputManager.Movement += OnMovementInput;
     InputManager.Jump += OnJumpInput;
     InputManager.Invert += OnInvertInput;
+
+    Fire.Collided += OnFireCollided;
+    Magnetite.Collided += OnMagnetiteCollided;
   }
 
   private void OnDisable()
@@ -60,6 +55,9 @@ public class PlayerController : MonoBehaviour
     InputManager.Movement -= OnMovementInput;
     InputManager.Jump -= OnJumpInput;
     InputManager.Invert -= OnInvertInput;
+
+    Fire.Collided -= OnFireCollided;
+    Magnetite.Collided -= OnMagnetiteCollided;
   }
 
   private void Start()
@@ -78,15 +76,8 @@ public class PlayerController : MonoBehaviour
     Move();
   }
 
-  private void OnTriggerEnter2D(Collider2D other)
-  {
-    if (other.gameObject.layer == fireLayer) ChangeMagnetized(false);
-  }
-
-  private void OnCollisionEnter2D(Collision2D other)
-  {
-    if (other.gameObject.layer == magnetiteLayer) ChangeMagnetized(true);
-  }
+  private void OnFireCollided() => ChangeMagnetized(false);
+  private void OnMagnetiteCollided() => ChangeMagnetized(true);
 
   public void OnMovementInput(InputAction.CallbackContext context)
   {

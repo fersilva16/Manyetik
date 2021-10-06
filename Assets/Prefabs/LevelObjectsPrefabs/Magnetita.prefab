@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6767690646841614735}
   - component: {fileID: 6767690646841614728}
   - component: {fileID: 6767690646841614733}
+  - component: {fileID: 6720304126202656307}
   m_Layer: 9
   m_Name: Magnetita
   m_TagString: Untagged
@@ -174,3 +175,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6720304126202656307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6767690646841614731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2630796db54f6488395ad907b0d542, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

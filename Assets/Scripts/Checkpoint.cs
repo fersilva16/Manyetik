@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class CheckpointController : MonoBehaviour
+public class Checkpoint : MonoBehaviour
 {
   public static event Action<Vector3> Reached;
 
