@@ -16,12 +16,6 @@ public class Sign : MonoBehaviour
   [SerializeField]
   private string dialogueText;
 
-  private string currentText = "";
-
-  [SerializeField]
-  private float delay = 0.1f;
-
-  [SerializeField]
   private bool playerInRange;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
@@ -29,28 +23,14 @@ public class Sign : MonoBehaviour
 
   private void OnInteractInput(InputAction.CallbackContext context)
   {
-    if (!playerInRange)
-    {
-      textBox.SetActive(false);
-      StopCoroutine(TypewritterEffect());
-    }
+    if(!playerInRange)
+    return;
 
     if (textBox.activeInHierarchy) textBox.SetActive(false);
     else
     {
       textBox.SetActive(true);
       textMP.text = dialogueText;
-      StartCoroutine(TypewritterEffect());
-    }
-  }
-
-  IEnumerator TypewritterEffect()
-  {
-    for(int i = 0; i < dialogueText.Length; i++)
-    {
-      currentText = dialogueText.Substring(0,i);
-      textMP.text = currentText;
-      yield return new WaitForSeconds(delay);
     }
   }
 
@@ -65,7 +45,6 @@ public class Sign : MonoBehaviour
     {
       playerInRange = false;
       textBox.SetActive(false);
-      StopCoroutine(TypewritterEffect());
     }
   }
 }

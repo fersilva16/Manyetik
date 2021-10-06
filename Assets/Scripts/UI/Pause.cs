@@ -43,4 +43,5 @@ public class Pause : MonoBehaviour
     Time.timeScale = 1f;
     SceneManager.LoadScene("Menu");
   }
+
 }
