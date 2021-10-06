@@ -12,11 +12,11 @@ public class VolumeMenu : MonoBehaviour
 
   public void SoundMenu()
   {
-    animationVM.SetTrigger("Open");
+    animationVM.Play("VolumeMenu");
   }
 
   public void Back()
   {
-    animationVM.SetTrigger("Close");
+    animationVM.Play("VolumeMenu_2");
   }
 }

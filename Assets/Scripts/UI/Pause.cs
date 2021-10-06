@@ -23,14 +23,14 @@ public class Pause : MonoBehaviour
 
   public void Resume()
   {
-    animationPM.SetTrigger("Close");
+    animationPM.Play("PauseMenu_2");
     Time.timeScale = 1f;
     GameisPaused = false;
   }
 
   public void Paused()
   {
-    animationPM.SetTrigger("Open");
+    animationPM.Play("PauseMenu");
     Time.timeScale = 0f;
     GameisPaused = true;
   }
