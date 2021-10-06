@@ -12,16 +12,13 @@ public class Pause : MonoBehaviour
   [SerializeField]
   private Animator animationPM;
 
-  public void OnGamePaused(InputAction.CallbackContext context)
+  private void OnEnable() => InputManager.Menu += OnMenuInput;
+  private void OnDisable() => InputManager.Menu -= OnMenuInput;
+
+  private void OnMenuInput(InputAction.CallbackContext _)
   {
-    if (GameisPaused)
-    {
-      Resume();
-    }
-    else
-    {
-      Paused();
-    }
+    if (GameisPaused) Resume();
+    else Paused();
   }
 
   public void Resume()
