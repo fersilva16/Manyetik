@@ -7,19 +7,31 @@ using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
 {
+  public SignSentences singSenteces;
+
+  Queue<string> sentences;
+
+  string activeSentence;
+
   [SerializeField]
   private GameObject textBox;
-
   [SerializeField]
   private TMP_Text textMP;
 
   [SerializeField]
-  private string dialogueText;
+  private AudioSource audioSource;
+  [SerializeField]
+  private AudioClip audioClip;
 
   private bool playerInRange;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;
+
+  private void Start()
+  {
+    sentences = new Queue<string>();
+  }
 
   private void OnInteractInput(InputAction.CallbackContext context)
   {
@@ -30,8 +42,36 @@ public class Sign : MonoBehaviour
     else
     {
       textBox.SetActive(true);
-      textMP.text = dialogueText;
+      audioSource.PlayOneShot(audioClip);
+      StartDialogue();
     }
+  }
+
+  public void StartDialogue()
+  {
+    sentences.Clear();
+
+    foreach(string sentence in singSenteces.sentenceList)
+    {
+      sentences.Enqueue(sentence);
+    }
+    DisplayNextSentence();
+  }
+
+  public void DisplayNextSentence()
+  {
+    if(sentences.Count <= 0)
+    {
+      textMP.text = activeSentence;
+      return;
+    }
+    else
+    {
+      textBox.SetActive(false);
+    }
+
+    activeSentence = sentences.Dequeue();
+    textMP.text = activeSentence;
   }
 
   private void OnTriggerEnter2D(Collider2D other)

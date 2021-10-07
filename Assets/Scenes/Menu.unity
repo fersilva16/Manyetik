@@ -218,8 +218,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Efeitos Sonoros
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -343,7 +343,6 @@ GameObject:
   - component: {fileID: 190894831}
   - component: {fileID: 190894836}
   - component: {fileID: 190894835}
-  - component: {fileID: 190894837}
   - component: {fileID: 190894838}
   m_Layer: 5
   m_Name: Canvas
@@ -479,20 +478,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 741029560}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!114 &190894837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190894830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524b32230c526764694802d0c1d43904, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeMenu: {fileID: 1962963900}
-  animationVM: {fileID: 1962963902}
 --- !u!82 &190894838
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1158,9 +1143,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 190894837}
+      - m_Target: {fileID: 1962963905}
         m_TargetAssemblyTypeName: VolumeMenu, Assembly-CSharp
-        m_MethodName: SoundMenu
+        m_MethodName: Open
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1404,8 +1389,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Master
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1826,8 +1811,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "M\xFAsica"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1960,8 +1945,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Jogar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2269,9 +2254,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 190894837}
+      - m_Target: {fileID: 1962963905}
         m_TargetAssemblyTypeName: VolumeMenu, Assembly-CSharp
-        m_MethodName: Back
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2479,8 +2464,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Volume
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2613,8 +2598,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Voltar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
-  m_sharedMaterial: {fileID: 2276525944592474948, guid: 14786cbf1dae74e4388116d512be8e3d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 621e2a433f25207418efa706b656afc0, type: 2}
+  m_sharedMaterial: {fileID: 543180844631446370, guid: 621e2a433f25207418efa706b656afc0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3106,6 +3091,7 @@ GameObject:
   - component: {fileID: 1962963904}
   - component: {fileID: 1962963903}
   - component: {fileID: 1962963902}
+  - component: {fileID: 1962963905}
   m_Layer: 5
   m_Name: VolumeMenu
   m_TagString: Untagged
@@ -3193,6 +3179,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962963900}
   m_CullTransparentMesh: 1
+--- !u!114 &1962963905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962963900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524b32230c526764694802d0c1d43904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065437204
 GameObject:
   m_ObjectHideFlags: 0
