@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
@@ -35,8 +33,7 @@ public class Sign : MonoBehaviour
 
   private void OnInteractInput(InputAction.CallbackContext context)
   {
-    if(!playerInRange)
-    return;
+    if(!playerInRange) return;
 
     if (textBox.activeInHierarchy) textBox.SetActive(false);
     else
@@ -55,6 +52,7 @@ public class Sign : MonoBehaviour
     {
       sentences.Enqueue(sentence);
     }
+
     DisplayNextSentence();
   }
 
@@ -65,10 +63,6 @@ public class Sign : MonoBehaviour
       textMP.text = activeSentence;
       return;
     }
-    else
-    {
-      textBox.SetActive(false);
-    }
 
     activeSentence = sentences.Dequeue();
     textMP.text = activeSentence;
@@ -76,12 +70,12 @@ public class Sign : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D other)
   {
-    if (other.CompareTag("Player")) playerInRange = true;
+    if (other.CompareTag("Player") && !other.isTrigger) playerInRange = true;
   }
 
   private void OnTriggerExit2D(Collider2D other)
   {
-    if (other.CompareTag("Player"))
+    if (other.CompareTag("Player") && !other.isTrigger)
     {
       playerInRange = false;
       textBox.SetActive(false);
