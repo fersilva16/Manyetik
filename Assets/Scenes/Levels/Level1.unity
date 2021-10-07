@@ -551,6 +551,7 @@ GameObject:
   - component: {fileID: 260050702}
   - component: {fileID: 260050701}
   - component: {fileID: 260050703}
+  - component: {fileID: 260050704}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -637,6 +638,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &260050704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260050699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a0402024d710045b5fe699d2da4bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &302641066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,8 +2370,6 @@ GameObject:
   - component: {fileID: 631757492}
   - component: {fileID: 631757497}
   - component: {fileID: 631757496}
-  - component: {fileID: 631757498}
-  - component: {fileID: 631757499}
   - component: {fileID: 631757500}
   m_Layer: 5
   m_Name: Canvas
@@ -2492,34 +2503,6 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
---- !u!114 &631757498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631757491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33a0402024d710045b5fe699d2da4bb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 260050699}
-  animationPM: {fileID: 260050703}
---- !u!114 &631757499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 631757491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 524b32230c526764694802d0c1d43904, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeMenu: {fileID: 1932710803}
-  animationVM: {fileID: 1932710805}
 --- !u!82 &631757500
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3491,9 +3474,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 631757499}
+      - m_Target: {fileID: 1932710808}
         m_TargetAssemblyTypeName: VolumeMenu, Assembly-CSharp
-        m_MethodName: SoundMenu
+        m_MethodName: Open
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4001,8 +3984,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 631757498}
-        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+      - m_Target: {fileID: 260050704}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
         m_Arguments:
@@ -11960,9 +11943,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 631757499}
+      - m_Target: {fileID: 1932710808}
         m_TargetAssemblyTypeName: VolumeMenu, Assembly-CSharp
-        m_MethodName: Back
+        m_MethodName: Close
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12123,6 +12106,7 @@ GameObject:
   - component: {fileID: 1932710807}
   - component: {fileID: 1932710806}
   - component: {fileID: 1932710805}
+  - component: {fileID: 1932710808}
   m_Layer: 5
   m_Name: VolumeMenu
   m_TagString: Untagged
@@ -12210,6 +12194,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932710803}
   m_CullTransparentMesh: 1
+--- !u!114 &1932710808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932710803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524b32230c526764694802d0c1d43904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1940625881
 GameObject:
   m_ObjectHideFlags: 0
@@ -12541,8 +12537,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 631757498}
-        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
+      - m_Target: {fileID: 260050704}
+        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
         m_Arguments:

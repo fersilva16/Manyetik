@@ -1,22 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class VolumeMenu : MonoBehaviour
 {
-  [SerializeField]
-  private GameObject volumeMenu;
+  private Animator animator;
 
-  [SerializeField]
-  private Animator animationVM;
-
-  public void SoundMenu()
+  private void Start()
   {
-    animationVM.Play("VolumeMenu");
+    animator = GetComponent<Animator>();
   }
 
-  public void Back()
+  public void Open()
   {
-    animationVM.Play("VolumeMenu_2");
+    animator.Play("Open");
   }
+
+  public void Close()
+  {
+    animator.Play("Close");
+  }
+
 }

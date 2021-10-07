@@ -2,18 +2,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
-public class Pause : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
   public static bool GameisPaused = false;
 
-  [SerializeField]
-  private GameObject pauseMenu;
-
-  [SerializeField]
-  private Animator animationPM;
+  private Animator animator;
 
   private void OnEnable() => InputManager.Menu += OnMenuInput;
   private void OnDisable() => InputManager.Menu -= OnMenuInput;
+
+  private void Start()
+  {
+    animator = GetComponent<Animator>();
+  }
 
   private void OnMenuInput(InputAction.CallbackContext _)
   {
@@ -23,14 +24,14 @@ public class Pause : MonoBehaviour
 
   public void Resume()
   {
-    animationPM.Play("PauseMenu_2");
+    animator.Play("Close");
     Time.timeScale = 1f;
     GameisPaused = false;
   }
 
   public void Paused()
   {
-    animationPM.Play("PauseMenu");
+    animator.Play("Open");
     Time.timeScale = 0f;
     GameisPaused = true;
   }
