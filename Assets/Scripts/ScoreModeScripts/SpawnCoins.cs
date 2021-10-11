@@ -9,7 +9,10 @@ public class SpawnCoins : MonoBehaviour
   private Transform spawnPoint;
 
   [SerializeField]
-  private float respawnTime = 2f;
+  private float spawnTime;
+
+  [SerializeField]
+  private float delayTime;
 
   [SerializeField]
   private GameObject coin;
@@ -19,20 +22,11 @@ public class SpawnCoins : MonoBehaviour
 
   private void OnSpawnInput(InputAction.CallbackContext context)
   {
-    StartCoroutine(MultipleSpawn());
+    InvokeRepeating("SpawnObject", spawnTime, delayTime);
   }
 
-  public void Spawn()
+  public void SpawnObject()
   {
     Instantiate(coin, spawnPoint.position, spawnPoint.rotation);
-  }
-
-  IEnumerator MultipleSpawn()
-  {
-    while(true)
-    {
-      yield return new WaitForSeconds (respawnTime);
-      Spawn();
-    }
   }
 }
