@@ -1,9 +1,9 @@
+using System;
 using UnityEngine;
 
-public class GameOver : MonoBehaviour
+public class Basket : MonoBehaviour
 {
-  [SerializeField]
-  private Animator animator;
+  public static event Action CoinDunk;
 
   private void OnTriggerEnter2D(Collider2D other)
   {
@@ -11,9 +11,7 @@ public class GameOver : MonoBehaviour
     {
       Destroy(other.gameObject);
 
-      Time.timeScale = 0f;
-
-      animator.Play("Open");
+      CoinDunk?.Invoke();
     }
   }
 }
