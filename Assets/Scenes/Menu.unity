@@ -2000,7 +2000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 387712550}
   transitionTime: 1
-  scene: ScoreLevel1
+  scene: ScoreModeLevel1
   nextScene: 0
 --- !u!114 &755351779
 MonoBehaviour:

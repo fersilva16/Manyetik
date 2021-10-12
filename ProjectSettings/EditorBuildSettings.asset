@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/Level1.unity
     guid: 8285d6d960cc69648ace53b364ddb228
   - enabled: 1
-    path: Assets/Scenes/Levels/ScoreLevel1.unity
+    path: Assets/Scenes/ScoreMode/ScoreModeLevel1.unity
     guid: 30a38ad8b79e1384e8b7b1cf5b34ced2
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 89716aff5fb5d4a44ba8f1e5f6ba9e49, type: 2}
