@@ -15,10 +15,7 @@ public class SpawnCoins : MonoBehaviour
   [SerializeField]
   private GameObject coin;
 
-  private void OnEnable() => InputManager.Interact += OnInteractInput;
-  private void OnDisable() => InputManager.Interact -= OnInteractInput;
-
-  private void OnInteractInput(InputAction.CallbackContext context)
+  private void Start()
   {
     InvokeRepeating("SpawnObject", spawnTime, delayTime);
   }
