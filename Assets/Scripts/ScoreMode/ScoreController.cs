@@ -17,18 +17,24 @@ public class ScoreController : MonoBehaviour
 
   private void Start()
   {
-    highScoreText.text = PlayerPrefs.GetInt("HighScore").ToString();
+    highScore = PlayerPrefs.GetInt("HighScore");
+
+    highScoreText.text = highScore.ToString();
   }
 
   private void OnCoinDunk()
   {
     score++;
 
-    foreach (var scoreText in scoreTexts)
-    {
-      scoreText.text = score.ToString();
-    }
+    foreach (var scoreText in scoreTexts) scoreText.text = score.ToString();
 
-    PlayerPrefs.SetInt("HighScore", score);
+    if (score > highScore)
+    {
+      highScore = score;
+
+      highScoreText.text = highScore.ToString();
+
+      PlayerPrefs.SetInt("HighScore", highScore);
+    }
   }
 }
