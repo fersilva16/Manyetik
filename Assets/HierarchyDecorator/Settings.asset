@@ -549,6 +549,12 @@ MonoBehaviour:
       shown: 0
     - name: PixelPerfectCamera
       shown: 0
+    - name: ExampleScript
+      shown: 0
+    - name: ExampleScript2
+      shown: 0
+    - name: ExampleScriptWithIcon
+      shown: 0
     - name: PlaymodeTestsController
       shown: 0
     - name: PlayModeRunnerCallback
@@ -810,12 +816,6 @@ MonoBehaviour:
     - name: SpriteShapeGeometryCache
       shown: 0
     - name: SpriteShapeController
-      shown: 0
-    - name: ExampleScript
-      shown: 0
-    - name: ExampleScript2
-      shown: 0
-    - name: ExampleScriptWithIcon
       shown: 0
     customComponents: []
     unityVersion: 2020.3.16f1
