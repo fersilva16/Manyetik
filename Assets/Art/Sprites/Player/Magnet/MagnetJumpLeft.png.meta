@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 6942677796468892157
-    second: spr_jump2_fix_0
+    second: MagnetJumpLeft_0
   - first:
       213: -3153047636660180531
-    second: spr_jump2_fix_1
+    second: MagnetJumpLeft_1
   - first:
       213: -5882314231445662578
-    second: spr_jump2_fix_2
+    second: MagnetJumpLeft_2
   - first:
       213: 3208357735536074662
-    second: spr_jump2_fix_3
+    second: MagnetJumpLeft_3
   - first:
       213: -8136027366330779956
-    second: spr_jump2_fix_4
+    second: MagnetJumpLeft_4
   - first:
       213: -5553918267128168084
-    second: spr_jump2_fix_5
+    second: MagnetJumpLeft_5
   - first:
       213: 244257175087667710
-    second: spr_jump2_fix_6
+    second: MagnetJumpLeft_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump2_fix_0
+      name: MagnetJumpLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_1
+      name: MagnetJumpLeft_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_2
+      name: MagnetJumpLeft_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -199,7 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_3
+      name: MagnetJumpLeft_3
       rect:
         serializedVersion: 2
         x: 0
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_4
+      name: MagnetJumpLeft_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_5
+      name: MagnetJumpLeft_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix_6
+      name: MagnetJumpLeft_6
       rect:
         serializedVersion: 2
         x: 0

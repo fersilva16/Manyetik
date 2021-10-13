@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4877825377717948546
-    second: magnet_0
+    second: MagnetRight_0
   - first:
       213: 5011368590914060170
-    second: magnet_1
+    second: MagnetRight_1
   - first:
       213: 1231247277861561731
-    second: magnet_2
+    second: MagnetRight_2
   - first:
       213: -6986281223901936329
-    second: magnet_3
+    second: MagnetRight_3
   - first:
       213: 16056061815516461
-    second: magnet_4
+    second: MagnetRight_4
   - first:
       213: -3609181284260646106
-    second: magnet_5
+    second: MagnetRight_5
   - first:
       213: -8627030875290984834
-    second: magnet_6
+    second: MagnetRight_6
   - first:
       213: -7472259461007114773
-    second: magnet_7
+    second: MagnetRight_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -151,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: magnet_0
+      name: MagnetRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,7 +172,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_1
+      name: MagnetRight_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -193,7 +193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_2
+      name: MagnetRight_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -214,7 +214,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_3
+      name: MagnetRight_3
       rect:
         serializedVersion: 2
         x: 0
@@ -235,7 +235,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_4
+      name: MagnetRight_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -256,7 +256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_5
+      name: MagnetRight_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_6
+      name: MagnetRight_6
       rect:
         serializedVersion: 2
         x: 0
@@ -298,7 +298,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: magnet_7
+      name: MagnetRight_7
       rect:
         serializedVersion: 2
         x: 1024

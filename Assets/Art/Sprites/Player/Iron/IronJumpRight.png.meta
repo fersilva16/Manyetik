@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -4863151633207965300
-    second: spr_jump5_fix_0
+    second: IronJumpRight_0
   - first:
       213: -4976771453422500909
-    second: spr_jump5_fix_1
+    second: IronJumpRight_1
   - first:
       213: -8850163297757698466
-    second: spr_jump5_fix_2
+    second: IronJumpRight_2
   - first:
       213: 1007333509576994565
-    second: spr_jump5_fix_3
+    second: IronJumpRight_3
   - first:
       213: -6485627916412437413
-    second: spr_jump5_fix_4
+    second: IronJumpRight_4
   - first:
       213: 5649863266774760150
-    second: spr_jump5_fix_5
+    second: IronJumpRight_5
   - first:
       213: -205884230124372531
-    second: spr_jump5_fix_6
+    second: IronJumpRight_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump5_fix_0
+      name: IronJumpRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_1
+      name: IronJumpRight_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -178,7 +178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_2
+      name: IronJumpRight_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -199,7 +199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_3
+      name: IronJumpRight_3
       rect:
         serializedVersion: 2
         x: 0
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_4
+      name: IronJumpRight_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_5
+      name: IronJumpRight_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix_6
+      name: IronJumpRight_6
       rect:
         serializedVersion: 2
         x: 0

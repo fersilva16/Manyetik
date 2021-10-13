@@ -4,28 +4,28 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -3364610207093469011
-    second: iron_left_0
+    second: IronLeft_0
   - first:
       213: 4148610892568969024
-    second: iron_left_1
+    second: IronLeft_1
   - first:
       213: 5385283493984788318
-    second: iron_left_2
+    second: IronLeft_2
   - first:
       213: -8416455036968324545
-    second: iron_left_3
+    second: IronLeft_3
   - first:
       213: -6385223703385540797
-    second: iron_left_4
+    second: IronLeft_4
   - first:
       213: -6087397576572936834
-    second: iron_left_5
+    second: IronLeft_5
   - first:
       213: -5369543223850692761
-    second: iron_left_6
+    second: IronLeft_6
   - first:
       213: 6859565340845432183
-    second: iron_left_7
+    second: IronLeft_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: iron_left_0
+      name: IronLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_1
+      name: IronLeft_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_2
+      name: IronLeft_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_3
+      name: IronLeft_3
       rect:
         serializedVersion: 2
         x: 0
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_4
+      name: IronLeft_4
       rect:
         serializedVersion: 2
         x: 1024
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_5
+      name: IronLeft_5
       rect:
         serializedVersion: 2
         x: 2048
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_6
+      name: IronLeft_6
       rect:
         serializedVersion: 2
         x: 0
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron_left_7
+      name: IronLeft_7
       rect:
         serializedVersion: 2
         x: 1024

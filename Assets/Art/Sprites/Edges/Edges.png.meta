@@ -1,55 +1,94 @@
 fileFormatVersion: 2
-guid: 16b6b6a6e16634f4d9b8a0103d70642a
+guid: a7a4704c34458544287a5df4bb85beee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5555020963851802720
-    second: BandeiraVerde_0
+      213: -258938618043206777
+    second: Mostra Tilesets Borda_0
   - first:
-      213: -3573884413500380615
-    second: BandeiraVerde_1
+      213: -2979183590152088160
+    second: Mostra Tilesets Borda_1
   - first:
-      213: 7506761672211962878
-    second: BandeiraVerde_2
+      213: 4588931504505791023
+    second: Mostra Tilesets Borda_2
   - first:
-      213: 4000071471292588610
-    second: BandeiraVerde_3
+      213: 3716152577984029636
+    second: Mostra Tilesets Borda_3
   - first:
-      213: -3192863891003973776
-    second: BandeiraVerde_4
+      213: 233795879562170380
+    second: Mostra Tilesets Borda_4
   - first:
-      213: 8406400955156002293
-    second: BandeiraVerde_5
+      213: 7773683096234994961
+    second: Mostra Tilesets Borda_5
   - first:
-      213: -2074868562889591370
-    second: BandeiraVerde_6
+      213: 6674205154168934407
+    second: Mostra Tilesets Borda_6
   - first:
-      213: 7248687711322918993
-    second: BandeiraVerde_7
+      213: -8872229324167463090
+    second: Mostra Tilesets Borda_7
   - first:
-      213: 1952898797175575164
-    second: Reached_0
+      213: -1293626019315297801
+    second: Mostra Tilesets Borda_8
   - first:
-      213: 8329122701246004951
-    second: Reached_1
+      213: 9028508538056824317
+    second: Mostra Tilesets Borda_9
   - first:
-      213: 5444997950607883506
-    second: Reached_2
+      213: 8466108007476202547
+    second: Mostra Tilesets Borda_10
   - first:
-      213: -4682389761083109166
-    second: Reached_3
+      213: -7291410606843691831
+    second: Mostra Tilesets Borda_11
   - first:
-      213: 500554965515650249
-    second: Reached_4
+      213: 5077174705517910307
+    second: Mostra Tilesets Borda_12
   - first:
-      213: -1601048243415581449
-    second: Reached_5
+      213: -7033738701141296812
+    second: Mostra Tilesets Borda_13
   - first:
-      213: 5388956699027507725
-    second: Reached_6
+      213: -6788025955029594415
+    second: Mostra Tilesets Borda_14
   - first:
-      213: -1998979878684504048
-    second: Reached_7
+      213: -3549419750482676873
+    second: Mostra Tilesets Borda_15
+  - first:
+      213: 6398458543274369979
+    second: Mostra Tilesets Borda_16
+  - first:
+      213: -5723957467421214948
+    second: Mostra Tilesets Borda_17
+  - first:
+      213: 3960729077940388605
+    second: Mostra Tilesets Borda_18
+  - first:
+      213: 5068541310244537112
+    second: Mostra Tilesets Borda_19
+  - first:
+      213: -4611206141529014184
+    second: Mostra Tilesets Borda_20
+  - first:
+      213: -6337199082206446486
+    second: Edges_0
+  - first:
+      213: 4915303569201422492
+    second: Edges_1
+  - first:
+      213: -1456373177415854904
+    second: Edges_2
+  - first:
+      213: -320921093188696452
+    second: Edges_3
+  - first:
+      213: -7134580315160501229
+    second: Edges_4
+  - first:
+      213: -9159749367424559225
+    second: Edges_5
+  - first:
+      213: -3581309329566859970
+    second: Edges_6
+  - first:
+      213: 7785877263793391412
+    second: Edges_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -94,7 +133,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,11 +174,161 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Reached_0
+      name: Edges_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c372ab20fbd08a0800000000000000
+      internalID: -6337199082206446486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90e575cd8aa63440800000000000000
+      internalID: 4915303569201422492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c498b3bf4ce9cbe0800000000000000
+      internalID: -1456373177415854904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76ce8f47fbdb8bf0800000000000000
+      internalID: -320921093188696452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3142d550101ecfc90800000000000000
+      internalID: -7134580315160501229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787dc031b7802e080800000000000000
+      internalID: -9159749367424559225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Edges_6
       rect:
         serializedVersion: 2
         x: 0
@@ -153,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7210ffeb171a1b10800000000000000
-      internalID: 1952898797175575164
+      spriteID: e3dff5ca322ac4ec0800000000000000
+      internalID: -3581309329566859970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Reached_1
+      name: Edges_7
       rect:
         serializedVersion: 2
         x: 32
@@ -174,134 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7def86a97fcf69370800000000000000
-      internalID: 8329122701246004951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fc76b889c4809b40800000000000000
-      internalID: 5444997950607883506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d017b6125fc40fb0800000000000000
-      internalID: -4682389761083109166
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c44e1ec61452f600800000000000000
-      internalID: 500554965515650249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc73f6fa1fe7c9e0800000000000000
-      internalID: -1601048243415581449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0a0f7bd09b69ca40800000000000000
-      internalID: 5388956699027507725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reached_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0105bd134623244e0800000000000000
-      internalID: -1998979878684504048
+      spriteID: 437023dbe1efc0c60800000000000000
+      internalID: 7785877263793391412
       vertices: []
       indices: 
       edges: []
