@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 221ee0a9fd04a844c939ea8fc8cc540f
+guid: c0a39511fd2fa5e48947693a7db915ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4863151633207965300
-    second: IronJumpRight_0
+      213: -7892640371349238284
+    second: spr_jump5_fix (1)_0
   - first:
-      213: -4976771453422500909
-    second: IronJumpRight_1
+      213: -7011968507289720922
+    second: spr_jump5_fix (1)_1
   - first:
-      213: -8850163297757698466
-    second: IronJumpRight_2
+      213: -4127174379539380011
+    second: spr_jump5_fix (1)_2
   - first:
-      213: 1007333509576994565
-    second: IronJumpRight_3
+      213: 6212902319609625635
+    second: spr_jump5_fix (1)_3
   - first:
-      213: -6485627916412437413
-    second: IronJumpRight_4
+      213: -2313674432884272359
+    second: spr_jump5_fix (1)_4
   - first:
-      213: 5649863266774760150
-    second: IronJumpRight_5
-  - first:
-      213: -205884230124372531
-    second: IronJumpRight_6
+      213: -3832678823388636354
+    second: spr_jump5_fix (1)_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -67,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 380
+  spritePixelsToUnits: 190
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,76 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IronJumpRight_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8947cd0b5d928cb0800000000000000
-      internalID: -4863151633207965300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpRight_1
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d3827e2bb4feeab0800000000000000
-      internalID: -4976771453422500909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpRight_2
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e56e3f0fe57ed2580800000000000000
-      internalID: -8850163297757698466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpRight_3
+      name: spr_jump5_fix (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1024
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50f2fa86d74cafd00800000000000000
-      internalID: 1007333509576994565
+      spriteID: 4fd42d53665b77290800000000000000
+      internalID: -7892640371349238284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_4
+      name: spr_jump5_fix (1)_1
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 512
         y: 1024
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c31e8b5cb6ef5a0800000000000000
-      internalID: -6485627916412437413
+      spriteID: 6a725ca2bcb70be90800000000000000
+      internalID: -7011968507289720922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_5
+      name: spr_jump5_fix (1)_2
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 1024
-        height: 1024
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +189,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6da33a5f4b8586e40800000000000000
-      internalID: 5649863266774760150
+      spriteID: 5d8467db4c459b6c0800000000000000
+      internalID: -4127174379539380011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpRight_6
+      name: spr_jump5_fix (1)_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c38880eb9a83650800000000000000
+      internalID: 6212902319609625635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_jump5_fix (1)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,8 +231,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcdf49e226d842df0800000000000000
-      internalID: -205884230124372531
+      spriteID: 91397069c5d24efd0800000000000000
+      internalID: -2313674432884272359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_jump5_fix (1)_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b12c1aae69fcac0800000000000000
+      internalID: -3832678823388636354
       vertices: []
       indices: 
       edges: []

@@ -1,49 +1,25 @@
 fileFormatVersion: 2
-guid: c355fea16a77f864690cc42dcaf373d4
+guid: 5a21521e20cb5374690f1d94692d150c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8018431153487647009
-    second: spr_jump6_fix_0
+      213: 3668021878194870401
+    second: spr_jump3_fix (1)_0
   - first:
-      213: -2320546187960460298
-    second: spr_jump6_fix_1
+      213: -1175711739366083751
+    second: spr_jump3_fix (1)_1
   - first:
-      213: 6394598810404021276
-    second: spr_jump6_fix_2
+      213: -2792490838926187864
+    second: spr_jump3_fix (1)_2
   - first:
-      213: -2366899618067210567
-    second: spr_jump6_fix_3
+      213: 8206684022726833590
+    second: spr_jump3_fix (1)_3
   - first:
-      213: -8324388190926897591
-    second: spr_jump6_fix_4
+      213: 9054131495012791255
+    second: spr_jump3_fix (1)_4
   - first:
-      213: -1986678096045558364
-    second: spr_jump6_fix_5
-  - first:
-      213: 1154370122294031262
-    second: spr_jump6_fix_6
-  - first:
-      213: -4089403062410841081
-    second: IronJumpLeft_0
-  - first:
-      213: -2846699865380799406
-    second: IronJumpLeft_1
-  - first:
-      213: -1285368566230621597
-    second: IronJumpLeft_2
-  - first:
-      213: 8797538574407227291
-    second: IronJumpLeft_3
-  - first:
-      213: -9058346231968696654
-    second: IronJumpLeft_4
-  - first:
-      213: -1151538053579410048
-    second: IronJumpLeft_5
-  - first:
-      213: 9146231797363056351
-    second: IronJumpLeft_6
+      213: -4741401214831741973
+    second: spr_jump3_fix (1)_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -88,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 380
+  spritePixelsToUnits: 190
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -157,76 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IronJumpLeft_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7047b91d4958f37c0800000000000000
-      internalID: -4089403062410841081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpLeft_1
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25c33dd0e8d7e78d0800000000000000
-      internalID: -2846699865380799406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpLeft_2
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 2048
-        width: 1024
-        height: 1024
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 362ee546914792ee0800000000000000
-      internalID: -1285368566230621597
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IronJumpLeft_3
+      name: spr_jump3_fix (1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 1024
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b97d659d8b2271a70800000000000000
-      internalID: 8797538574407227291
+      spriteID: 1889a26d67e67e230800000000000000
+      internalID: 3668021878194870401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpLeft_4
+      name: spr_jump3_fix (1)_1
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 512
         y: 1024
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b6f10f581a4a4280800000000000000
-      internalID: -9058346231968696654
+      spriteID: 953f3d8f6680fafe0800000000000000
+      internalID: -1175711739366083751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpLeft_5
+      name: spr_jump3_fix (1)_2
       rect:
         serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 1024
-        height: 1024
+        x: 0
+        y: 512
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,20 +189,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085fd0bcd3ae400f0800000000000000
-      internalID: -1151538053579410048
+      spriteID: 8a2a54390641f39d0800000000000000
+      internalID: -2792490838926187864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IronJumpLeft_6
+      name: spr_jump3_fix (1)_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b18643aff3e170800000000000000
+      internalID: 8206684022726833590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_jump3_fix (1)_4
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,8 +231,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fde15336c51fdee70800000000000000
-      internalID: 9146231797363056351
+      spriteID: 7d3f9e5bf9cb6ad70800000000000000
+      internalID: 9054131495012791255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_jump3_fix (1)_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3395457b8233eb0800000000000000
+      internalID: -4741401214831741973
       vertices: []
       indices: 
       edges: []
