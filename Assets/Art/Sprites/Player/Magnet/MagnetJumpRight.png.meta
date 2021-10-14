@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 7983ee8fc3b32be4799a0918beb5c80c
+guid: 2e58bb71072d97f498154ef33f187fc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6908081667834271795
-    second: spr_jump6_fix (1)_0
+      213: 2963992212962977458
+    second: MagnetJumpRight_0
   - first:
-      213: 5622051939490334580
-    second: spr_jump6_fix (1)_1
+      213: 4051884341650770038
+    second: MagnetJumpRight_1
   - first:
-      213: 3749344244466671717
-    second: spr_jump6_fix (1)_2
+      213: 687996150471122378
+    second: MagnetJumpRight_2
   - first:
-      213: -7176432466497297091
-    second: spr_jump6_fix (1)_3
+      213: 8173285658943581939
+    second: MagnetJumpRight_3
   - first:
-      213: 4471102791416569972
-    second: spr_jump6_fix (1)_4
+      213: -9037552048491742664
+    second: MagnetJumpRight_4
   - first:
-      213: 3370363666810749549
-    second: spr_jump6_fix (1)_5
+      213: -7505914144272365061
+    second: MagnetJumpRight_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_0
+      name: MagnetJumpRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc7a95dd2509120a0800000000000000
-      internalID: -6908081667834271795
+      spriteID: 2b6aeaab637322920800000000000000
+      internalID: 2963992212962977458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_1
+      name: MagnetJumpRight_1
       rect:
         serializedVersion: 2
         x: 512
@@ -168,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4770e1ab37a850e40800000000000000
-      internalID: 5622051939490334580
+      spriteID: 678cf07475f2b3830800000000000000
+      internalID: 4051884341650770038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_2
+      name: MagnetJumpRight_2
       rect:
         serializedVersion: 2
         x: 0
@@ -189,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5606718b9b8580430800000000000000
-      internalID: 3749344244466671717
+      spriteID: acddaab8ad04c8900800000000000000
+      internalID: 687996150471122378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_3
+      name: MagnetJumpRight_3
       rect:
         serializedVersion: 2
         x: 512
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3529dfa1b0386c90800000000000000
-      internalID: -7176432466497297091
+      spriteID: 3fe602db0085d6170800000000000000
+      internalID: 8173285658943581939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_4
+      name: MagnetJumpRight_4
       rect:
         serializedVersion: 2
         x: 0
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47064a4cc4c8c0e30800000000000000
-      internalID: 4471102791416569972
+      spriteID: 83abb8e7b4a249280800000000000000
+      internalID: -9037552048491742664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump6_fix (1)_5
+      name: MagnetJumpRight_5
       rect:
         serializedVersion: 2
         x: 512
@@ -252,8 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d624324e5efe5ce20800000000000000
-      internalID: 3370363666810749549
+      spriteID: bf9c0149ad2a5d790800000000000000
+      internalID: -7505914144272365061
       vertices: []
       indices: 
       edges: []

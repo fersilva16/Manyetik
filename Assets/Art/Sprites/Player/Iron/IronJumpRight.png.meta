@@ -4,22 +4,22 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -7892640371349238284
-    second: spr_jump5_fix (1)_0
+    second: IronJumpRight_0
   - first:
       213: -7011968507289720922
-    second: spr_jump5_fix (1)_1
+    second: IronJumpRight_1
   - first:
       213: -4127174379539380011
-    second: spr_jump5_fix (1)_2
+    second: IronJumpRight_2
   - first:
       213: 6212902319609625635
-    second: spr_jump5_fix (1)_3
+    second: IronJumpRight_3
   - first:
       213: -2313674432884272359
-    second: spr_jump5_fix (1)_4
+    second: IronJumpRight_4
   - first:
       213: -3832678823388636354
-    second: spr_jump5_fix (1)_5
+    second: IronJumpRight_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_0
+      name: IronJumpRight_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,7 +154,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_1
+      name: IronJumpRight_1
       rect:
         serializedVersion: 2
         x: 512
@@ -175,7 +175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_2
+      name: IronJumpRight_2
       rect:
         serializedVersion: 2
         x: 0
@@ -196,7 +196,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_3
+      name: IronJumpRight_3
       rect:
         serializedVersion: 2
         x: 512
@@ -217,7 +217,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_4
+      name: IronJumpRight_4
       rect:
         serializedVersion: 2
         x: 0
@@ -238,7 +238,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump5_fix (1)_5
+      name: IronJumpRight_5
       rect:
         serializedVersion: 2
         x: 512

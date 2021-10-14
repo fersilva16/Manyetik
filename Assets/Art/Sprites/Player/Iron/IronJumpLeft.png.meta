@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 3139fed961fe3a04dbdafc0493cacfce
+guid: 7983ee8fc3b32be4799a0918beb5c80c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1095165316901346815
-    second: spr_jump2_fix (1)_0
+      213: -6908081667834271795
+    second: IronJumpLeft_0
   - first:
-      213: -8939712773074536126
-    second: spr_jump2_fix (1)_1
+      213: 5622051939490334580
+    second: IronJumpLeft_1
   - first:
-      213: -1598426462674100922
-    second: spr_jump2_fix (1)_2
+      213: 3749344244466671717
+    second: IronJumpLeft_2
   - first:
-      213: 1446336773934033464
-    second: spr_jump2_fix (1)_3
+      213: -7176432466497297091
+    second: IronJumpLeft_3
   - first:
-      213: 8510375073795432761
-    second: spr_jump2_fix (1)_4
+      213: 4471102791416569972
+    second: IronJumpLeft_4
   - first:
-      213: -6453467965331656188
-    second: spr_jump2_fix (1)_5
+      213: 3370363666810749549
+    second: IronJumpLeft_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_0
+      name: IronJumpLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd9b34ad0fc23f00800000000000000
-      internalID: 1095165316901346815
+      spriteID: dc7a95dd2509120a0800000000000000
+      internalID: -6908081667834271795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_1
+      name: IronJumpLeft_1
       rect:
         serializedVersion: 2
         x: 512
@@ -168,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 249bed6f892cfe380800000000000000
-      internalID: -8939712773074536126
+      spriteID: 4770e1ab37a850e40800000000000000
+      internalID: 5622051939490334580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_2
+      name: IronJumpLeft_2
       rect:
         serializedVersion: 2
         x: 0
@@ -189,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64dd9bcd99f31d9e0800000000000000
-      internalID: -1598426462674100922
+      spriteID: 5606718b9b8580430800000000000000
+      internalID: 3749344244466671717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_3
+      name: IronJumpLeft_3
       rect:
         serializedVersion: 2
         x: 512
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83a2ce302ab621410800000000000000
-      internalID: 1446336773934033464
+      spriteID: d3529dfa1b0386c90800000000000000
+      internalID: -7176432466497297091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_4
+      name: IronJumpLeft_4
       rect:
         serializedVersion: 2
         x: 0
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9316aea2a0dea1670800000000000000
-      internalID: 8510375073795432761
+      spriteID: 47064a4cc4c8c0e30800000000000000
+      internalID: 4471102791416569972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump2_fix (1)_5
+      name: IronJumpLeft_5
       rect:
         serializedVersion: 2
         x: 512
@@ -252,8 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4023b05d31da076a0800000000000000
-      internalID: -6453467965331656188
+      spriteID: d624324e5efe5ce20800000000000000
+      internalID: 3370363666810749549
       vertices: []
       indices: 
       edges: []

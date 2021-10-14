@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 2e58bb71072d97f498154ef33f187fc6
+guid: 5a21521e20cb5374690f1d94692d150c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2963992212962977458
-    second: spr_jump_fix (1)_0
+      213: 3668021878194870401
+    second: InvertedJumpLeft_0
   - first:
-      213: 4051884341650770038
-    second: spr_jump_fix (1)_1
+      213: -1175711739366083751
+    second: InvertedJumpLeft_1
   - first:
-      213: 687996150471122378
-    second: spr_jump_fix (1)_2
+      213: -2792490838926187864
+    second: InvertedJumpLeft_2
   - first:
-      213: 8173285658943581939
-    second: spr_jump_fix (1)_3
+      213: 8206684022726833590
+    second: InvertedJumpLeft_3
   - first:
-      213: -9037552048491742664
-    second: spr_jump_fix (1)_4
+      213: 9054131495012791255
+    second: InvertedJumpLeft_4
   - first:
-      213: -7505914144272365061
-    second: spr_jump_fix (1)_5
+      213: -4741401214831741973
+    second: InvertedJumpLeft_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_jump_fix (1)_0
+      name: InvertedJumpLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +147,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b6aeaab637322920800000000000000
-      internalID: 2963992212962977458
+      spriteID: 1889a26d67e67e230800000000000000
+      internalID: 3668021878194870401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_fix (1)_1
+      name: InvertedJumpLeft_1
       rect:
         serializedVersion: 2
         x: 512
@@ -168,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 678cf07475f2b3830800000000000000
-      internalID: 4051884341650770038
+      spriteID: 953f3d8f6680fafe0800000000000000
+      internalID: -1175711739366083751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_fix (1)_2
+      name: InvertedJumpLeft_2
       rect:
         serializedVersion: 2
         x: 0
@@ -189,14 +189,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acddaab8ad04c8900800000000000000
-      internalID: 687996150471122378
+      spriteID: 8a2a54390641f39d0800000000000000
+      internalID: -2792490838926187864
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_fix (1)_3
+      name: InvertedJumpLeft_3
       rect:
         serializedVersion: 2
         x: 512
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe602db0085d6170800000000000000
-      internalID: 8173285658943581939
+      spriteID: 6b5b18643aff3e170800000000000000
+      internalID: 8206684022726833590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_fix (1)_4
+      name: InvertedJumpLeft_4
       rect:
         serializedVersion: 2
         x: 0
@@ -231,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83abb8e7b4a249280800000000000000
-      internalID: -9037552048491742664
+      spriteID: 7d3f9e5bf9cb6ad70800000000000000
+      internalID: 9054131495012791255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_jump_fix (1)_5
+      name: InvertedJumpLeft_5
       rect:
         serializedVersion: 2
         x: 512
@@ -252,8 +252,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9c0149ad2a5d790800000000000000
-      internalID: -7505914144272365061
+      spriteID: be3395457b8233eb0800000000000000
+      internalID: -4741401214831741973
       vertices: []
       indices: 
       edges: []
