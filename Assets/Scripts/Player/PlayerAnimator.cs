@@ -1,54 +1,60 @@
 using System.Text;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerAnimator : MonoBehaviour
 {
   private Animator animator;
-
-  public bool Magnetized { get; set; }
-  public bool Inverted { get; set; }
-  public float Horizontal { get; set; }
-  public bool Jumping { get; set; }
+  private new Rigidbody2D rigidbody2D;
+  private PlayerMagnetism magnetism;
+  private PlayerMovement movement;
 
   private string currentAnimation;
 
-  private string Direction
-  {
-    get {
-      if (string.IsNullOrEmpty(currentAnimation)) return "Right";
+  private bool inverted;
 
-      if (currentAnimation.IndexOf("Left") != -1) return "Left";
-      else return "Right";
-    }
-  }
+  private void OnEnable() => InputManager.Invert += OnInvertInput;
+  private void OnDisable() => InputManager.Invert += OnInvertInput;
 
   private void Start()
   {
     animator = GetComponent<Animator>();
+    rigidbody2D = GetComponent<Rigidbody2D>();
 
-    Magnetized = true;
+    magnetism = GetComponent<PlayerMagnetism>();
+    movement = GetComponent<PlayerMovement>();
+  }
+
+  private void OnInvertInput(InputAction.CallbackContext _) => inverted = !inverted;
+
+  private string GetCurrentDirection()
+  {
+    if (string.IsNullOrEmpty(currentAnimation)) return "Right";
+
+    if (currentAnimation.IndexOf("Left") != -1) return "Left";
+
+    return "Right";
   }
 
   private void Update()
   {
-    var animation = new StringBuilder();
+    var vertical = 0; // rigidbody2D.velocity.y;
 
-    if (Jumping) animation.Append("Jump");
-    else if (Horizontal != 0) animation.Append("Run");
-    else animation.Append("Idle");
+    var stringBuilder = new StringBuilder();
 
-    if (!Magnetized) animation.Append("Iron");
-    else if (Inverted) animation.Append("Inverted");
+    if (vertical > 0) stringBuilder.Append("Jump");
+    else if (movement.GetDirection() != 0) stringBuilder.Append("Run");
+    else stringBuilder.Append("Idle");
 
-    if (Horizontal > 0) animation.Append("Right");
-    else if (Horizontal < 0) animation.Append("Left");
-    else animation.Append(Direction);
+    if (!magnetism.IsMagnetized()) stringBuilder.Append("Iron");
+    else if (inverted) stringBuilder.Append("Inverted");
 
-    UpdateAnimation(animation.ToString());
-  }
+    if (movement.GetDirection() > 0) stringBuilder.Append("Right");
+    else if (movement.GetDirection() < 0) stringBuilder.Append("Left");
+    else stringBuilder.Append(GetCurrentDirection());
 
-  private void UpdateAnimation(string animation)
-  {
+    var animation = stringBuilder.ToString();
+
     if (currentAnimation != animation)
     {
       animator.Play(animation);

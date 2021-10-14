@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerKiller : MonoBehaviour
+public class PlayerPosition : MonoBehaviour
 {
   private Vector3 respawnPoint;
 
