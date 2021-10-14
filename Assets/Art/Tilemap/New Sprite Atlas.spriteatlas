@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 31896864
+    totalSpriteSurfaceArea: 31929632
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -111,6 +111,38 @@ SpriteAtlas:
   - {fileID: -4773374469074621042, guid: bba02d57f5cb36b4995bc782818a369f, type: 3}
   - {fileID: 2538264227256606193, guid: bba02d57f5cb36b4995bc782818a369f, type: 3}
   - {fileID: 8209977982772115536, guid: bba02d57f5cb36b4995bc782818a369f, type: 3}
+  - {fileID: 6122997290672317319, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 3986101716135733737, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -274334662481502623, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -7365793061087725345, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 2614400130871756698, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -7095111890612361949, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -7097576292877298601, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -6035811887762303663, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 6735042022488669479, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -7862662332173609250, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 1706526427584870303, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -8867343569707002269, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 6502064983371706705, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -4513587022899057710, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -2195842229092444392, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 6778326208502162000, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -2875419599839911086, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 4283938933546112294, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 6901597448802286257, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 6283952139660178025, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 7657898038429786421, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 844772513032162056, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -555135662687097788, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 7001281352575713505, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -8035225856344339388, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -1878037444793426562, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 2587403443853953009, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -8473452045121666882, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -413729886290440551, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: -3721588992699961066, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 2637403925422779543, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
+  - {fileID: 7696631708137187566, guid: f4b1d5c7ea7319148b63aeecdf69bb8c, type: 3}
   - {fileID: -591642128365420483, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -8219102590544873945, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: 6212022559610932868, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
@@ -266,6 +298,38 @@ SpriteAtlas:
   - MagnetTilemapHorizontal_1
   - MagnetTilemapHorizontal_2
   - MagnetTilemapHorizontal_3
+  - porta_24
+  - porta_25
+  - porta_26
+  - porta_27
+  - porta_20
+  - porta_21
+  - porta_22
+  - porta_23
+  - porta_31
+  - porta_30
+  - porta_28
+  - porta_29
+  - porta_19
+  - porta_18
+  - porta_15
+  - porta_14
+  - porta_17
+  - porta_16
+  - porta_11
+  - porta_10
+  - porta_13
+  - porta_12
+  - porta_8
+  - porta_9
+  - porta_6
+  - porta_7
+  - porta_4
+  - porta_5
+  - porta_2
+  - porta_3
+  - porta_0
+  - porta_1
   - Transition_6
   - Transition_5
   - Transition_4
