@@ -11,8 +11,19 @@ public class NextLevel : MonoBehaviour
   [SerializeField]
   private bool playerInRange;
 
+  [SerializeField]
+  private Animator animationDoor;
+
+  [SerializeField]
+  private GameObject player;
+
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;
+
+  private void Start()
+  {
+    player.SetActive(true);
+  }
 
   private void OnTriggerEnter2D(Collider2D other)
   {
@@ -26,8 +37,19 @@ public class NextLevel : MonoBehaviour
 
   private void OnInteractInput(InputAction.CallbackContext context)
   {
-    if (!playerInRange) return;
+    if (playerInRange)
+    {
+      animationDoor.Play("Close");
+    }
+  }
 
+  public void LoadScene()
+  {
     SceneManager.LoadScene(scene);
+  }
+
+  public void DisactivePlayer()
+  {
+    player.SetActive(false);
   }
 }
