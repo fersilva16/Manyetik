@@ -6,7 +6,7 @@ public class Fire : MonoBehaviour
   [SerializeField]
   private AudioSource audioSource;
 
-   [SerializeField]
+  [SerializeField]
   private AudioClip audioClip;
 
   public static event Action Collided;
