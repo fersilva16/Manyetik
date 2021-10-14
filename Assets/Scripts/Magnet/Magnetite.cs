@@ -1,19 +1,19 @@
 using System;
 using UnityEngine;
 
-public class Lava : MonoBehaviour
+public class Magnetite : MonoBehaviour
 {
   [SerializeField]
   private AudioSource audioSource;
 
-   [SerializeField]
+  [SerializeField]
   private AudioClip audioClip;
 
   public static event Action Collided;
 
-  private void OnTriggerEnter2D(Collider2D other)
+  private void OnCollisionEnter2D(Collision2D other)
   {
-    if (other.CompareTag("Player") && !other.isTrigger) Collided?.Invoke();
+    if (other.gameObject.CompareTag("Player")) Collided?.Invoke();
 
     audioSource.PlayOneShot(audioClip);
   }

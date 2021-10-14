@@ -7,6 +7,12 @@ public class Checkpoint : MonoBehaviour
 
   private Animator animator;
 
+  [SerializeField]
+  private AudioSource audioSource;
+
+   [SerializeField]
+  private AudioClip audioClip;
+
   private bool reached;
 
   private void Start()
@@ -21,6 +27,8 @@ public class Checkpoint : MonoBehaviour
       reached = true;
 
       animator.SetTrigger("Reached");
+
+      audioSource.PlayOneShot(audioClip);
 
       Reached?.Invoke(transform.position);
     }
