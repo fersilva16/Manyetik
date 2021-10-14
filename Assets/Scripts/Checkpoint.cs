@@ -5,13 +5,13 @@ public class Checkpoint : MonoBehaviour
 {
   public static event Action<Vector3> Reached;
 
-  private Animator animator;
-
   [SerializeField]
   private AudioSource audioSource;
 
-   [SerializeField]
+  [SerializeField]
   private AudioClip audioClip;
+
+  private Animator animator;
 
   private bool reached;
 
