@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 575f0984e89f4444c877699662a97569, type: 3}
-    totalSpriteSurfaceArea: 31929632
+    totalSpriteSurfaceArea: 31930656
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -91,6 +91,7 @@ SpriteAtlas:
   - {fileID: 964659150160153652, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 2168491126659702453, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 3081219861163341933, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
+  - {fileID: 21300000, guid: 221664e5197016b41b9b0036d58371f9, type: 3}
   - {fileID: 5444997950607883506, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
   - {fileID: -4682389761083109166, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
   - {fileID: 1952898797175575164, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
@@ -278,6 +279,7 @@ SpriteAtlas:
   - Fire_7
   - Fire_4
   - Fire_5
+  - Coin
   - Reached_2
   - Reached_3
   - Reached_0
