@@ -222,6 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   singSenteces:
     sentenceList: []
+  popUp: {fileID: 1883413425965664467, guid: c07a4d489e8b665469402883950c8e82, type: 3}
   textBox: {fileID: 0}
   textMP: {fileID: 0}
   audioSource: {fileID: 84472575798681276}
