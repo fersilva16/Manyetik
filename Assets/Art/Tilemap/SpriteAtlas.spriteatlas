@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 575f0984e89f4444c877699662a97569, type: 3}
-    totalSpriteSurfaceArea: 31992932
+    totalSpriteSurfaceArea: 31997028
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -163,6 +163,7 @@ SpriteAtlas:
   - {fileID: -7418211097746893002, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -7424878231080687243, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -308361656066796550, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
+  - {fileID: 21300000, guid: cd3eeda82255c2242801169c8f249f34, type: 3}
   - {fileID: 21300000, guid: 6e226b89575a52541905274f98212dba, type: 3}
   - {fileID: -6453467965331656188, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
   - {fileID: 8510375073795432761, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
@@ -366,6 +367,7 @@ SpriteAtlas:
   - Transition_2
   - Transition_1
   - Transition_0
+  - PushBox
   - Ereto
   - MagnetJumpLeft_5
   - MagnetJumpLeft_4

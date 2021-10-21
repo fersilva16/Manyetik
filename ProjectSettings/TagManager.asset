@@ -7,11 +7,11 @@ TagManager:
   - Sul
   - Fire
   - CM
-  - Iron
   - Checkpoint
   - Lava
   - Coin
   - Basket
+  - Box
   layers:
   - Default
   - TransparentFX
