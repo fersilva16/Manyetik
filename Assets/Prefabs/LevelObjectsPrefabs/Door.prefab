@@ -10,14 +10,14 @@ GameObject:
   m_Component:
   - component: {fileID: 7163034252058077632}
   - component: {fileID: 7163034252058077633}
-  - component: {fileID: 7163034252058077634}
-  - component: {fileID: 7163034252058077639}
-  - component: {fileID: 2162260080191162610}
-  - component: {fileID: 3720034137032709662}
-  - component: {fileID: 2054643865876899371}
+  - component: {fileID: 1341362897927199409}
+  - component: {fileID: 7703767867314976278}
+  - component: {fileID: 2944152426277281268}
+  - component: {fileID: 6144033154068126592}
+  - component: {fileID: 2967972996052734664}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &7163034252058077634
+--- !u!61 &1341362897927199409
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,7 +113,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &7163034252058077639
+--- !u!114 &7703767867314976278
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,9 +127,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scene: Menu
   playerInRange: 0
-  animationDoor: {fileID: 2162260080191162610}
+  animationDoor: {fileID: 2944152426277281268}
   player: {fileID: 0}
---- !u!95 &2162260080191162610
+--- !u!95 &2944152426277281268
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -148,7 +148,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &3720034137032709662
+--- !u!114 &6144033154068126592
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -160,9 +160,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d261dae0a27d440ae2605c0d366caa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 2054643865876899371}
+  audioSource: {fileID: 2967972996052734664}
   audioClip: {fileID: 8300000, guid: 45d71ce93c3790242a2625bd3e5b23b2, type: 3}
---- !u!82 &2054643865876899371
+--- !u!82 &2967972996052734664
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
