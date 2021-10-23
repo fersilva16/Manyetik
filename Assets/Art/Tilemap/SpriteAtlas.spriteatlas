@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 575f0984e89f4444c877699662a97569, type: 3}
-    totalSpriteSurfaceArea: 31997028
+    totalSpriteSurfaceArea: 31994980
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -71,10 +71,6 @@ SpriteAtlas:
   - {fileID: 8173285658943581939, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
   - {fileID: -9037552048491742664, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
   - {fileID: -7505914144272365061, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
-  - {fileID: 4979347514693079059, guid: 922cfa910501648439f49e329fb55af7, type: 3}
-  - {fileID: -8094904025765390864, guid: 922cfa910501648439f49e329fb55af7, type: 3}
-  - {fileID: -2561523098715842191, guid: 922cfa910501648439f49e329fb55af7, type: 3}
-  - {fileID: 9094706479224064107, guid: 922cfa910501648439f49e329fb55af7, type: 3}
   - {fileID: 21300000, guid: fb03ac123b0234749b51c8b2f04f6e91, type: 3}
   - {fileID: 4750651203034271755, guid: 59e9ac0324dff6244aa673c88fffa03c, type: 3}
   - {fileID: 1216698196264918829, guid: 59e9ac0324dff6244aa673c88fffa03c, type: 3}
@@ -96,10 +92,6 @@ SpriteAtlas:
   - {fileID: 964659150160153652, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 2168491126659702453, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 3081219861163341933, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
-  - {fileID: -5331532587129984028, guid: cbc6b50436ef62d43a27d5a8c85f5769, type: 3}
-  - {fileID: 2112407151093036394, guid: cbc6b50436ef62d43a27d5a8c85f5769, type: 3}
-  - {fileID: -419911126578724172, guid: cbc6b50436ef62d43a27d5a8c85f5769, type: 3}
-  - {fileID: 826259818084980288, guid: cbc6b50436ef62d43a27d5a8c85f5769, type: 3}
   - {fileID: 21300000, guid: b680e584d3efd834dbd2d0664eaf2cd0, type: 3}
   - {fileID: 21300000, guid: 002fc725c2641864b94fe01412b52af4, type: 3}
   - {fileID: 21300000, guid: 221664e5197016b41b9b0036d58371f9, type: 3}
@@ -275,10 +267,6 @@ SpriteAtlas:
   - MagnetJumpRight_3
   - MagnetJumpRight_4
   - MagnetJumpRight_5
-  - ButtonIcons_2
-  - ButtonIcons_3
-  - ButtonIcons_0
-  - ButtonIcons_1
   - Background
   - IronRight_0
   - IronRight_1
@@ -300,10 +288,6 @@ SpriteAtlas:
   - Fire_7
   - Fire_4
   - Fire_5
-  - keyIcons_3
-  - keyIcons_2
-  - keyIcons_1
-  - keyIcons_0
   - Box1
   - Default Icon
   - Coin
