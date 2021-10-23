@@ -14,16 +14,9 @@ public class NextLevel : MonoBehaviour
   [SerializeField]
   private Animator animationDoor;
 
-  [SerializeField]
-  private GameObject player;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;
-
-  private void Start()
-  {
-    player.SetActive(true);
-  }
 
   private void OnTriggerEnter2D(Collider2D other)
   {
@@ -50,6 +43,11 @@ public class NextLevel : MonoBehaviour
 
   public void DisactivePlayer()
   {
-    player.SetActive(false);
+    GameObject[] gameObjectArray = GameObject.FindGameObjectsWithTag ("Player");
+
+    foreach(GameObject go in gameObjectArray)
+    {
+      go.SetActive (false);
+    }
   }
 }
