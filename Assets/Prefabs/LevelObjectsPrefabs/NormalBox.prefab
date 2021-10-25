@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6244558407380488590}
   - component: {fileID: 1491227355834454554}
   - component: {fileID: 8734291041235917018}
-  m_Layer: 6
+  m_Layer: 13
   m_Name: NormalBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -6695505519475546670, guid: 89ea9c8d2fff4e847800a71e9a1fb074, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0

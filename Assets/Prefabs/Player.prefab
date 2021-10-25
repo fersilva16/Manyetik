@@ -328,10 +328,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 071875d8c3a5bab4bbe2db8eb0baea46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 9.5
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8256
   groundDistanceOffset: 0.1
 --- !u!114 &1877924698855975345
 MonoBehaviour:
