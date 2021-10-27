@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8734291041235917018}
   m_Layer: 13
   m_Name: NormalBox
-  m_TagString: Untagged
+  m_TagString: Grabbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.001247406, y: -0.540961}
+  m_Offset: {x: -0.001247406, y: -0.5598168}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +110,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.3058777, y: 1.5787024}
+  m_Size: {x: 2.3058777, y: 1.6918372}
   m_EdgeRadius: 0
 --- !u!50 &6244558407380488590
 Rigidbody2D:
@@ -127,7 +127,7 @@ Rigidbody2D:
   m_Mass: 2
   m_LinearDrag: 1
   m_AngularDrag: 1
-  m_GravityScale: 1
+  m_GravityScale: 1.5
   m_Material: {fileID: 6200000, guid: daa373f8a5129504d9d4e1d56ba1ba24, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
