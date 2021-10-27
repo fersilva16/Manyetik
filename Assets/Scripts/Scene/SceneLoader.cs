@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
   [SerializeField]
-  private Animator transition;
-
-  [SerializeField]
   private float transitionTime;
 
   [SerializeField]
@@ -30,8 +27,6 @@ public class SceneLoader : MonoBehaviour
 
   private IEnumerator LoadScene(int levelIndex)
   {
-    transition.SetTrigger("Start");
-
     yield return new WaitForSeconds(transitionTime);
 
     SceneManager.LoadScene(levelIndex);
