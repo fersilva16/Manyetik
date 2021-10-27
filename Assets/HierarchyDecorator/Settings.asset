@@ -495,7 +495,11 @@ MonoBehaviour:
       shown: 0
     - name: ButtonAudio
       shown: 0
+    - name: DoorSound
+      shown: 0
     - name: VolumeController
+      shown: 0
+    - name: RespawnBox
       shown: 0
     - name: CameraTransition
       shown: 0
@@ -513,11 +517,13 @@ MonoBehaviour:
       shown: 0
     - name: PlayerAnimator
       shown: 0
-    - name: PlayerController
+    - name: PlayerJump
       shown: 0
-    - name: PlayerKiller
+    - name: PlayerMagnetism
       shown: 0
-    - name: PlayerSounds
+    - name: PlayerMovement
+      shown: 0
+    - name: PlayerPosition
       shown: 0
     - name: NextLevel
       shown: 0
@@ -534,6 +540,8 @@ MonoBehaviour:
     - name: ScoreTimer
       shown: 0
     - name: SpawnCoins
+      shown: 0
+    - name: ButtonText
       shown: 0
     - name: GameModesMenu
       shown: 0
@@ -816,6 +824,10 @@ MonoBehaviour:
     - name: SpriteShapeGeometryCache
       shown: 0
     - name: SpriteShapeController
+      shown: 0
+    - name: GamepadIconsExample
+      shown: 0
+    - name: RebindActionUI
       shown: 0
     customComponents: []
     unityVersion: 2020.3.16f1

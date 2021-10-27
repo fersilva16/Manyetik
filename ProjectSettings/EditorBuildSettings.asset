@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Templates/ScoreModeLevel/ScoreLevel1.unity
     guid: 37a7b2707b1ff3f4db2eb153cd6636c1
   - enabled: 1
-    path: Assets/Scenes/Templates/Level/Level1.unity
+    path: Assets/Scenes/Templates/Level/LevelTeste.unity
     guid: a39053a1551190840b118853f2641d14
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 89716aff5fb5d4a44ba8f1e5f6ba9e49, type: 2}
