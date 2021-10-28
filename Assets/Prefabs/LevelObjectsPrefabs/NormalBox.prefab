@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6244558407380488591}
   - component: {fileID: 6244558407380488590}
   - component: {fileID: 1491227355834454554}
-  - component: {fileID: 8734291041235917018}
+  - component: {fileID: 6787416282494503531}
   m_Layer: 13
   m_Name: NormalBox
   m_TagString: Grabbable
@@ -229,7 +229,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &8734291041235917018
+--- !u!114 &6787416282494503531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6244558407380488587}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a27ff7c480963499bcd3d708c40faf, type: 3}
+  m_Script: {fileID: 11500000, guid: 3abda43c59db6e34ea2c0351fa0e7864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   respawnPoint: {x: 0, y: 0, z: 0}

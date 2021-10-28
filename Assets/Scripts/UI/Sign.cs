@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,7 @@ public class Sign : MonoBehaviour
 
   [SerializeField]
   private GameObject textBox;
+
   [SerializeField]
   private TMP_Text textMP;
 

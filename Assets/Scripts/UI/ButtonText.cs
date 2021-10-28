@@ -5,6 +5,9 @@ using TMPro;
 
 public class ButtonText : MonoBehaviour
 {
+  [SerializeField]
+  public AudioSource hover;
+
   public string btnText;
 
   public TextMeshProUGUI text;
@@ -12,6 +15,7 @@ public class ButtonText : MonoBehaviour
   public void OnHover()
   {
     text.text = btnText;
+    hover.Play();
   }
 
   public void OnPointExit()

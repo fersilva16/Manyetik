@@ -222,11 +222,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   singSenteces:
     sentenceList: []
-  popUp: {fileID: 1883413425965664467, guid: c07a4d489e8b665469402883950c8e82, type: 3}
   textBox: {fileID: 0}
   textMP: {fileID: 0}
   audioSource: {fileID: 84472575798681276}
-  audioClip: {fileID: 8300000, guid: 72e67b2b8b327dd46b57a57c1e4817d9, type: 3}
+  audioClip: {fileID: 8300000, guid: fee0490d0fb46204182cc89793fe151b, type: 3}
 --- !u!95 &5430427987268280346
 Animator:
   serializedVersion: 3
