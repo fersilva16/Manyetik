@@ -1261,7 +1261,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.044544306, g: 0.055291012, b: 0.066037714, a: 0}
+  m_BackGroundColor: {r: 0.007843138, g: 0.023529412, b: 0.08627451, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1431,7 +1431,6 @@ GameObject:
   - component: {fileID: 415102449}
   - component: {fileID: 415102451}
   - component: {fileID: 415102452}
-  - component: {fileID: 415102450}
   - component: {fileID: 415102453}
   m_Layer: 5
   m_Name: VolumeBtn
@@ -1547,7 +1546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 77e1dfa3f05308d4ca1239f0a4ccb546, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1579,21 +1578,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 190894838}
   audioClip: {fileID: 8300000, guid: 09d01a656f2a8bd46a4e0a5ac55cc8b4, type: 3}
---- !u!114 &415102450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 415102444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.108134575, g: 0.3572656, b: 0.8490566, a: 0.5}
-  m_EffectDistance: {x: 4, y: -4}
-  m_UseGraphicAlpha: 1
 --- !u!114 &415102451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2085,7 +2069,6 @@ GameObject:
   - component: {fileID: 741029566}
   - component: {fileID: 741029567}
   - component: {fileID: 741029568}
-  - component: {fileID: 741029565}
   - component: {fileID: 741029569}
   m_Layer: 5
   m_Name: PlayBtn
@@ -2201,7 +2184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 5f054d2b5c1fa724d8e98cf16ae7fb71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2219,21 +2202,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741029560}
   m_CullTransparentMesh: 1
---- !u!114 &741029565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 741029560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.108134575, g: 0.3572656, b: 0.8490566, a: 0.5}
-  m_EffectDistance: {x: 4, y: -4}
-  m_UseGraphicAlpha: 1
 --- !u!114 &741029566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2939,7 +2907,6 @@ GameObject:
   - component: {fileID: 990845280}
   - component: {fileID: 990845286}
   - component: {fileID: 990845285}
-  - component: {fileID: 990845284}
   - component: {fileID: 990845287}
   m_Layer: 5
   m_Name: ControlsBtn
@@ -3057,7 +3024,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 2dd9e7d5abe88914b82a30fa2d711068, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3075,21 +3042,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 990845278}
   m_CullTransparentMesh: 1
---- !u!114 &990845284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 990845278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.108134575, g: 0.3572656, b: 0.8490566, a: 0.5}
-  m_EffectDistance: {x: 4, y: -4}
-  m_UseGraphicAlpha: 1
 --- !u!114 &990845285
 MonoBehaviour:
   m_ObjectHideFlags: 0
