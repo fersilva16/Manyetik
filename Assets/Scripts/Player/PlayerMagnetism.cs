@@ -5,6 +5,7 @@ public class PlayerMagnetism : MonoBehaviour
   [SerializeField]
   private GameObject[] poles;
 
+  [SerializeField]
   private bool magnetized = true;
 
   private void OnEnable()
@@ -21,6 +22,8 @@ public class PlayerMagnetism : MonoBehaviour
 
   private void OnFireCollided() => ChangeMagnetized(false);
   private void OnMagnetiteCollided() => ChangeMagnetized(true);
+
+  private void Start() => ChangeMagnetized(magnetized);
 
   private void ChangeMagnetized(bool value)
   {
