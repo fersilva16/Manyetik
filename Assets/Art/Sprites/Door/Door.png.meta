@@ -4,100 +4,100 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 2637403925422779543
-    second: porta_0
+    second: Door_0
   - first:
       213: 7696631708137187566
-    second: porta_1
+    second: Door_1
   - first:
       213: -413729886290440551
-    second: porta_2
+    second: Door_2
   - first:
       213: -3721588992699961066
-    second: porta_3
+    second: Door_3
   - first:
       213: 2587403443853953009
-    second: porta_4
+    second: Door_4
   - first:
       213: -8473452045121666882
-    second: porta_5
+    second: Door_5
   - first:
       213: -8035225856344339388
-    second: porta_6
+    second: Door_6
   - first:
       213: -1878037444793426562
-    second: porta_7
+    second: Door_7
   - first:
       213: -555135662687097788
-    second: porta_8
+    second: Door_8
   - first:
       213: 7001281352575713505
-    second: porta_9
+    second: Door_9
   - first:
       213: 6283952139660178025
-    second: porta_10
+    second: Door_10
   - first:
       213: 6901597448802286257
-    second: porta_11
+    second: Door_11
   - first:
       213: 844772513032162056
-    second: porta_12
+    second: Door_12
   - first:
       213: 7657898038429786421
-    second: porta_13
+    second: Door_13
   - first:
       213: 6778326208502162000
-    second: porta_14
+    second: Door_14
   - first:
       213: -2195842229092444392
-    second: porta_15
+    second: Door_15
   - first:
       213: 4283938933546112294
-    second: porta_16
+    second: Door_16
   - first:
       213: -2875419599839911086
-    second: porta_17
+    second: Door_17
   - first:
       213: -4513587022899057710
-    second: porta_18
+    second: Door_18
   - first:
       213: 6502064983371706705
-    second: porta_19
+    second: Door_19
   - first:
       213: 2614400130871756698
-    second: porta_20
+    second: Door_20
   - first:
       213: -7095111890612361949
-    second: porta_21
+    second: Door_21
   - first:
       213: -7097576292877298601
-    second: porta_22
+    second: Door_22
   - first:
       213: -6035811887762303663
-    second: porta_23
+    second: Door_23
   - first:
       213: 6122997290672317319
-    second: porta_24
+    second: Door_24
   - first:
       213: 3986101716135733737
-    second: porta_25
+    second: Door_25
   - first:
       213: -274334662481502623
-    second: porta_26
+    second: Door_26
   - first:
       213: -7365793061087725345
-    second: porta_27
+    second: Door_27
   - first:
       213: 1706526427584870303
-    second: porta_28
+    second: Door_28
   - first:
       213: -8867343569707002269
-    second: porta_29
+    second: Door_29
   - first:
       213: -7862662332173609250
-    second: porta_30
+    second: Door_30
   - first:
       213: 6735042022488669479
-    second: porta_31
+    second: Door_31
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -211,15 +211,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: porta_0
+      name: Door_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,15 +232,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_1
+      name: Door_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -253,15 +253,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_2
+      name: Door_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -274,15 +274,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_3
+      name: Door_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -295,15 +295,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_4
+      name: Door_4
       rect:
         serializedVersion: 2
         x: 128
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,15 +316,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_5
+      name: Door_5
       rect:
         serializedVersion: 2
         x: 160
-        y: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,15 +337,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_6
+      name: Door_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 192
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -358,15 +358,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_7
+      name: Door_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 224
+        y: 96
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -379,15 +379,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_8
+      name: Door_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
+        x: 0
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -400,15 +400,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_9
+      name: Door_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
+        x: 32
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -421,15 +421,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_10
+      name: Door_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -442,15 +442,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_11
+      name: Door_11
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 96
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -463,15 +463,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_12
+      name: Door_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 128
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -484,15 +484,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_13
+      name: Door_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 160
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -505,15 +505,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_14
+      name: Door_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 192
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -526,15 +526,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_15
+      name: Door_15
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
+        x: 224
+        y: 64
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -547,15 +547,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_16
+      name: Door_16
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
+        x: 0
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -568,15 +568,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_17
+      name: Door_17
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -589,15 +589,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_18
+      name: Door_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -610,15 +610,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_19
+      name: Door_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -631,15 +631,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_20
+      name: Door_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 128
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -652,15 +652,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_21
+      name: Door_21
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 160
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -673,15 +673,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_22
+      name: Door_22
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -694,15 +694,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_23
+      name: Door_23
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
+        x: 224
+        y: 32
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -715,15 +715,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_24
+      name: Door_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -736,15 +736,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_25
+      name: Door_25
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -757,15 +757,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_26
+      name: Door_26
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -778,15 +778,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_27
+      name: Door_27
       rect:
         serializedVersion: 2
         x: 96
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -799,15 +799,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_28
+      name: Door_28
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -820,15 +820,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_29
+      name: Door_29
       rect:
         serializedVersion: 2
         x: 160
-        y: 32
+        y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -841,15 +841,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_30
+      name: Door_30
       rect:
         serializedVersion: 2
-        x: 0
+        x: 192
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -862,15 +862,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: porta_31
+      name: Door_31
       rect:
         serializedVersion: 2
-        x: 32
+        x: 224
         y: 0
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
