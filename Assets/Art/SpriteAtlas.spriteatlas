@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 32739182
+    totalSpriteSurfaceArea: 33790830
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -85,6 +85,7 @@ SpriteAtlas:
   - {fileID: 226610335500214479, guid: 9389447314f84c44d82c3fd0d53ddede, type: 3}
   - {fileID: 1802107267648658358, guid: 9389447314f84c44d82c3fd0d53ddede, type: 3}
   - {fileID: 8426893244162194776, guid: 9389447314f84c44d82c3fd0d53ddede, type: 3}
+  - {fileID: 21300000, guid: a69d0f7384d3ef34284290e0de2ebe38, type: 3}
   - {fileID: 21300000, guid: 77e1dfa3f05308d4ca1239f0a4ccb546, type: 3}
   - {fileID: 2333874723133794383, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 6211036013863027259, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
@@ -95,10 +96,12 @@ SpriteAtlas:
   - {fileID: 2168491126659702453, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 3081219861163341933, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 21300000, guid: b680e584d3efd834dbd2d0664eaf2cd0, type: 3}
+  - {fileID: 21300000, guid: b38ef1d46d4e36948a2cc1d9cf271921, type: 3}
   - {fileID: 21300000, guid: 002fc725c2641864b94fe01412b52af4, type: 3}
   - {fileID: 21300000, guid: 2dd9e7d5abe88914b82a30fa2d711068, type: 3}
   - {fileID: 21300000, guid: 221664e5197016b41b9b0036d58371f9, type: 3}
   - {fileID: 21300000, guid: 3ac5a906e2fb8f348a7ab3e2fbf8b630, type: 3}
+  - {fileID: 21300000, guid: 34105f260611bbe429f146fad569ea61, type: 3}
   - {fileID: 5444997950607883506, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
   - {fileID: -4682389761083109166, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
   - {fileID: 1952898797175575164, guid: 16b6b6a6e16634f4d9b8a0103d70642a, type: 3}
@@ -203,6 +206,7 @@ SpriteAtlas:
   - {fileID: -1456373177415854904, guid: a7a4704c34458544287a5df4bb85beee, type: 3}
   - {fileID: -320921093188696452, guid: a7a4704c34458544287a5df4bb85beee, type: 3}
   - {fileID: 21300000, guid: b1a6a60d743ca8048a5c7331990c7fa2, type: 3}
+  - {fileID: 21300000, guid: 5be7af7d311adb643bcc4a4867278a5c, type: 3}
   - {fileID: 1074676444033753284, guid: d0c9d98da660a984096380666f566257, type: 3}
   - {fileID: 2064740017875602282, guid: d0c9d98da660a984096380666f566257, type: 3}
   - {fileID: -5434294447335577278, guid: 940ab2dd48ece9845bd954a744e3ae78, type: 3}
@@ -289,6 +293,7 @@ SpriteAtlas:
   - Magnets32x32_2
   - Magnets32x32_1
   - Magnets32x32_0
+  - icone-musica
   - Sound
   - Fire_2
   - Fire_3
@@ -299,10 +304,12 @@ SpriteAtlas:
   - Fire_4
   - Fire_5
   - Box1
+  - icone-home
   - Default Icon
   - Controls
   - Coin
   - Box2
+  - icone-reiniciar
   - Reached_2
   - Reached_3
   - Reached_0
@@ -407,6 +414,7 @@ SpriteAtlas:
   - Edges_2
   - Edges_3
   - Magnetite
+  - logo_manyetik
   - PopUpText_1
   - PopUpText_0
   - SignAnimation_12
