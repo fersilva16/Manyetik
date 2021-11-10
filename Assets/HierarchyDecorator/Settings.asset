@@ -15,7 +15,7 @@ MonoBehaviour:
   globalData:
     showActiveToggles: 1
     showComponentIcons: 1
-    showAllComponents: 1
+    showAllComponents: 0
     twoToneBackground: 1
     showLayers: 1
     editableLayers: 1

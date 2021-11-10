@@ -2,19 +2,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu : Menu
 {
   public static bool GameisPaused = false;
 
-  private Animator animator;
-
   private void OnEnable() => InputManager.Menu += OnMenuInput;
   private void OnDisable() => InputManager.Menu -= OnMenuInput;
-
-  private void Start()
-  {
-    animator = GetComponent<Animator>();
-  }
 
   private void OnMenuInput(InputAction.CallbackContext _)
   {
@@ -24,14 +17,14 @@ public class PauseMenu : MonoBehaviour
 
   public void Resume()
   {
-    animator.Play("Close");
+    Close();
     Time.timeScale = 1f;
     GameisPaused = false;
   }
 
   public void Paused()
   {
-    animator.Play("Open");
+    Open();
     Time.timeScale = 0f;
     GameisPaused = true;
   }
@@ -41,5 +34,4 @@ public class PauseMenu : MonoBehaviour
     Time.timeScale = 1f;
     SceneManager.LoadScene("Menu");
   }
-
 }
