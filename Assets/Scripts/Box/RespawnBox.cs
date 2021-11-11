@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RespawnBox : MonoBehaviour
@@ -14,12 +12,12 @@ public class RespawnBox : MonoBehaviour
 
   private void Start()
   {
-    respawnPoint= transform.position;
+    respawnPoint = transform.position;
   }
 
   private void OnTriggerEnter2D(Collider2D other)
   {
-    if(other.tag == "Lava" || other.tag == "Fire")
+    if (other.CompareTag("Lava") || other.CompareTag("Fire"))
     {
       transform.position = respawnPoint;
       audioSource.PlayOneShot(audioClip);

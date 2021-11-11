@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DoorSound : MonoBehaviour
+public class DoorAudio : MonoBehaviour
 {
     [SerializeField]
   private AudioSource audioSource;

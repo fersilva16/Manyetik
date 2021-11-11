@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 33790830
+    totalSpriteSurfaceArea: 33740842
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -58,7 +58,6 @@ SpriteAtlas:
   - {fileID: 2864815990799357125, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: -4652094208262364794, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: -5564783440764402530, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
-  - {fileID: 21300000, guid: 4b8f5c01e7c4e3d4696d0e3e1b293315, type: 3}
   - {fileID: -2313674432884272359, guid: c0a39511fd2fa5e48947693a7db915ca, type: 3}
   - {fileID: -3832678823388636354, guid: c0a39511fd2fa5e48947693a7db915ca, type: 3}
   - {fileID: -7892640371349238284, guid: c0a39511fd2fa5e48947693a7db915ca, type: 3}
@@ -161,10 +160,8 @@ SpriteAtlas:
   - {fileID: -7418211097746893002, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -7424878231080687243, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -308361656066796550, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
-  - {fileID: 21300000, guid: aee55758901d7634ba20b11a87fce5c4, type: 3}
   - {fileID: 21300000, guid: 46b21c984fec4da41b1af42ac7ca3bf1, type: 3}
   - {fileID: 21300000, guid: cd3eeda82255c2242801169c8f249f34, type: 3}
-  - {fileID: 21300000, guid: 6e226b89575a52541905274f98212dba, type: 3}
   - {fileID: -6453467965331656188, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
   - {fileID: 8510375073795432761, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
   - {fileID: 1446336773934033464, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
@@ -266,7 +263,6 @@ SpriteAtlas:
   - InvertedLeft_7
   - InvertedLeft_4
   - InvertedLeft_5
-  - ramon
   - IronJumpRight_4
   - IronJumpRight_5
   - IronJumpRight_0
@@ -293,7 +289,7 @@ SpriteAtlas:
   - Magnets32x32_2
   - Magnets32x32_1
   - Magnets32x32_0
-  - icone-musica
+  - Music
   - Sound
   - Fire_2
   - Fire_3
@@ -303,13 +299,13 @@ SpriteAtlas:
   - Fire_7
   - Fire_4
   - Fire_5
-  - Box1
-  - icone-home
+  - BoxLeft
+  - Home
   - Default Icon
   - Controls
   - Coin
-  - Box2
-  - icone-reiniciar
+  - BoxRight
+  - Restart
   - Reached_2
   - Reached_3
   - Reached_0
@@ -369,10 +365,8 @@ SpriteAtlas:
   - Transition_2
   - Transition_1
   - Transition_0
-  - MenuEdge.png
   - Screenshot-game2
-  - PushBox
-  - Ereto
+  - BoxClosed
   - MagnetJumpLeft_5
   - MagnetJumpLeft_4
   - MagnetJumpLeft_3
