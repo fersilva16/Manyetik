@@ -4,14 +4,14 @@ using UnityEngine.InputSystem;
 
 public class PauseMenu : Menu
 {
-  public static bool GameisPaused = false;
+  private bool isPaused = false;
 
   private void OnEnable() => InputManager.Menu += OnMenuInput;
   private void OnDisable() => InputManager.Menu -= OnMenuInput;
 
   private void OnMenuInput(InputAction.CallbackContext _)
   {
-    if (GameisPaused) Resume();
+    if (isPaused) Resume();
     else Paused();
   }
 
@@ -19,14 +19,12 @@ public class PauseMenu : Menu
   {
     Close();
     Time.timeScale = 1f;
-    GameisPaused = false;
   }
 
   public void Paused()
   {
     Open();
     Time.timeScale = 0f;
-    GameisPaused = true;
   }
 
   public void LoadMenu()

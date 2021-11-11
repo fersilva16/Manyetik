@@ -8,6 +8,7 @@ public class Basket : MonoBehaviour
 
   [SerializeField]
   private AudioClip audioClip;
+
   public static event Action CoinDunk;
 
   private void OnTriggerEnter2D(Collider2D other)

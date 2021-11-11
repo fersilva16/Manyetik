@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+using NaughtyAttributes;
 
 public class SpawnCoins : MonoBehaviour
 {
@@ -13,7 +13,11 @@ public class SpawnCoins : MonoBehaviour
   private float delayTime;
 
   [SerializeField]
-  private GameObject coin;
+  private GameObject coinPrefab;
+
+  [SerializeField]
+  [MinMaxSlider(-100, 100)]
+  private Vector2 rotationRange;
 
   private void Start()
   {
@@ -22,6 +26,9 @@ public class SpawnCoins : MonoBehaviour
 
   public void SpawnObject()
   {
-    Instantiate(coin, spawnPoint.position, spawnPoint.rotation);
+    var coin = Instantiate(coinPrefab, spawnPoint.position, spawnPoint.rotation);
+    var rigidBody2D = coin.GetComponent<Rigidbody2D>();
+
+    rigidBody2D.angularVelocity = Random.Range(rotationRange.x, rotationRange.y);
   }
 }
