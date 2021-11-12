@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
+using NaughtyAttributes;
 
 public class MagnetManager : MonoBehaviour
 {
@@ -31,6 +32,14 @@ public class MagnetManager : MonoBehaviour
 
   private void Awake()
   {
+    foreach (var child in GetChilds()) gameObjects.Add(child);
+  }
+
+  [Button(enabledMode: EButtonEnableMode.Editor)]
+  private void GeneratePoles()
+  {
+    foreach (var child in GetChilds()) DestroyImmediate(child);
+
     transform.position = tilemap.localBounds.min;
 
     var poles = PoleMapping.FindPoles(tilemap);
@@ -90,8 +99,6 @@ public class MagnetManager : MonoBehaviour
 
     pole.transform.SetParent(transform);
     pole.transform.localPosition = (Vector2Int) bounds.min + ((Vector2)size / 2);
-
-    gameObjects.Add(pole);
   }
 
   private void OnInvertInput(InputAction.CallbackContext _)
@@ -100,5 +107,17 @@ public class MagnetManager : MonoBehaviour
     {
       gameObject.GetComponent<AreaEffector2D>().forceAngle *= -1;
     }
+  }
+
+  private GameObject[] GetChilds()
+  {
+    var childs = new GameObject[transform.childCount];
+
+    for (var i = 0; i < transform.childCount; i++)
+    {
+      childs[i] = transform.GetChild(i).gameObject;
+    }
+
+    return childs;
   }
 }
