@@ -50,7 +50,7 @@ public class MagnetManager : MonoBehaviour
   private void CreateGameObject(int id, BoundsInt bounds)
   {
     var pole = new GameObject($"Pole{id}");
-    var collider2D = pole.AddComponent<CapsuleCollider2D>();
+    var collider2D = pole.AddComponent<BoxCollider2D>();
     var effector2D = pole.AddComponent<AreaEffector2D>();
 
     var tile = tilemap.GetTile<MagnetRuleTile>(bounds.min + tilemap.cellBounds.min);
