@@ -225,7 +225,7 @@ MonoBehaviour:
   textBox: {fileID: 0}
   textMP: {fileID: 0}
   audioSource: {fileID: 84472575798681276}
-  audioClip: {fileID: 8300000, guid: fee0490d0fb46204182cc89793fe151b, type: 3}
+  audioClip: {fileID: 8300000, guid: 888b38e33a1365447bf57480bf17c1a1, type: 3}
 --- !u!95 &5430427987268280346
 Animator:
   serializedVersion: 3

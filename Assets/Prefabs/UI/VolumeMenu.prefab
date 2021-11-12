@@ -1356,6 +1356,7 @@ GameObject:
   - component: {fileID: 7426222078339219814}
   - component: {fileID: 7426222078339219813}
   - component: {fileID: 7426222078339219816}
+  - component: {fileID: 2389139280246937507}
   m_Layer: 5
   m_Name: VolumeMenu
   m_TagString: Untagged
@@ -1456,6 +1457,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018213a43612e51479415f92817d5ca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &2389139280246937507
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426222078339219811}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -6695505519475546670, guid: 89ea9c8d2fff4e847800a71e9a1fb074, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7426222078350207591
 GameObject:
   m_ObjectHideFlags: 0
@@ -1543,10 +1640,8 @@ GameObject:
   - component: {fileID: 7426222078353984713}
   - component: {fileID: 7426222078353984712}
   - component: {fileID: 7426222078353984711}
-  - component: {fileID: 7426222078353984714}
-  - component: {fileID: 7426222078353984716}
-  - component: {fileID: 7426222078353984718}
   - component: {fileID: 7426222078353984715}
+  - component: {fileID: 7464744853435504689}
   m_Layer: 5
   m_Name: VoltarBtn
   m_TagString: Untagged
@@ -1655,18 +1750,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7426222078353984714}
-        m_TargetAssemblyTypeName: ButtonSound, Assembly-CSharp
-        m_MethodName: ClickSound
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 7426222078339219816}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
         m_MethodName: Close
@@ -1679,80 +1762,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7426222078353984714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7426222078353984709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5657206d920a59f48b0c726d1ebc2be4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 7426222078353984715}
-  audioClip: {fileID: 8300000, guid: 09d01a656f2a8bd46a4e0a5ac55cc8b4, type: 3}
---- !u!114 &7426222078353984716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7426222078353984709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dab31e063467956448fd94391e56f4ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hover: {fileID: 7426222078353984715}
-  btnText: Voltar
-  text: {fileID: 7426222077433405093}
---- !u!114 &7426222078353984718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7426222078353984709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 7426222078353984716}
-          m_TargetAssemblyTypeName: ButtonText, Assembly-CSharp
-          m_MethodName: OnHover
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - eventID: 1
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 7426222078353984716}
-          m_TargetAssemblyTypeName: ButtonText, Assembly-CSharp
-          m_MethodName: OnPointExit
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!82 &7426222078353984715
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1849,6 +1858,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7464744853435504689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7426222078353984709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eba616daa68a214b974a28c2cb212a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 7426222078353984715}
+  hasHover: 1
+  text: Voltar
+  targetText: {fileID: 7426222077433405093}
+  hoverAudio: {fileID: 8300000, guid: 72e67b2b8b327dd46b57a57c1e4817d9, type: 3}
+  clickAudio: {fileID: 8300000, guid: 09d01a656f2a8bd46a4e0a5ac55cc8b4, type: 3}
 --- !u!1 &7426222078432829941
 GameObject:
   m_ObjectHideFlags: 0
