@@ -13,8 +13,13 @@ public class Magnetite : MonoBehaviour
 
   private void OnCollisionEnter2D(Collision2D other)
   {
-    if (other.gameObject.CompareTag("Player")) Collided?.Invoke();
+    if (other.gameObject.CompareTag("Player"))
+    {
+      Collided?.Invoke();
 
-    audioSource.PlayOneShot(audioClip);
+      var magnetism = other.gameObject.GetComponent<PlayerMagnetism>();
+
+      if (!magnetism.IsMagnetized()) audioSource.PlayOneShot(audioClip);
+    }
   }
 }

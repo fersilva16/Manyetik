@@ -15,8 +15,11 @@ public class Fire : MonoBehaviour
   {
     if (other.CompareTag("Player") && !other.isTrigger)
     {
+      var magnetism = other.GetComponent<PlayerMagnetism>();
+
+      if (magnetism.IsMagnetized()) audioSource.PlayOneShot(audioClip);
+
       Collided?.Invoke();
-      audioSource.PlayOneShot(audioClip);
     }
   }
 }
