@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 33740842
+    totalSpriteSurfaceArea: 33001760
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -160,7 +160,6 @@ SpriteAtlas:
   - {fileID: -7418211097746893002, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -7424878231080687243, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
   - {fileID: -308361656066796550, guid: 7b2444183ea46574caf5a19d851bbedb, type: 3}
-  - {fileID: 21300000, guid: 46b21c984fec4da41b1af42ac7ca3bf1, type: 3}
   - {fileID: 21300000, guid: cd3eeda82255c2242801169c8f249f34, type: 3}
   - {fileID: -6453467965331656188, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
   - {fileID: 8510375073795432761, guid: 3139fed961fe3a04dbdafc0493cacfce, type: 3}
@@ -193,7 +192,6 @@ SpriteAtlas:
   - {fileID: 7662711859793938946, guid: 96fdf88bc16fa5e4d9d647c60485f601, type: 3}
   - {fileID: 2171105908704031635, guid: 96fdf88bc16fa5e4d9d647c60485f601, type: 3}
   - {fileID: 3714383140580865877, guid: 96fdf88bc16fa5e4d9d647c60485f601, type: 3}
-  - {fileID: 21300000, guid: f7d74b1c54887aa47aba1ee2d3dfcd33, type: 3}
   - {fileID: -6337199082206446486, guid: a7a4704c34458544287a5df4bb85beee, type: 3}
   - {fileID: 4915303569201422492, guid: a7a4704c34458544287a5df4bb85beee, type: 3}
   - {fileID: -3581309329566859970, guid: a7a4704c34458544287a5df4bb85beee, type: 3}
@@ -239,7 +237,6 @@ SpriteAtlas:
   - {fileID: -6908081667834271795, guid: 7983ee8fc3b32be4799a0918beb5c80c, type: 3}
   - {fileID: 3370363666810749549, guid: 7983ee8fc3b32be4799a0918beb5c80c, type: 3}
   - {fileID: 4471102791416569972, guid: 7983ee8fc3b32be4799a0918beb5c80c, type: 3}
-  - {fileID: 21300000, guid: 53e6c0cf8e3f72c4c8fccfc6ceca7517, type: 3}
   - {fileID: 6200463977272746160, guid: 5afa21ef1d897c34099dac3e425992cd, type: 3}
   - {fileID: -3758166460608371787, guid: 5afa21ef1d897c34099dac3e425992cd, type: 3}
   - {fileID: -6289368382895858032, guid: 5afa21ef1d897c34099dac3e425992cd, type: 3}
@@ -365,7 +362,6 @@ SpriteAtlas:
   - Transition_2
   - Transition_1
   - Transition_0
-  - Screenshot-game2
   - BoxClosed
   - MagnetJumpLeft_5
   - MagnetJumpLeft_4
@@ -398,7 +394,6 @@ SpriteAtlas:
   - InvertedRight_2
   - InvertedRight_1
   - InvertedRight_0
-  - Screenshot-game
   - Edges_0
   - Edges_1
   - Edges_6
@@ -444,7 +439,6 @@ SpriteAtlas:
   - IronJumpLeft_0
   - IronJumpLeft_5
   - IronJumpLeft_4
-  - Screenshot-game3
   - InvertedJumpRight_3
   - InvertedJumpRight_2
   - InvertedJumpRight_1
