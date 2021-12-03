@@ -17,7 +17,7 @@ public class RespawnBox : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D other)
   {
-    if (other.CompareTag("Lava") || other.CompareTag("Fire"))
+    if (other.CompareTag("Lava") )
     {
       transform.position = respawnPoint;
       audioSource.PlayOneShot(audioClip);
