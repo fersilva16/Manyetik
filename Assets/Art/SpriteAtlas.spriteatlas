@@ -44,12 +44,13 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 33001760
+    totalSpriteSurfaceArea: 33003808
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 5fcd2830860fa80468744c217bde0128, type: 3}
   - {fileID: -4801503999077158700, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: -2083836249412216598, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: 7464843903309058102, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
@@ -71,6 +72,7 @@ SpriteAtlas:
   - {fileID: 8173285658943581939, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
   - {fileID: -9037552048491742664, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
   - {fileID: -7505914144272365061, guid: 2e58bb71072d97f498154ef33f187fc6, type: 3}
+  - {fileID: 21300000, guid: 789cfe91dc86b9e48b09e081d1624af8, type: 3}
   - {fileID: 21300000, guid: fb03ac123b0234749b51c8b2f04f6e91, type: 3}
   - {fileID: 4750651203034271755, guid: 59e9ac0324dff6244aa673c88fffa03c, type: 3}
   - {fileID: 1216698196264918829, guid: 59e9ac0324dff6244aa673c88fffa03c, type: 3}
@@ -252,6 +254,7 @@ SpriteAtlas:
   - {fileID: 1231247277861561731, guid: cce507ef5850e734fba09f11c2c94c3a, type: 3}
   - {fileID: -6986281223901936329, guid: cce507ef5850e734fba09f11c2c94c3a, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Mode1
   - InvertedLeft_2
   - InvertedLeft_3
   - InvertedLeft_0
@@ -273,6 +276,7 @@ SpriteAtlas:
   - MagnetJumpRight_3
   - MagnetJumpRight_4
   - MagnetJumpRight_5
+  - Mode2
   - Background
   - IronRight_0
   - IronRight_1
