@@ -12,8 +12,7 @@ public class Sign : MonoBehaviour
 
   string activeSentence;
 
-  [SerializeField]
-  private GameObject textBox;
+  public GameObject textBox;
 
   [SerializeField]
   private TMP_Text textMP;
@@ -23,7 +22,7 @@ public class Sign : MonoBehaviour
   [SerializeField]
   private AudioClip audioClip;
 
-  private bool playerInRange;
+  public bool playerInRange;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;

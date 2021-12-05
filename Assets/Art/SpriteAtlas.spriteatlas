@@ -44,7 +44,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 33003808
+    totalSpriteSurfaceArea: 33004064
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -96,6 +96,7 @@ SpriteAtlas:
   - {fileID: 964659150160153652, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 2168491126659702453, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
   - {fileID: 3081219861163341933, guid: b3452dd32030d1545965b967a1bc00d3, type: 3}
+  - {fileID: 21300000, guid: 98432864c62e61b408db430f0888b618, type: 3}
   - {fileID: 21300000, guid: b680e584d3efd834dbd2d0664eaf2cd0, type: 3}
   - {fileID: 21300000, guid: b38ef1d46d4e36948a2cc1d9cf271921, type: 3}
   - {fileID: 21300000, guid: 002fc725c2641864b94fe01412b52af4, type: 3}
@@ -300,6 +301,7 @@ SpriteAtlas:
   - Fire_7
   - Fire_4
   - Fire_5
+  - W Icon
   - BoxLeft
   - Home
   - Default Icon

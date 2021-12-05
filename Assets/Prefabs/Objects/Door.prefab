@@ -128,7 +128,6 @@ MonoBehaviour:
   scene: Menu
   playerInRange: 0
   animationDoor: {fileID: 2944152426277281268}
-  player: {fileID: 0}
 --- !u!95 &2944152426277281268
 Animator:
   serializedVersion: 3
