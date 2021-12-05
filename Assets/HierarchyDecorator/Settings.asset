@@ -15,7 +15,7 @@ MonoBehaviour:
   globalData:
     showActiveToggles: 1
     showComponentIcons: 1
-    showAllComponents: 0
+    showAllComponents: 1
     twoToneBackground: 1
     showLayers: 1
     editableLayers: 1
@@ -493,9 +493,9 @@ MonoBehaviour:
       shown: 0
     - name: WindZone
       shown: 0
-    - name: ButtonAudio
+    - name: DoorAudio
       shown: 0
-    - name: DoorSound
+    - name: Tilemap3DAudio
       shown: 0
     - name: VolumeController
       shown: 0
@@ -503,15 +503,15 @@ MonoBehaviour:
       shown: 0
     - name: CameraTransition
       shown: 0
+    - name: InputManager
+      shown: 0
+    - name: MagnetManager
+      shown: 0
     - name: Checkpoint
       shown: 0
     - name: Fire
       shown: 0
-    - name: InputManager
-      shown: 0
     - name: Lava
-      shown: 0
-    - name: MagnetManager
       shown: 0
     - name: Magnetite
       shown: 0
@@ -541,21 +541,83 @@ MonoBehaviour:
       shown: 0
     - name: SpawnCoins
       shown: 0
-    - name: ButtonText
+    - name: Button
       shown: 0
-    - name: GameModesMenu
+    - name: Menu
       shown: 0
     - name: PauseMenu
       shown: 0
     - name: Sign
-      shown: 0
-    - name: VolumeMenu
       shown: 0
     - name: GridInformation
       shown: 0
     - name: CinemachinePixelPerfect
       shown: 0
     - name: PixelPerfectCamera
+      shown: 0
+    - name: CurveRangeTest
+      shown: 0
+    - name: AnimatorParamTest
+      shown: 0
+    - name: BoxGroupTest
+      shown: 0
+    - name: ButtonTest
+      shown: 0
+    - name: DisableIfTest
+      shown: 0
+    - name: DropdownTest
+      shown: 0
+    - name: EnableIfTest
+      shown: 0
+    - name: EnumFlagsTest
+      shown: 0
+    - name: ExpandableTest
+      shown: 0
+    - name: FoldoutTest
+      shown: 0
+    - name: HideIfTest
+      shown: 0
+    - name: HorizontalLineTest
+      shown: 0
+    - name: InfoBoxTest
+      shown: 0
+    - name: InputAxisTest
+      shown: 0
+    - name: LabelTest
+      shown: 0
+    - name: LayerTest
+      shown: 0
+    - name: MinMaxSliderTest
+      shown: 0
+    - name: MinMaxValueTest
+      shown: 0
+    - name: OnValueChangedTest
+      shown: 0
+    - name: ProgressBarTest
+      shown: 0
+    - name: ReadOnlyTest
+      shown: 0
+    - name: ReorderableListTest
+      shown: 0
+    - name: RequiredTest
+      shown: 0
+    - name: ResizableTextAreaTest
+      shown: 0
+    - name: SceneTest
+      shown: 0
+    - name: ShowAssetPreviewTest
+      shown: 0
+    - name: ShowIfTest
+      shown: 0
+    - name: ShowNativePropertyTest
+      shown: 0
+    - name: ShowNonSerializedFieldTest
+      shown: 0
+    - name: TagTest
+      shown: 0
+    - name: ValidateInputTest
+      shown: 0
+    - name: _NaughtyComponent
       shown: 0
     - name: ExampleScript
       shown: 0
@@ -824,10 +886,6 @@ MonoBehaviour:
     - name: SpriteShapeGeometryCache
       shown: 0
     - name: SpriteShapeController
-      shown: 0
-    - name: GamepadIconsExample
-      shown: 0
-    - name: RebindActionUI
       shown: 0
     customComponents: []
     unityVersion: 2020.3.16f1

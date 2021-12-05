@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class SignSentences
 {
-  [TextArea(1,4)]
+  [TextArea(1,6)]
   public string[] sentenceList;
 }
