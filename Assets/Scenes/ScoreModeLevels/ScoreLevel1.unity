@@ -884,11 +884,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514437301323778218, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7480656100330655259, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: m_Name
       value: Sign
+      objectReference: {fileID: 0}
+    - target: {fileID: 7480656100330655259, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7480656100330655263, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: m_RootOrder
@@ -938,6 +942,10 @@ PrefabInstance:
       propertyPath: icon
       value: 
       objectReference: {fileID: 1299355885}
+    - target: {fileID: 8271343667199878978, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: show
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
 --- !u!1001 &356387848
