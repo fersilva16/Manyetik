@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 84472575798681276}
   - component: {fileID: -6513609598071120294}
   - component: {fileID: 5430427987268280346}
-  - component: {fileID: 8271343667199878978}
+  - component: {fileID: 9131351438621578134}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
@@ -228,7 +228,6 @@ MonoBehaviour:
   textMP: {fileID: 0}
   audioSource: {fileID: 84472575798681276}
   audioClip: {fileID: 8300000, guid: 888b38e33a1365447bf57480bf17c1a1, type: 3}
-  playerInRange: 0
 --- !u!95 &5430427987268280346
 Animator:
   serializedVersion: 3
@@ -248,7 +247,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &8271343667199878978
+--- !u!114 &9131351438621578134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,8 +259,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d7ff7130a573e44a93866a8544f5ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sign: {fileID: -6513609598071120294}
   icon: {fileID: 1514437301323778216}
+  show: 1
 --- !u!1001 &6879367633784702381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,7 +270,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5367218567690308869, guid: eb317e9d2b0b5e14a93ae58a928bd027, type: 3}
       propertyPath: m_Name
-      value: W Icon
+      value: Icon
+      objectReference: {fileID: 0}
+    - target: {fileID: 5367218567690308870, guid: eb317e9d2b0b5e14a93ae58a928bd027, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5367218567690308871, guid: eb317e9d2b0b5e14a93ae58a928bd027, type: 3}
       propertyPath: m_RootOrder

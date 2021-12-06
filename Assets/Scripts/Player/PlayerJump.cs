@@ -21,6 +21,7 @@ public class PlayerJump : MonoBehaviour
 
   private bool grounded;
   private float groundDistance;
+  private Vector3 horizontalOffset;
 
   private void Start()
   {
@@ -28,11 +29,15 @@ public class PlayerJump : MonoBehaviour
     rigidbody2D = GetComponent<Rigidbody2D>();
 
     groundDistance = collider.size.y / 2 + groundDistanceOffset;
+    horizontalOffset = new Vector3(collider.size.x / 2, 0, 0);
   }
 
   private void FixedUpdate()
   {
-    CheckGrounded();
+    var raycast1 = Physics2D.Raycast(transform.position + horizontalOffset, Vector2.down, groundDistance, groundLayer);
+    var raycast2 = Physics2D.Raycast(transform.position - horizontalOffset, Vector2.down, groundDistance, groundLayer);
+
+    grounded = raycast1.collider != null || raycast2.collider != null;
   }
 
   private void OnJumpInput(InputAction.CallbackContext context)
@@ -40,12 +45,5 @@ public class PlayerJump : MonoBehaviour
     if (!grounded) return;
 
     rigidbody2D.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-  }
-
-  private void CheckGrounded()
-  {
-    var raycast = Physics2D.Raycast(transform.position, Vector2.down, groundDistance, groundLayer);
-
-    grounded = raycast.collider != null;
   }
 }

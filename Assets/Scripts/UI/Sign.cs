@@ -22,7 +22,7 @@ public class Sign : MonoBehaviour
   [SerializeField]
   private AudioClip audioClip;
 
-  public bool playerInRange;
+  private bool playerInRange;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;

@@ -9,11 +9,9 @@ public class NextLevel : MonoBehaviour
   private string scene;
 
   [SerializeField]
-  private bool playerInRange;
-
-  [SerializeField]
   private Animator animationDoor;
 
+  private bool playerInRange;
 
   private void OnEnable() => InputManager.Interact += OnInteractInput;
   private void OnDisable() => InputManager.Interact -= OnInteractInput;
