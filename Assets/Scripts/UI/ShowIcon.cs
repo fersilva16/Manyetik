@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ShowIcon : MonoBehaviour
@@ -9,12 +7,16 @@ public class ShowIcon : MonoBehaviour
   [SerializeField]
   private GameObject icon;
 
+  [SerializeField]
+  private bool show = true;
+
   private void Update()
   {
-    if(sign.playerInRange == true)
+    if(show && sign.playerInRange)
     {
       icon.SetActive(true);
-    }else
+    }
+    else
     {
       icon.SetActive(false);
     }
