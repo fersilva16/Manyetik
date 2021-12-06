@@ -547,6 +547,10 @@ MonoBehaviour:
       shown: 0
     - name: PauseMenu
       shown: 0
+    - name: PauseToRead
+      shown: 0
+    - name: ShowIcon
+      shown: 0
     - name: Sign
       shown: 0
     - name: GridInformation

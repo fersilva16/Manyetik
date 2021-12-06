@@ -15,11 +15,11 @@ public class Magnetite : MonoBehaviour
   {
     if (other.gameObject.CompareTag("Player"))
     {
-      Collided?.Invoke();
-
       var magnetism = other.gameObject.GetComponent<PlayerMagnetism>();
 
       if (!magnetism.IsMagnetized()) audioSource.PlayOneShot(audioClip);
+
+      Collided?.Invoke();
     }
   }
 }
