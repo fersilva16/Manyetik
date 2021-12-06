@@ -9,12 +9,6 @@ public class PauseToRead : MonoBehaviour
 
   void Update()
   {
-    if(textBox.activeSelf == true)
-    {
-      Time.timeScale = 0f;
-    }else
-    {
-      Time.timeScale = 1f;
-    }
+    Time.timeScale = textBox.activeSelf ? 0f : 1f;
   }
 }

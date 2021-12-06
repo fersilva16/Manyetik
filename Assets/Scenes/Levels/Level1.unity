@@ -223,6 +223,42 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 888b38e33a1365447bf57480bf17c1a1, type: 3}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "Sempre interaja com as placas. Elas possuem informa\xE7\xF5es muito
+        importates..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: "Por Exemplo: Ao cair na lava, voc\xEA ir\xE1 retornar ao \xFAltimo
+        checkpoint..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: Para fechar a caixa de texto basta apertar a tecla W novamente.
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[0]
+      value: "Sempre interaja com as placas. Elas possuem informa\xE7\xF5es muito
+        importates..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[1]
+      value: "Por Exemplo: Ao cair na lava, voc\xEA ir\xE1 retornar ao \xFAltimo
+        checkpoint..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[2]
+      value: Para fechar a caixa de texto basta apertar a tecla W novamente.
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: singSenteces.sentenceList.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -2434,6 +2470,48 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1285321187}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "Im\xE3s podem se atrair ou repelir ap\xF3s aproximarem seus polos..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: "Im\xE3s possuem dois polos, Norte(vermelho, e laranja) e Sul(azul)..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "Quando polos opostos se aproximam, eles se atraem. J\xE1 polos iguais
+        se repelem..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: "Utilize a atra\xE7\xE3o e repuls\xE3o entre im\xE3s para avan\xE7ar..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[0]
+      value: "Im\xE3s podem se atrair ou repelir ap\xF3s aproximarem seus polos..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[1]
+      value: "Im\xE3s possuem dois polos, Norte(vermelho, e laranja) e Sul(azul)..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[2]
+      value: "Quando polos opostos se aproximam, eles se atraem. J\xE1 polos iguais
+        se repelem..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[3]
+      value: "Utilize a atra\xE7\xE3o e repuls\xE3o entre im\xE3s para avan\xE7ar..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: singSenteces.sentenceList.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -3178,6 +3256,30 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 240831505}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "Voc\xEA pode inverter os Polos Magn\xE9ticos do Manyetik..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: Para isso, aperte a tecla Control no teclado.
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[0]
+      value: "Voc\xEA pode inverter os Polos Magn\xE9ticos do Manyetik..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[1]
+      value: Para isso, aperte a tecla Control no teclado.
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: singSenteces.sentenceList.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -3582,6 +3684,64 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 635197982}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "Voc\xEA ainda \xE9 apenas um peda\xE7o de ferro..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: "Para virar um im\xE3 encoste neste objeto flutuante ao lado..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "Este objeto \xE9 uma magnetita. Magnetitas s\xE3o im\xE3s naturais..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: "Ou seja possuem uma campo magn\xE9tico sem interfer\xEAncia do homem..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: "Materiais ferromagn\xE9ticos como o ferro s\xE3o magnetisados (viram
+        im\xE3s)... "
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: "Ao entrarem em atrito com outros im\xE3s (magnetita no caso)."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[0]
+      value: "Voc\xEA ainda \xE9 apenas um peda\xE7o de ferro..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[1]
+      value: "Para virar um im\xE3 encoste neste objeto flutuante ao lado..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[2]
+      value: "Este objeto \xE9 uma magnetita. Magnetitas s\xE3o im\xE3s naturais..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[3]
+      value: "Ou seja possuem uma campo magn\xE9tico sem interfer\xEAncia do homem..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[4]
+      value: "Materiais ferromagn\xE9ticos como o ferro s\xE3o magnetisados (viram
+        im\xE3s)... "
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentenceList.Array.data[5]
+      value: "Ao entrarem em atrito com outros im\xE3s (magnetita no caso)."
+      objectReference: {fileID: 0}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: singSenteces.sentenceList.Array.size
       value: 6

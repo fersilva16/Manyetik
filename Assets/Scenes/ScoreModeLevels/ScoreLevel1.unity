@@ -855,6 +855,34 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 147562238}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[0]
+      value: "O cobre \xE9 um material paramagn\xE9tico..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[1]
+      value: "Ou seja, ele \xE9 sempre repelido pelo campo magn\xE9tico dos im\xE3s..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: "Se aproveite dessa caracter\xEDstica para repelir essas moedas..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: "E jog\xE1-las dentro dessa caixas nas paredes..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: "Quando uma moeda cai dentro da caixa voc\xEA marca um ponto..."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: "Tente marcar o m\xE1ximo de pontos em menos de um minuto."
+      objectReference: {fileID: 0}
+    - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: singSenteces.sentenceList.Array.size
       value: 6
       objectReference: {fileID: 0}

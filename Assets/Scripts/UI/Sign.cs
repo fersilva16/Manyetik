@@ -1,26 +1,29 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine.InputSystem;
 
 public class Sign : MonoBehaviour
 {
-  public SignSentences singSenteces;
+  [SerializeField]
+  [TextArea(1,6)]
+  private string[] sentences;
 
-  Queue<string> sentences;
-
-  string activeSentence;
-
-  public GameObject textBox;
+  [SerializeField]
+  private GameObject textBox;
 
   [SerializeField]
   private TMP_Text textMP;
 
   [SerializeField]
   private AudioSource audioSource;
+
   [SerializeField]
   private AudioClip audioClip;
+
+  private Queue<string> queue;
+
+  private string activeSentence;
 
   private bool playerInRange;
 
@@ -29,12 +32,12 @@ public class Sign : MonoBehaviour
 
   private void Start()
   {
-    sentences = new Queue<string>();
+    queue = new Queue<string>();
   }
 
   private void OnInteractInput(InputAction.CallbackContext context)
   {
-    if(!playerInRange) return;
+    if (!playerInRange) return;
 
     if (textBox.activeInHierarchy) textBox.SetActive(false);
     else
@@ -47,25 +50,22 @@ public class Sign : MonoBehaviour
 
   public void StartDialogue()
   {
-    sentences.Clear();
+    queue.Clear();
 
-    foreach(string sentence in singSenteces.sentenceList)
-    {
-      sentences.Enqueue(sentence);
-    }
+    foreach(string sentence in sentences) queue.Enqueue(sentence);
 
     DisplayNextSentence();
   }
 
   public void DisplayNextSentence()
   {
-    if(sentences.Count <= 0)
+    if (queue.Count <= 0)
     {
       textMP.text = activeSentence;
       return;
     }
 
-    activeSentence = sentences.Dequeue();
+    activeSentence = queue.Dequeue();
     textMP.text = activeSentence;
   }
 
