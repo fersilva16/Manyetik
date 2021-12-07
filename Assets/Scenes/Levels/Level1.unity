@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: sentences.Array.data[2]
-      value: Para fechar a caixa de texto basta apertar a tecla W novamente.
+      value: Para fechar a caixa de texto basta apertar a tecla novamente.
       objectReference: {fileID: 0}
     - target: {fileID: -6513609598071120294, guid: 3e2978428d1fbb842960c7abdc7268da, type: 3}
       propertyPath: sentenceList.Array.data[0]

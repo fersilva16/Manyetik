@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 
 public class PauseMenu : Menu
 {
+  public static bool isPaused = false;
+
   private void OnEnable() => InputManager.Menu += OnMenuInput;
   private void OnDisable() => InputManager.Menu -= OnMenuInput;
 
@@ -17,12 +19,14 @@ public class PauseMenu : Menu
   {
     Close();
     Time.timeScale = 1f;
+    isPaused = false;
   }
 
   public void Paused()
   {
     Open();
     Time.timeScale = 0f;
+    isPaused = true;
   }
 
   public void LoadMenu()

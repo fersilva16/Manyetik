@@ -20,7 +20,7 @@ public class ScoreTimer : MonoBehaviour
 
   private void Start()
   {
-    Time.timeScale = 1f;
+    // Time.timeScale = 1f;
     currentTime = startMinutes * 60;
     UpdateText();
   }
