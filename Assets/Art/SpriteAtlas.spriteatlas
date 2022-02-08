@@ -44,13 +44,14 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: dbcc5545d05e26f48af86281c0aadeac, type: 3}
-    totalSpriteSurfaceArea: 33004064
+    totalSpriteSurfaceArea: 33402800
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 5fcd2830860fa80468744c217bde0128, type: 3}
+  - {fileID: 21300000, guid: 010889606b0a66e4394baca39c2e0476, type: 3}
   - {fileID: -4801503999077158700, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: -2083836249412216598, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
   - {fileID: 7464843903309058102, guid: c6c09dc0f18fe9a4789d1a0655679fc2, type: 3}
@@ -256,6 +257,7 @@ SpriteAtlas:
   - {fileID: -6986281223901936329, guid: cce507ef5850e734fba09f11c2c94c3a, type: 3}
   m_PackedSpriteNamesToIndex:
   - Mode1
+  - CeTaDoido
   - InvertedLeft_2
   - InvertedLeft_3
   - InvertedLeft_0
